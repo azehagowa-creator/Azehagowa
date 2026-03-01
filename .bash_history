@@ -569,3 +569,25 @@ git add .
 git commit
 git push
 gcloud config set project rare-outlook-445414-v4
+git add .
+git commit
+git push
+cd externals
+ls
+cd node20
+ls
+cd bin
+ls
+cd node
+rm -rf node
+git add .
+git commit
+git push
+git status
+ls
+cd.
+cd
+ls
+ls -la
+git rm -rf .gemini
+rm -rf .gemini
