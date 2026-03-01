@@ -1,0 +1,73 @@
+stages:
+- package
+- publish
+
+default:
+  image: node
+  tags: [ docker ]
+
+variables:
+  JOB_TOKEN_HEADER: 'Job-Token: ${CI_JOB_TOKEN}'
+  VSCE_FLAGS: --baseContentUrl ${CI_PROJECT_URL}/-/blob/${CI_COMMIT_SHA}/ --baseImagesUrl ${CI_PROJECT_URL}/-/raw/${CI_COMMIT_SHA}/
+
+package:
+  stage: package
+  rules: [{ if: '$CI_COMMIT_TAG !~ /^v(\d+)\.(\d+)\.(\d+)/'}]
+  artifacts:
+    expire_in: 1 week
+    paths:
+    - '*.vsix'
+  script:
+  - yarn install --frozen-lockfile
+  - npx vsce package $VSCE_FLAGS
+
+package:release:
+  stage: package
+  rules: [{ if: '$CI_COMMIT_TAG =~ /^v(\d+)\.(\d+)\.(\d+)/'}]
+  artifacts:
+    expire_in: 1 week
+    paths:
+    - '*.vsix'
+  script:
+  - yarn install --frozen-lockfile
+  - npx json -I -f package.json -e "this.version = '$CI_COMMIT_TAG'.slice(1)"
+  - npx vsce package $VSCE_FLAGS
+
+publish:gitlab-release:
+  stage: publish
+  rules: [{ if: '$CI_COMMIT_TAG =~ /^v(\d+)\.(\d+)\.(\d+)/'}]
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  script: echo
+  release:
+    tag_name: $CI_COMMIT_TAG
+    description: Release $CI_COMMIT_TAG
+
+publish:gitlab-package:
+  stage: publish
+  rules: [{ if: '$CI_COMMIT_TAG =~ /^v(\d+)\.(\d+)\.(\d+)/'}]
+  script:
+  - NAME=$(node -e "console.log(require('./package.json').name)")
+  - VERSION=$(node -e "console.log('$CI_COMMIT_TAG'.slice(1))")
+  - PKG_URL="${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/${NAME}/${VERSION}"
+  - VSIX="${NAME}-${VERSION}.vsix"
+  - curl -H "$JOB_TOKEN_HEADER" --upload-file ${VSIX} ${PKG_URL}/${VSIX}
+
+publish:open-vsx:
+  stage: publish
+  rules: [{ if: '$CI_COMMIT_TAG =~ /^v(\d+)\.(\d+)\.(\d+)/'}]
+  environment:
+    name: open-vsx
+    url: https://open-vsx.org/extension/ethan-reesor/vscode-go-test-adapter
+  script:
+  - npx json -I -f package.json -e "this.version = '$CI_COMMIT_TAG'.slice(1)"
+  - npx ovsx publish -p $OVSX_PAT *.vsix $VSCE_FLAGS
+
+publish:visual-studio:
+  stage: publish
+  rules: [{ if: '$CI_COMMIT_TAG =~ /^v(\d+)\.(\d+)\.(\d+)/'}]
+  environment:
+    name: visual-studio
+    url: https://marketplace.visualstudio.com/items?itemName=ethan-reesor.vscode-go-test-adapter
+  script:
+  - npx json -I -f package.json -e "this.version = '$CI_COMMIT_TAG'.slice(1)"
+  - npx vsce publish -p $AZURE_PAT --packagePath *.vsix

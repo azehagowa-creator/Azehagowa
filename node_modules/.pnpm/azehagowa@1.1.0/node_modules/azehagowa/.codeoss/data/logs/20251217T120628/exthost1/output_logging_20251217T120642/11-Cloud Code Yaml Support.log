@@ -1,0 +1,721 @@
+[Trace - 12:08:06 PM] Sending request 'initialize - (0)'.
+Params: {
+    "processId": 1201,
+    "clientInfo": {
+        "name": "Code OSS for Cloud Shell",
+        "version": "1.104.3-cde"
+    },
+    "locale": "en",
+    "rootPath": "/home/azehagowa",
+    "rootUri": "file:///home/azehagowa",
+    "capabilities": {
+        "workspace": {
+            "applyEdit": true,
+            "workspaceEdit": {
+                "documentChanges": true,
+                "resourceOperations": [
+                    "create",
+                    "rename",
+                    "delete"
+                ],
+                "failureHandling": "textOnlyTransactional",
+                "normalizesLineEndings": true,
+                "changeAnnotationSupport": {
+                    "groupsOnLabel": true
+                }
+            },
+            "configuration": true,
+            "didChangeWatchedFiles": {
+                "dynamicRegistration": true,
+                "relativePatternSupport": true
+            },
+            "symbol": {
+                "dynamicRegistration": true,
+                "symbolKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26
+                    ]
+                },
+                "tagSupport": {
+                    "valueSet": [
+                        1
+                    ]
+                },
+                "resolveSupport": {
+                    "properties": [
+                        "location.range"
+                    ]
+                }
+            },
+            "codeLens": {
+                "refreshSupport": true
+            },
+            "executeCommand": {
+                "dynamicRegistration": true
+            },
+            "didChangeConfiguration": {
+                "dynamicRegistration": true
+            },
+            "workspaceFolders": true,
+            "foldingRange": {
+                "refreshSupport": true
+            },
+            "semanticTokens": {
+                "refreshSupport": true
+            },
+            "fileOperations": {
+                "dynamicRegistration": true,
+                "didCreate": true,
+                "didRename": true,
+                "didDelete": true,
+                "willCreate": true,
+                "willRename": true,
+                "willDelete": true
+            },
+            "inlineValue": {
+                "refreshSupport": true
+            },
+            "inlayHint": {
+                "refreshSupport": true
+            },
+            "diagnostics": {
+                "refreshSupport": true
+            }
+        },
+        "textDocument": {
+            "publishDiagnostics": {
+                "relatedInformation": true,
+                "versionSupport": false,
+                "tagSupport": {
+                    "valueSet": [
+                        1,
+                        2
+                    ]
+                },
+                "codeDescriptionSupport": true,
+                "dataSupport": true
+            },
+            "synchronization": {
+                "dynamicRegistration": true,
+                "willSave": true,
+                "willSaveWaitUntil": true,
+                "didSave": true
+            },
+            "completion": {
+                "dynamicRegistration": true,
+                "contextSupport": true,
+                "completionItem": {
+                    "snippetSupport": true,
+                    "commitCharactersSupport": true,
+                    "documentationFormat": [
+                        "markdown",
+                        "plaintext"
+                    ],
+                    "deprecatedSupport": true,
+                    "preselectSupport": true,
+                    "tagSupport": {
+                        "valueSet": [
+                            1
+                        ]
+                    },
+                    "insertReplaceSupport": true,
+                    "resolveSupport": {
+                        "properties": [
+                            "documentation",
+                            "detail",
+                            "additionalTextEdits"
+                        ]
+                    },
+                    "insertTextModeSupport": {
+                        "valueSet": [
+                            1,
+                            2
+                        ]
+                    },
+                    "labelDetailsSupport": true
+                },
+                "insertTextMode": 2,
+                "completionItemKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                    ]
+                },
+                "completionList": {
+                    "itemDefaults": [
+                        "commitCharacters",
+                        "editRange",
+                        "insertTextFormat",
+                        "insertTextMode",
+                        "data"
+                    ]
+                }
+            },
+            "hover": {
+                "dynamicRegistration": true,
+                "contentFormat": [
+                    "markdown",
+                    "plaintext"
+                ]
+            },
+            "signatureHelp": {
+                "dynamicRegistration": true,
+                "signatureInformation": {
+                    "documentationFormat": [
+                        "markdown",
+                        "plaintext"
+                    ],
+                    "parameterInformation": {
+                        "labelOffsetSupport": true
+                    },
+                    "activeParameterSupport": true
+                },
+                "contextSupport": true
+            },
+            "definition": {
+                "dynamicRegistration": true,
+                "linkSupport": true
+            },
+            "references": {
+                "dynamicRegistration": true
+            },
+            "documentHighlight": {
+                "dynamicRegistration": true
+            },
+            "documentSymbol": {
+                "dynamicRegistration": true,
+                "symbolKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26
+                    ]
+                },
+                "hierarchicalDocumentSymbolSupport": true,
+                "tagSupport": {
+                    "valueSet": [
+                        1
+                    ]
+                },
+                "labelSupport": true
+            },
+            "codeAction": {
+                "dynamicRegistration": true,
+                "isPreferredSupport": true,
+                "disabledSupport": true,
+                "dataSupport": true,
+                "resolveSupport": {
+                    "properties": [
+                        "edit"
+                    ]
+                },
+                "codeActionLiteralSupport": {
+                    "codeActionKind": {
+                        "valueSet": [
+                            "",
+                            "quickfix",
+                            "refactor",
+                            "refactor.extract",
+                            "refactor.inline",
+                            "refactor.rewrite",
+                            "source",
+                            "source.organizeImports"
+                        ]
+                    }
+                },
+                "honorsChangeAnnotations": true
+            },
+            "codeLens": {
+                "dynamicRegistration": true
+            },
+            "formatting": {
+                "dynamicRegistration": true
+            },
+            "rangeFormatting": {
+                "dynamicRegistration": true,
+                "rangesSupport": true
+            },
+            "onTypeFormatting": {
+                "dynamicRegistration": true
+            },
+            "rename": {
+                "dynamicRegistration": true,
+                "prepareSupport": true,
+                "prepareSupportDefaultBehavior": 1,
+                "honorsChangeAnnotations": true
+            },
+            "documentLink": {
+                "dynamicRegistration": true,
+                "tooltipSupport": true
+            },
+            "typeDefinition": {
+                "dynamicRegistration": true,
+                "linkSupport": true
+            },
+            "implementation": {
+                "dynamicRegistration": true,
+                "linkSupport": true
+            },
+            "colorProvider": {
+                "dynamicRegistration": true
+            },
+            "foldingRange": {
+                "dynamicRegistration": true,
+                "rangeLimit": 5000,
+                "lineFoldingOnly": true,
+                "foldingRangeKind": {
+                    "valueSet": [
+                        "comment",
+                        "imports",
+                        "region"
+                    ]
+                },
+                "foldingRange": {
+                    "collapsedText": false
+                }
+            },
+            "declaration": {
+                "dynamicRegistration": true,
+                "linkSupport": true
+            },
+            "selectionRange": {
+                "dynamicRegistration": true
+            },
+            "callHierarchy": {
+                "dynamicRegistration": true
+            },
+            "semanticTokens": {
+                "dynamicRegistration": true,
+                "tokenTypes": [
+                    "namespace",
+                    "type",
+                    "class",
+                    "enum",
+                    "interface",
+                    "struct",
+                    "typeParameter",
+                    "parameter",
+                    "variable",
+                    "property",
+                    "enumMember",
+                    "event",
+                    "function",
+                    "method",
+                    "macro",
+                    "keyword",
+                    "modifier",
+                    "comment",
+                    "string",
+                    "number",
+                    "regexp",
+                    "operator",
+                    "decorator"
+                ],
+                "tokenModifiers": [
+                    "declaration",
+                    "definition",
+                    "readonly",
+                    "static",
+                    "deprecated",
+                    "abstract",
+                    "async",
+                    "modification",
+                    "documentation",
+                    "defaultLibrary"
+                ],
+                "formats": [
+                    "relative"
+                ],
+                "requests": {
+                    "range": true,
+                    "full": {
+                        "delta": true
+                    }
+                },
+                "multilineTokenSupport": false,
+                "overlappingTokenSupport": false,
+                "serverCancelSupport": true,
+                "augmentsSyntaxTokens": true
+            },
+            "linkedEditingRange": {
+                "dynamicRegistration": true
+            },
+            "typeHierarchy": {
+                "dynamicRegistration": true
+            },
+            "inlineValue": {
+                "dynamicRegistration": true
+            },
+            "inlayHint": {
+                "dynamicRegistration": true,
+                "resolveSupport": {
+                    "properties": [
+                        "tooltip",
+                        "textEdits",
+                        "label.tooltip",
+                        "label.location",
+                        "label.command"
+                    ]
+                }
+            },
+            "diagnostic": {
+                "dynamicRegistration": true,
+                "relatedDocumentSupport": false
+            }
+        },
+        "window": {
+            "showMessage": {
+                "messageActionItem": {
+                    "additionalPropertiesSupport": true
+                }
+            },
+            "showDocument": {
+                "support": true
+            },
+            "workDoneProgress": true
+        },
+        "general": {
+            "staleRequestSupport": {
+                "cancel": true,
+                "retryOnContentModified": [
+                    "textDocument/semanticTokens/full",
+                    "textDocument/semanticTokens/range",
+                    "textDocument/semanticTokens/full/delta"
+                ]
+            },
+            "regularExpressions": {
+                "engine": "ECMAScript",
+                "version": "ES2020"
+            },
+            "markdown": {
+                "parser": "marked",
+                "version": "1.1.0"
+            },
+            "positionEncodings": [
+                "utf-16"
+            ]
+        },
+        "notebookDocument": {
+            "synchronization": {
+                "dynamicRegistration": true,
+                "executionSummarySupport": true
+            }
+        }
+    },
+    "trace": "verbose",
+    "workspaceFolders": [
+        {
+            "uri": "file:///home/azehagowa",
+            "name": "azehagowa"
+        }
+    ]
+}
+
+
+[Trace - 12:08:10 PM] Received notification 'window/logMessage'.
+Params: {
+    "type": 1,
+    "message": "(node:2827) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)"
+}
+
+
+[Error - 12:08:10 PM] (node:2827) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[Trace - 12:08:22 PM] Received response 'initialize - (0)' in 16750ms.
+Result: {
+    "capabilities": {
+        "textDocumentSync": 1,
+        "completionProvider": {
+            "triggerCharacters": [
+                " "
+            ],
+            "resolveProvider": true
+        },
+        "hoverProvider": true,
+        "documentSymbolProvider": true,
+        "documentFormattingProvider": true,
+        "definitionProvider": true,
+        "documentLinkProvider": {
+            "resolveProvider": false
+        },
+        "codeLensProvider": {
+            "resolveProvider": false
+        }
+    }
+}
+
+
+[Trace - 12:08:22 PM] Sending notification 'initialized'.
+Params: {}
+
+
+[Trace - 12:08:22 PM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "cloudcode": {
+            "yaml": {
+                "trace": {
+                    "server": "verbose"
+                },
+                "schemas": {},
+                "format": {
+                    "enable": true,
+                    "singleQuote": true,
+                    "bracketSpacing": true,
+                    "proseWrap": "never"
+                },
+                "validate": true,
+                "hover": true,
+                "completion": true,
+                "customTags": [],
+                "clusterResourceCompletion": true,
+                "yamlFileMatcher": "**/*.yaml",
+                "enableKubernetesSupport": true,
+                "kubernetesVersion": "v1.33.0",
+                "crdSchemaLocations": []
+            }
+        },
+        "http": {
+            "proxyStrictSSL": true
+        }
+    }
+}
+
+
+[Trace - 12:08:23 PM] Received notification 'telemetry/event'.
+Params: {
+    "duration_ms": "13.103207999996812",
+    "event_name": "cloudcode.lsp.schema.partner.loaded"
+}
+
+
+[Trace - 12:08:23 PM] Received notification 'telemetry/event'.
+Params: {
+    "duration_ms": "273.3891249999979",
+    "event_name": "cloudcode.lsp.schema.schemastore.loaded"
+}
+
+
+[Trace - 12:08:23 PM] Received notification 'telemetry/event'.
+Params: {
+    "duration_ms": "14.634840000002441",
+    "event_name": "cloudcode.lsp.schema.partner.loaded"
+}
+
+
+[Trace - 12:08:44 PM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 12:08:44 PM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 12:08:51 PM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 12:08:51 PM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 12:09:05 PM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 12:10:03 PM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 12:10:09 PM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 12:30:21 PM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/tsconfig.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/package-lock.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/release-please-config.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/.release-please-manifest.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/table/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/enquirer/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/esrecurse/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/rxjs/ajax/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/shell-env/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/emoji-regex/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/path-scurry/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/readdir-glob/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/%40electron/asar/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/date-fns/locale/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/has-tostringtag/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/unbox-primitive/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/date-fns/locale/ru/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/typed-array-buffer/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/table/node_modules/ajv/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/esrecurse/node_modules/estraverse/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/path-scurry/node_modules/minipass/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/shell-env/node_modules/cross-spawn/package.json",
+            "type": 3
+        },
+        {
+            "uri": "file:///home/azehagowa/ipfs-desktop/node_modules/path-scurry/node_modules/minipass/dist/commonjs/package.json",
+            "type": 3
+        }
+    ]
+}
+
+

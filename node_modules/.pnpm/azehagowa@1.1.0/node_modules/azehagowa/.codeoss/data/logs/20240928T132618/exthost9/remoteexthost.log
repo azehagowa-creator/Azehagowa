@@ -1,0 +1,208 @@
+2024-09-28 15:38:41.025 [info] Extension host with pid 5758 started
+2024-09-28 15:38:41.055 [info] Lock '/home/azehagowa/.codeoss/data/User/workspaceStorage/4a2b428b/vscode.lock': Lock acquired.
+2024-09-28 15:38:41.671 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-28 15:38:41.673 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-28 15:38:41.674 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-28 15:38:42.486 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-28 15:38:42.488 [info] ExtensionService#_doActivateExtension ms-vscode.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2024-09-28 15:38:42.524 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-09-28 15:38:42.948 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-28 15:38:42.949 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-28 15:38:42.950 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2024-09-28 15:38:44.086 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5983
+2024-09-28 15:38:46.157 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5986
+2024-09-28 15:38:49.494 [info] Not activating extension 'hashicorp.terraform': Timed out while searching for 'workspaceContains' pattern **/*.tf,**/*.tfvars
+2024-09-28 15:38:49.495 [info] Not activating extension 'redhat.fabric8-analytics': Timed out while searching for 'workspaceContains' pattern **/package.json,**/pom.xml,**/go.mod,**/requirements.txt
+2024-09-28 15:38:49.497 [info] Not activating extension 'redhat.java': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2024-09-28 15:38:49.498 [info] Not activating extension 'vscjava.vscode-java-dependency': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2024-09-28 15:38:49.501 [info] Not activating extension 'vscjava.vscode-java-test': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2024-09-28 15:38:49.502 [info] Not activating extension 'vscjava.vscode-maven': Timed out while searching for 'workspaceContains' pattern **/pom.xml
+2024-09-28 15:38:49.502 [info] Not activating extension 'ethan-reesor.vscode-go-test-adapter': Timed out while searching for 'workspaceContains' pattern **/*.go,**/go.mod,**/go.sum
+2024-09-28 15:38:52.504 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-09-28 15:38:52.505 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-09-28 15:38:52.506 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-09-28 15:38:52.506 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-28 15:38:52.507 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-28 15:40:33.924 [info] Eager extensions activated
+2024-09-28 15:43:26.635 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5990
+2024-09-28 15:43:45.502 [error] Error: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+2024-09-28 15:46:33.313 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5992
+2024-09-28 15:46:38.601 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5992
+2024-09-28 15:46:49.118 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5992
+2024-09-28 15:47:40.534 [info] Extension host terminating: received terminate message from renderer
+2024-09-28 15:47:40.536 [info] Lock '/home/azehagowa/.codeoss/data/User/workspaceStorage/4a2b428b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-28 15:47:40.599 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at a.O [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:167800)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at Object.p [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:186884)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192922
+    at Array.forEach (<anonymous>)
+    at f.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192908)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:3955)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:170057)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:16645)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-09-28 15:47:40.611 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at a.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:25681)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:26640
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:273373)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at Object.p [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:186884)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192922
+    at Array.forEach (<anonymous>)
+    at f.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192908)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:3955)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:170057)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:16645)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-09-28 15:47:40.615 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at w.dispose (/home/azehagowa/.codeoss/extensions/ms-vscode.test-adapter-converter-0.1.9-universal/out/extension.js:5:494)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:16645)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-09-28 15:47:40.617 [error] Error: Channel has been closed
+    at r (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:156:2490)
+    at Object.append (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:156:2566)
+    at console.error (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10944566)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11134780
+    at Generator.next (<anonymous>)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11127175
+    at new Promise (<anonymous>)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11126920)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11134304
+    at Array.map (<anonymous>)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11134296
+    at Generator.next (<anonymous>)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11127175
+    at new Promise (<anonymous>)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11126920)
+    at t.deactivateAll (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11134118)
+    at Object.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10006912)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:9973970)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-28 15:47:40.627 [info] Extension host with pid 5758 exiting with code 0

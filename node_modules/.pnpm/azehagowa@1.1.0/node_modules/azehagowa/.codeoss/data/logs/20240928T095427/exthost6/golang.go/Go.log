@@ -1,0 +1,8 @@
+2024-09-28 12:36:03.883 [error] Failed to execute tests: EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/azehagowa/gopath/pkg/mod/go.mod'
+2024-09-28 12:37:03.929 [error] Failed to resolve tests: EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/azehagowa/gopath/pkg/mod/go.mod'
+2024-09-28 12:37:07.409 [error] Failed to debug tests: EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/azehagowa/gopath/pkg/mod/go.mod'
+2024-09-28 12:37:09.560 [error] Failed to resolve tests: EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/azehagowa/gopath/pkg/mod/go.mod'
+2024-09-28 12:37:12.910 [error] Failed to debug tests: EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/azehagowa/gopath/pkg/mod/go.mod'
+2024-09-28 12:39:12.607 [error] Failed to resolve tests: EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/azehagowa/gopath/pkg/mod/go.mod'
+2024-09-28 12:39:37.122 [error] Failed to execute tests: EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/azehagowa/gopath/pkg/mod/go.mod'
+2024-09-28 12:39:40.442 [error] Failed to execute tests: EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/azehagowa/gopath/pkg/mod/go.mod'

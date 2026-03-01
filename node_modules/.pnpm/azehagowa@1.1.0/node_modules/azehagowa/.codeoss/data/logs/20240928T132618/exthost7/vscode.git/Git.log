@@ -1,0 +1,27 @@
+2024-09-28 14:02:11.836 [info] Log level: Info
+2024-09-28 14:02:11.837 [info] Validating found git in: "git"
+2024-09-28 14:02:11.837 [info] Using git "2.34.1" from "git"
+2024-09-28 14:02:11.838 [info] > git rev-parse --show-toplevel [62ms]
+2024-09-28 14:02:11.839 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2024-09-28 14:02:11.839 [info] Open repository: /home/azehagowa
+2024-09-28 14:02:11.840 [info] > git rev-parse --show-toplevel [657ms]
+2024-09-28 14:02:11.840 [info] > git config --get commit.template [678ms]
+2024-09-28 14:02:11.841 [info] No remotes found in the git config file.
+2024-09-28 14:02:11.841 [info] > git rev-parse --show-toplevel [57ms]
+2024-09-28 14:02:11.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2024-09-28 14:02:11.842 [warning] No such branch: main.
+2024-09-28 14:02:11.843 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-28 14:02:12.012 [info] > git rev-parse --show-toplevel [113ms]
+2024-09-28 14:02:12.220 [info] > git status -z -uall [450ms]
+2024-09-28 14:02:12.221 [info] > git rev-parse --show-toplevel [150ms]
+2024-09-28 14:02:15.976 [info] > git rev-parse --show-toplevel [3723ms]
+2024-09-28 14:02:16.185 [info] > git config --get commit.template [283ms]
+2024-09-28 14:02:16.191 [info] > git rev-parse --show-toplevel [23ms]
+2024-09-28 14:02:16.236 [info] No remotes found in the git config file.
+2024-09-28 14:02:16.296 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [58ms]
+2024-09-28 14:02:16.297 [warning] No such branch: main.
+2024-09-28 14:02:16.395 [info] > git rev-parse --show-toplevel [108ms]
+2024-09-28 14:02:17.002 [info] > git rev-parse --show-toplevel [483ms]
+2024-09-28 14:02:17.377 [info] > git status -z -uall [989ms]
+2024-09-28 14:02:17.379 [info] > git rev-parse --show-toplevel [29ms]
+2024-09-28 14:02:20.843 [info] > git rev-parse --show-toplevel [59ms]

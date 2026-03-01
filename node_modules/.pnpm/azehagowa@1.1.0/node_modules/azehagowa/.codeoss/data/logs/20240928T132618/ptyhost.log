@@ -1,0 +1,9 @@
+2024-09-28 13:27:06.168 [warning] Persistent process reconnection "7" failed Could not find pty on pty host
+2024-09-28 13:27:06.168 [error] [RPC Response] PtyService#attachToProcess Could not find pty on pty host
+2024-09-28 14:01:20.414 [info] Expanding terminal instance, old id 4a2b428b-2 -> new id undefined
+2024-09-28 14:02:04.641 [info] Expanding terminal instance, old id 4a2b428b-3 -> new id undefined
+2024-09-28 14:28:50.485 [info] Expanding terminal instance, old id 4a2b428b-3 -> new id undefined
+2024-09-28 15:43:24.333 [info] Expanding terminal instance, old id 4a2b428b-3 -> new id undefined
+2024-09-28 15:44:21.137 [warning] Persistent process "3": Process had no disconnect runners but was an orphan
+2024-09-28 15:44:21.137 [info] Persistent process reconnection "3"
+2024-09-28 15:44:21.596 [info] Persistent process "3": Replaying 354 chars and 1 size events

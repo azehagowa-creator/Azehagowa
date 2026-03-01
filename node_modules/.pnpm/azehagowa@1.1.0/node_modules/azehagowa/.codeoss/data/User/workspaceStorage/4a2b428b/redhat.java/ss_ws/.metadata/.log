@@ -1,0 +1,110 @@
+!SESSION 2024-09-28 12:24:22.848 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-2e49f4bae3a9d43793d0724326a3cfa7.sock
+Command-line arguments:  -data /home/azehagowa/.codeoss/data/User/workspaceStorage/4a2b428b/redhat.java/ss_ws --pipe=/tmp/lsp-2e49f4bae3a9d43793d0724326a3cfa7.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:34.157
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:35.279
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:35.596
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:35.614
+!MESSAGE Initializing Java Language Server 1.37.0.202406190804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:36.175
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk-amd64 as 'JavaSE-21' environment (id:1727526276125)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:36.248
+!MESSAGE Setting /usr/lib/jvm/java-11-openjdk-amd64 as 'JavaSE-11' environment (id:1727526276184)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:36.294
+!MESSAGE Setting /usr/lib/jvm/java-17-openjdk-amd64 as 'JavaSE-17' environment (id:1727526276051)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:36.344
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:36.547
+!MESSAGE Workspace initialized in 30ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:36.690
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:36.737
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:36.752
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:36.777
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:36.800
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:42.631
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:42.682
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:42.844
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 12:24:42.854
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-09-28 13:04:32.198 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-f0c5fd9f551142b37f2235cc7b2b4fcb.sock
+Command-line arguments:  -data /home/azehagowa/.codeoss/data/User/workspaceStorage/4a2b428b/redhat.java/ss_ws --pipe=/tmp/lsp-f0c5fd9f551142b37f2235cc7b2b4fcb.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:37.722
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:38.445
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:38.605
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:38.614
+!MESSAGE Initializing Java Language Server 1.37.0.202406190804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:38.800
+!MESSAGE Workspace initialized in 44ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:38.868
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:38.906
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:38.908
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:38.921
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:38.932
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:46.502
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:46.522
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:46.628
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-28 13:04:46.656
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

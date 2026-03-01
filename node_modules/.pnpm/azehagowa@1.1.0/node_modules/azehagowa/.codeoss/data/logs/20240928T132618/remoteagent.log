@@ -1,0 +1,96 @@
+2024-09-28 13:26:18.716 [info] 
+
+
+
+
+2024-09-28 13:26:18.716 [info] Extension host agent started.
+2024-09-28 13:26:23.865 [info] [127.0.0.1][f728ed80][ManagementConnection] New connection established.
+2024-09-28 13:26:24.541 [info] [127.0.0.1][cb0e61bd][ExtensionHostConnection] New connection established.
+2024-09-28 13:26:27.993 [info] [127.0.0.1][cb0e61bd][ExtensionHostConnection] <1151> Launched Extension Host Process.
+2024-09-28 13:26:31.392 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/server/node/server.main.js:187:6057)
+    at process.emit (node:events:517:28)
+2024-09-28 13:26:31.394 [info] [127.0.0.1][f728ed80][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-09-28 13:26:34.777 [info] [127.0.0.1][f728ed80][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-09-28 13:26:34.779 [info] [127.0.0.1][bac121f6][ManagementConnection] New connection established.
+2024-09-28 13:26:35.358 [info] [127.0.0.1][258800a5][ExtensionHostConnection] New connection established.
+2024-09-28 13:26:35.374 [info] [127.0.0.1][258800a5][ExtensionHostConnection] <1202> Launched Extension Host Process.
+2024-09-28 13:27:07.165 [error] CodeExpectedError: Could not find pty on pty host
+    at p.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/platform/terminal/node/ptyHostMain.js:50:32991)
+    at p.attachToProcess (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/platform/terminal/node/ptyHostMain.js:50:27965)
+    at A.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/platform/terminal/node/ptyHostMain.js:50:23406)
+    at Object.call (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.be (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-09-28 13:29:35.552 [info] [127.0.0.1][258800a5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 13:29:36.623 [info] [127.0.0.1][bac121f6][ManagementConnection] The client has reconnected.
+2024-09-28 13:31:34.925 [info] [127.0.0.1][cb0e61bd][ExtensionHostConnection] <1151> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 13:31:35.096 [info] [127.0.0.1][f728ed80][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-09-28 13:32:24.103 [info] [127.0.0.1][bac121f6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-28 13:32:24.329 [info] [127.0.0.1][258800a5][ExtensionHostConnection] <1202> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 13:32:26.759 [info] [127.0.0.1][cd544b34][ManagementConnection] New connection established.
+2024-09-28 13:32:27.469 [info] [127.0.0.1][129fb855][ExtensionHostConnection] New connection established.
+2024-09-28 13:32:27.485 [info] [127.0.0.1][129fb855][ExtensionHostConnection] <2118> Launched Extension Host Process.
+2024-09-28 13:32:39.013 [info] [127.0.0.1][cd544b34][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-28 13:32:39.145 [info] [127.0.0.1][129fb855][ExtensionHostConnection] <2118> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 13:32:46.539 [info] [127.0.0.1][8fb0eb18][ManagementConnection] New connection established.
+2024-09-28 13:32:46.618 [info] [127.0.0.1][5ea7a071][ExtensionHostConnection] New connection established.
+2024-09-28 13:32:46.631 [info] [127.0.0.1][5ea7a071][ExtensionHostConnection] <2153> Launched Extension Host Process.
+2024-09-28 13:33:15.344 [info] [127.0.0.1][8fb0eb18][ManagementConnection] The client has reconnected.
+2024-09-28 13:33:39.826 [info] [127.0.0.1][8fb0eb18][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-28 13:33:45.731 [info] [127.0.0.1][4ee67511][ManagementConnection] New connection established.
+2024-09-28 13:34:15.702 [info] [127.0.0.1][3605792f][ManagementConnection] New connection established.
+2024-09-28 13:34:17.024 [info] [127.0.0.1][d9b4a5bd][ExtensionHostConnection] New connection established.
+2024-09-28 13:34:17.062 [info] [127.0.0.1][d9b4a5bd][ExtensionHostConnection] <2212> Launched Extension Host Process.
+2024-09-28 13:38:02.908 [info] [127.0.0.1][d9b4a5bd][ExtensionHostConnection] The client has reconnected.
+2024-09-28 13:38:42.940 [info] [127.0.0.1][d9b4a5bd][ExtensionHostConnection] The client has reconnected.
+2024-09-28 13:39:15.965 [info] [127.0.0.1][5ea7a071][ExtensionHostConnection] <2153> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 13:39:31.155 [info] [127.0.0.1][d9b4a5bd][ExtensionHostConnection] The client has reconnected.
+2024-09-28 13:39:48.773 [info] [127.0.0.1][3605792f][ManagementConnection] The client has reconnected.
+2024-09-28 13:40:33.608 [info] [127.0.0.1][3605792f][ManagementConnection] The client has reconnected.
+2024-09-28 13:59:44.924 [info] [127.0.0.1][bd0e4e68][ManagementConnection] New connection established.
+2024-09-28 13:59:45.500 [info] [127.0.0.1][0f71cd86][ExtensionHostConnection] New connection established.
+2024-09-28 13:59:45.511 [info] [127.0.0.1][0f71cd86][ExtensionHostConnection] <3345> Launched Extension Host Process.
+2024-09-28 14:01:54.484 [error] [127.0.0.1][465ef0d4][ExtensionHostConnection] Unknown reconnection token (never seen).
+2024-09-28 14:01:55.378 [error] [127.0.0.1][c50b55e4][ManagementConnection] Unknown reconnection token (never seen).
+2024-09-28 14:01:59.959 [info] [127.0.0.1][009fa885][ManagementConnection] New connection established.
+2024-09-28 14:02:00.643 [info] [127.0.0.1][a2786256][ExtensionHostConnection] New connection established.
+2024-09-28 14:02:00.659 [info] [127.0.0.1][a2786256][ExtensionHostConnection] <3937> Launched Extension Host Process.
+2024-09-28 14:02:05.803 [warning] RequestStore#acceptReply was called without receiving a matching request 222
+2024-09-28 14:02:05.803 [warning] RequestStore#acceptReply was called without receiving a matching request 223
+2024-09-28 14:02:05.804 [warning] RequestStore#acceptReply was called without receiving a matching request 224
+2024-09-28 14:02:05.805 [warning] RequestStore#acceptReply was called without receiving a matching request 225
+2024-09-28 14:02:05.805 [warning] RequestStore#acceptReply was called without receiving a matching request 226
+2024-09-28 14:02:05.805 [warning] RequestStore#acceptReply was called without receiving a matching request 227
+2024-09-28 14:02:05.806 [warning] RequestStore#acceptReply was called without receiving a matching request 228
+2024-09-28 14:02:05.806 [warning] RequestStore#acceptReply was called without receiving a matching request 229
+2024-09-28 14:02:05.806 [warning] RequestStore#acceptReply was called without receiving a matching request 230
+2024-09-28 14:02:05.806 [warning] RequestStore#acceptReply was called without receiving a matching request 231
+2024-09-28 14:02:05.806 [warning] RequestStore#acceptReply was called without receiving a matching request 232
+2024-09-28 14:02:05.806 [warning] RequestStore#acceptReply was called without receiving a matching request 233
+2024-09-28 14:02:05.807 [warning] RequestStore#acceptReply was called without receiving a matching request 234
+2024-09-28 14:19:26.360 [info] [127.0.0.1][bd0e4e68][ManagementConnection] The client has reconnected.
+2024-09-28 14:19:28.285 [info] [127.0.0.1][0f71cd86][ExtensionHostConnection] The client has reconnected.
+2024-09-28 14:24:26.721 [info] [127.0.0.1][a2786256][ExtensionHostConnection] <3937> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 14:24:26.947 [info] [127.0.0.1][d9b4a5bd][ExtensionHostConnection] <2212> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 14:28:20.341 [info] [127.0.0.1][bd0e4e68][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-28 14:28:41.144 [info] [127.0.0.1][25c7d2d3][ExtensionHostConnection] New connection established.
+2024-09-28 14:28:41.159 [info] [127.0.0.1][25c7d2d3][ExtensionHostConnection] <5298> Launched Extension Host Process.
+2024-09-28 14:28:42.302 [info] [127.0.0.1][8d5c4847][ManagementConnection] New connection established.
+2024-09-28 14:33:41.631 [info] [127.0.0.1][0f71cd86][ExtensionHostConnection] <3345> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 15:06:28.073 [info] [127.0.0.1][8d5c4847][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-28 15:06:28.106 [info] [127.0.0.1][25c7d2d3][ExtensionHostConnection] <5298> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 15:38:08.595 [info] [127.0.0.1][09b8ecc2][ManagementConnection] New connection established.
+2024-09-28 15:38:12.064 [info] [127.0.0.1][4b04bce0][ExtensionHostConnection] New connection established.
+2024-09-28 15:38:12.077 [info] [127.0.0.1][4b04bce0][ExtensionHostConnection] <5758> Launched Extension Host Process.
+2024-09-28 15:43:22.902 [info] [127.0.0.1][4b04bce0][ExtensionHostConnection] The client has reconnected.
+2024-09-28 15:43:23.964 [info] [127.0.0.1][09b8ecc2][ManagementConnection] The client has reconnected.
+2024-09-28 15:47:40.545 [info] [127.0.0.1][09b8ecc2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-28 15:47:40.719 [info] [127.0.0.1][4b04bce0][ExtensionHostConnection] <5758> Extension Host Process exited with code: 0, signal: null.
