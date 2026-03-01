@@ -1,0 +1,199 @@
+I0928 12:21:00.949335   31751 serve.go:43] cloudcode_cli (Jul  2 2024 12:01:58 -0700, cl:648796832 baseline:648796263)
+I0928 12:21:00.949384   31751 serve.go:44] Command line: ["/home/azehagowa/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0928 12:21:00.951753   31751 life_cycle.go:135] Initializing. Architecture: "amd64", Operating system: "linux"
+I0928 12:21:00.979007   31751 configuration.go:171] product updateChannel will be used
+I0928 12:21:00.979053   31751 configuration.go:568] language thresholds: map[]
+I0928 12:21:00.979073   31751 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0928 12:21:00.979096   31751 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00105e539 StopSequences:map[] DataFilePromptLines:0}
+I0928 12:21:00.979136   31751 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00105e589 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0928 12:21:00.979296   31751 configuration.go:251] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0928 12:21:00.979313   31751 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0928 12:21:00.979347   31751 configuration.go:265] Configured settings for canCancelRequests: true
+I0928 12:21:00.979357   31751 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0928 12:21:01.398957   31751 handler.go:142] cancel was requested for: 1, needs to be canceled: false
+I0928 12:21:01.398978   31751 handler.go:146] cancel requested for 1 but not found
+W0928 12:24:50.263717   31751 server.go:549] unknown method "$/setTrace"
+I0928 12:24:50.281078   31751 configuration.go:171] product updateChannel will be used
+I0928 12:24:50.281128   31751 configuration.go:568] language thresholds: map[]
+I0928 12:24:50.281152   31751 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0928 12:24:50.281177   31751 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00063aec9 StopSequences:map[] DataFilePromptLines:0}
+I0928 12:24:50.281223   31751 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00063af89 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0928 12:24:50.281264   31751 configuration.go:251] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0928 12:24:50.281276   31751 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0928 12:24:50.281314   31751 configuration.go:265] Configured settings for canCancelRequests: true
+I0928 12:24:50.281325   31751 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0928 12:24:59.747074   31751 handler.go:142] cancel was requested for: 4, needs to be canceled: false
+I0928 12:24:59.747093   31751 handler.go:146] cancel requested for 4 but not found
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 0 - New completion requested from language client at position {"line":47,"character":16}, triggerKind=1
+Completion Provider - completion # 0 - Completion result obtained from language client
+I0928 12:25:00.986991   31751 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 1 - New completion requested from language client at position {"line":47,"character":16}, triggerKind=1
+Completion Provider - completion # 1 - Completion result obtained from language client
+I0928 12:26:00.986811   31751 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 2 - New completion requested from language client at position {"line":47,"character":16}, triggerKind=1
+Completion Provider - completion # 2 - Completion result obtained from language client
+I0928 12:34:00.987029   31751 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+W0928 12:34:17.224174   31751 server.go:549] unknown method "$/setTrace"
+I0928 12:34:17.295856   31751 configuration.go:171] product updateChannel will be used
+I0928 12:34:17.295914   31751 configuration.go:568] language thresholds: map[]
+I0928 12:34:17.295940   31751 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0928 12:34:17.295968   31751 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00063bab9 StopSequences:map[] DataFilePromptLines:0}
+I0928 12:34:17.296019   31751 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00063bb09 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0928 12:34:17.296066   31751 configuration.go:251] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0928 12:34:17.296082   31751 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0928 12:34:17.296125   31751 configuration.go:265] Configured settings for canCancelRequests: true
+I0928 12:34:17.296137   31751 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0928 12:35:00.987014   31751 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+W0928 12:42:53.818320   31751 server.go:549] unknown method "$/setTrace"
+I0928 12:42:53.896347   31751 configuration.go:171] product updateChannel will be used
+I0928 12:42:53.896393   31751 configuration.go:568] language thresholds: map[]
+I0928 12:42:53.896417   31751 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0928 12:42:53.896440   31751 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00063b029 StopSequences:map[] DataFilePromptLines:0}
+I0928 12:42:53.896487   31751 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00063b0a9 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0928 12:42:53.896534   31751 configuration.go:251] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0928 12:42:53.896545   31751 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0928 12:42:53.896582   31751 configuration.go:265] Configured settings for canCancelRequests: true
+I0928 12:42:53.896592   31751 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0928 12:49:00.869527   31751 handler.go:142] cancel was requested for: 40, needs to be canceled: false
+I0928 12:49:00.869561   31751 handler.go:146] cancel requested for 40 but not found
+W0928 12:49:00.870966   31751 server.go:549] unknown method "$/setTrace"
+I0928 12:49:00.874451   31751 handler.go:142] cancel was requested for: 42, needs to be canceled: false
+I0928 12:49:00.874467   31751 handler.go:146] cancel requested for 42 but not found
+I0928 12:49:00.885907   31751 handler.go:142] cancel was requested for: 39, needs to be canceled: false
+I0928 12:49:00.885927   31751 handler.go:146] cancel requested for 39 but not found
+I0928 12:49:01.240635   31751 configuration.go:171] product updateChannel will be used
+I0928 12:49:01.240685   31751 configuration.go:568] language thresholds: map[]
+I0928 12:49:01.240709   31751 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0928 12:49:01.240734   31751 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0012f8fb9 StopSequences:map[] DataFilePromptLines:0}
+I0928 12:49:01.240780   31751 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0012f9019 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0928 12:49:01.240827   31751 configuration.go:251] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0928 12:49:01.240896   31751 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0928 12:49:01.240938   31751 configuration.go:265] Configured settings for canCancelRequests: true
+I0928 12:49:01.240949   31751 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 3 - New completion requested from language client at position {"line":21,"character":16}, triggerKind=1
+Completion Provider - completion # 3 - Completion result obtained from language client
+Completion Provider - completion # 3 - Typed over previous completion
+Completion Provider - completion # 4 - New completion requested from language client at position {"line":21,"character":17}, triggerKind=1
+Completion Provider - completion # 4 - Completion result obtained from language client
+Completion Provider - completion # 4 - Typed over previous completion
+Completion Provider - completion # 5 - New completion requested from language client at position {"line":21,"character":16}, triggerKind=1
+Completion Provider - completion # 5 - Completion result obtained from language client
+Completion Provider - completion # 5 - Typed over previous completion
+Completion Provider - completion # 6 - New completion requested from language client at position {"line":21,"character":15}, triggerKind=1
+Completion Provider - completion # 6 - Completion result obtained from language client
+Completion Provider - completion # 6 - Typed over previous completion
+Completion Provider - completion # 7 - New completion requested from language client at position {"line":21,"character":16}, triggerKind=1
+Completion Provider - completion # 7 - Completion result obtained from language client
+Completion Provider - completion # 7 - Typed over previous completion
+Completion Provider - completion # 8 - New completion requested from language client at position {"line":21,"character":17}, triggerKind=1
+Completion Provider - completion # 8 - Completion result obtained from language client
+Completion Provider - completion # 8 - Typed over previous completion
+Completion Provider - completion # 9 - New completion requested from language client at position {"line":21,"character":18}, triggerKind=1
+Completion Provider - completion # 9 - Completion result obtained from language client
+I0928 12:56:00.987176   31751 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+Completion Provider - completion # 9 - Typed over previous completion
+Completion Provider - completion # 10 - New completion requested from language client at position {"line":19,"character":0}, triggerKind=1
+Completion Provider - completion # 10 - Completion result obtained from language client
+Completion Provider - completion # 10 - Typed over previous completion
+Completion Provider - completion # 11 - New completion requested from language client at position {"line":18,"character":0}, triggerKind=1
+Completion Provider - completion # 11 - Completion result obtained from language client
+Completion Provider - completion # 11 - Typed over previous completion
+Completion Provider - completion # 12 - New completion requested from language client at position {"line":17,"character":0}, triggerKind=1
+Completion Provider - completion # 12 - Completion result obtained from language client
+Completion Provider - completion # 12 - Typed over previous completion
+Completion Provider - completion # 13 - New completion requested from language client at position {"line":16,"character":0}, triggerKind=1
+Completion Provider - completion # 13 - Completion result obtained from language client
+Completion Provider - completion # 13 - Typed over previous completion
+Completion Provider - completion # 14 - New completion requested from language client at position {"line":15,"character":0}, triggerKind=1
+Completion Provider - completion # 14 - Completion result obtained from language client
+Completion Provider - completion # 14 - Typed over previous completion
+Completion Provider - completion # 15 - New completion requested from language client at position {"line":14,"character":0}, triggerKind=1
+Completion Provider - completion # 15 - Completion result obtained from language client
+Completion Provider - completion # 15 - Typed over previous completion
+Completion Provider - completion # 16 - New completion requested from language client at position {"line":13,"character":0}, triggerKind=1
+Completion Provider - completion # 16 - Completion result obtained from language client
+Completion Provider - completion # 16 - Typed over previous completion
+Completion Provider - completion # 17 - New completion requested from language client at position {"line":12,"character":0}, triggerKind=1
+Completion Provider - completion # 17 - Completion result obtained from language client
+I0928 12:56:05.291952   31751 handler.go:142] cancel was requested for: 74, needs to be canceled: false
+I0928 12:56:05.291971   31751 handler.go:146] cancel requested for 74 but not found
+Completion Provider - completion # 17 - Typed over previous completion
+Completion Provider - completion # 18 - New completion requested from language client at position {"line":11,"character":0}, triggerKind=1
+Completion Provider - completion # 18 - Completion result obtained from language client
+Completion Provider - completion # 18 - Typed over previous completion
+Completion Provider - completion # 19 - New completion requested from language client at position {"line":10,"character":0}, triggerKind=1
+Completion Provider - completion # 19 - Completion result obtained from language client
+Completion Provider - completion # 19 - Typed over previous completion
+Completion Provider - completion # 20 - New completion requested from language client at position {"line":9,"character":0}, triggerKind=1
+Completion Provider - completion # 20 - Completion result obtained from language client
+Completion Provider - completion # 20 - Typed over previous completion
+Completion Provider - completion # 21 - New completion requested from language client at position {"line":8,"character":0}, triggerKind=1
+Completion Provider - completion # 21 - Completion result obtained from language client
+Completion Provider - completion # 21 - Typed over previous completion
+Completion Provider - completion # 22 - New completion requested from language client at position {"line":7,"character":0}, triggerKind=1
+Completion Provider - completion # 22 - Completion result obtained from language client
+Completion Provider - completion # 22 - Typed over previous completion
+Completion Provider - completion # 23 - New completion requested from language client at position {"line":6,"character":0}, triggerKind=1
+Completion Provider - completion # 23 - Completion result obtained from language client
+Completion Provider - completion # 23 - Typed over previous completion
+Completion Provider - completion # 24 - New completion requested from language client at position {"line":5,"character":0}, triggerKind=1
+Completion Provider - completion # 24 - Completion result obtained from language client
+Completion Provider - completion # 24 - Typed over previous completion
+Completion Provider - completion # 25 - New completion requested from language client at position {"line":4,"character":0}, triggerKind=1
+Completion Provider - completion # 25 - Completion result obtained from language client
+Completion Provider - completion # 25 - Typed over previous completion
+Completion Provider - completion # 26 - New completion requested from language client at position {"line":3,"character":0}, triggerKind=1
+Completion Provider - completion # 26 - Completion result obtained from language client
+Completion Provider - completion # 26 - Typed over previous completion
+Completion Provider - completion # 27 - New completion requested from language client at position {"line":3,"character":1}, triggerKind=1
+Completion Provider - completion # 27 - Completion result obtained from language client
+Completion Provider - completion # 27 - Typed over previous completion
+Completion Provider - completion # 28 - New completion requested from language client at position {"line":3,"character":0}, triggerKind=1
+Completion Provider - completion # 28 - Completion result obtained from language client
+Completion Provider - completion # 28 - Typed over previous completion
+Completion Provider - completion # 29 - New completion requested from language client at position {"line":3,"character":1}, triggerKind=1
+Completion Provider - completion # 29 - Completion result obtained from language client
+Completion Provider - completion # 29 - Typed over previous completion
+Completion Provider - completion # 30 - New completion requested from language client at position {"line":3,"character":0}, triggerKind=1
+Completion Provider - completion # 30 - Completion result obtained from language client
+Completion Provider - completion # 30 - Typed over previous completion
+Completion Provider - completion # 31 - New completion requested from language client at position {"line":2,"character":0}, triggerKind=1
+Completion Provider - completion # 31 - Completion result obtained from language client
+Completion Provider - completion # 31 - Typed over previous completion
+Completion Provider - completion # 32 - New completion requested from language client at position {"line":1,"character":20}, triggerKind=1
+Completion Provider - completion # 32 - Completion result obtained from language client
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 33 - New completion requested from language client at position {"line":28,"character":16}, triggerKind=1
+Completion Provider - completion # 33 - Completion result obtained from language client
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 34 - New completion requested from language client at position {"line":97,"character":4}, triggerKind=1
+Completion Provider - completion # 34 - Completion result obtained from language client
+I0928 12:58:00.986564   31751 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 35 - New completion requested from language client at position {"line":2,"character":14}, triggerKind=1
+Completion Provider - completion # 35 - Completion result obtained from language client
+Completion Provider - completion # 35 - Typed over previous completion
+Completion Provider - completion # 36 - New completion requested from language client at position {"line":2,"character":13}, triggerKind=1
+Completion Provider - completion # 36 - Completion result obtained from language client
+Completion Provider - completion # 36 - Typed over previous completion
+Completion Provider - completion # 37 - New completion requested from language client at position {"line":2,"character":12}, triggerKind=1
+Completion Provider - completion # 37 - Completion result obtained from language client
+Completion Provider - completion # 37 - Typed over previous completion
+Completion Provider - completion # 38 - New completion requested from language client at position {"line":2,"character":11}, triggerKind=1
+Completion Provider - completion # 38 - Completion result obtained from language client
+Completion Provider - completion # 38 - Typed over previous completion
+Completion Provider - completion # 39 - New completion requested from language client at position {"line":2,"character":10}, triggerKind=1
+Completion Provider - completion # 39 - Completion result obtained from language client
+Completion Provider - completion # 39 - Typed over previous completion
+Completion Provider - completion # 40 - New completion requested from language client at position {"line":2,"character":9}, triggerKind=1
+Completion Provider - completion # 40 - Completion result obtained from language client
+Completion Provider - completion # 40 - Typed over previous completion
+Completion Provider - completion # 41 - New completion requested from language client at position {"line":2,"character":8}, triggerKind=1
+Completion Provider - completion # 41 - Completion result obtained from language client
+Completion Provider - completion # 41 - Typed over previous completion
+Completion Provider - completion # 42 - New completion requested from language client at position {"line":2,"character":4}, triggerKind=1
+Completion Provider - completion # 42 - Completion result obtained from language client

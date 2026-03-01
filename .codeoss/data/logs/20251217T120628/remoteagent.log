@@ -1,0 +1,55 @@
+2025-12-17 12:06:28.989 [info] 
+
+
+
+
+2025-12-17 12:06:29.020 [info] Extension host agent started.
+2025-12-17 12:06:29.156 [info] Marked extension as removed ms-vscode.test-adapter-converter-0.1.9-universal
+2025-12-17 12:06:29.170 [info] Deleted marked for removal extension from disk ms-vscode.test-adapter-converter /home/azehagowa/.codeoss/extensions/ms-vscode.test-adapter-converter-0.1.9-universal
+2025-12-17 12:06:36.170 [info] [127.0.0.1][5a47a379][ManagementConnection] New connection established.
+2025-12-17 12:06:36.344 [info] [127.0.0.1][c119b180][ExtensionHostConnection] New connection established.
+2025-12-17 12:06:38.015 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201> Launched Extension Host Process.
+2025-12-17 12:07:54.660 [error] [File Watcher ('parcel')] Unexpected error: inotify_add_watch on '/home/azehagowa/.cache/cloud-code/CLOUDCODE_BINARY_FROM_ZIP_LOCK' failed: No such file or directory (EUNKNOWN) (path: /home/azehagowa)
+2025-12-17 12:07:54.661 [error] [File Watcher (universal)] inotify_add_watch on '/home/azehagowa/.cache/cloud-code/CLOUDCODE_BINARY_FROM_ZIP_LOCK' failed: No such file or directory
+2025-12-17 12:12:05.236 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #0001 ***] [2025-12-17 12:12:05] [Git] Failed writing to file /home/azehagowa/.codeoss/data/logs/20251217T120628/
+2025-12-17 12:12:05.237 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> exthost1/vscode.git/Git.log: No space left on device
+
+2025-12-17 12:12:12.762 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #0008 ***] [2025-12-17 12:12:12] [Git] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/vscode.git/Git.log: No space left on device
+
+2025-12-17 12:12:23.206 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #0009 ***] [2025-12-17 12:12:23] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:12:24.319 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #0015 ***] [2025-12-17 12:12:24] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:12:28.540 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #0016 ***] [2025-12-17 12:12:28] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:12:29.687 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #0022 ***] [2025-12-17 12:12:29] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:12:33.673 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #0023 ***] [2025-12-17 12:12:33] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:12:34.775 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #0029 ***] [2025-12-17 12:12:34] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:12:38.959 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #0030 ***] [2025-12-17 12:12:38] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azeha2025-12-17 12:30:05.422 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-12-17 12:30:22.268 [error] [File Watcher ('parcel')] Unexpected error stopping watcher: Unable to remove watcher: Invalid argument (path: /home/azehagowa/ipfs-desktop)
+2025-12-17 12:35:09.590 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #1228 ***] [2025-12-17 12:35:09] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:35:13.540 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #1229 ***] [2025-12-17 12:35:13] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.cod
+2025-12-17 12:35:13.541 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> eoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:35:14.677 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #1235 ***] [2025-12-17 12:35:14] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:35:19.262 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #1236 ***] [2025-12-17 12:35:19] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:35:20.559 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #1242 ***] [2025-12-17 12:35:20] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:35:25.138 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #1243 ***] [2025-12-17 12:35:25] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:35:26.272 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #1249 ***] [2025-12-17 12:35:26] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.cod
+2025-12-17 12:35:26.272 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> eoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:35:30.599 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #1250 ***] [2025-12-17 12:35:30] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:35:31.676 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #1256 ***] [2025-12-17 12:35:31] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:35:35.943 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #1257 ***] [2025-12-17 12:35:35] [92e7ed4b-7f91-4eea-81d8-f64046d6bd98] Failed flush to file /home/azehagowa/.codeoss/data/logs/20251217T120628/exthost1/output_logging_20251217T120642/12-Gemini Code Assist Agent.log: No space left on device
+
+2025-12-17 12:35:37.003 [info] [127.0.0.1][c119b180][ExtensionHostConnection] <1201><stderr> [*** LOG ERROR #1263 ***] [2025-1

@@ -1,0 +1,1 @@
+09/28/2024 12:17 PM EMULATOR ERROR Failed to check permissions: Error: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.

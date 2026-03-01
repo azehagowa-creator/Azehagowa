@@ -1,0 +1,63 @@
+2025-12-17 12:06:42.492 [info] Extension host with pid 1201 started
+2025-12-17 12:06:42.515 [info] Lock '/home/azehagowa/.codeoss/data/User/workspaceStorage/2ca9f710/vscode.lock': Lock acquired.
+2025-12-17 12:06:43.212 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-17 12:06:44.216 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-12-17 12:06:44.216 [info] ExtensionService#_doActivateExtension ms-vscode.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2025-12-17 12:06:44.268 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-12-17 12:06:44.530 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-12-17 12:06:44.533 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-17 12:06:44.536 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2025-12-17 12:06:46.059 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-17 12:06:49.776 [info] ExtensionService#_doActivateExtension golang.go, startup: true, activationEvent: 'workspaceContains:**/*.go,**/go.mod,**/go.sum', root cause: ethan-reesor.vscode-go-test-adapter
+2025-12-17 12:06:51.222 [info] Not activating extension 'ms-python.python': Timed out while searching for 'workspaceContains' pattern **/pylock.*.toml
+2025-12-17 12:06:51.222 [info] Not activating extension 'redhat.java': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2025-12-17 12:06:51.222 [info] Not activating extension 'vscjava.vscode-java-dependency': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2025-12-17 12:06:51.224 [info] Not activating extension 'vscjava.vscode-java-test': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2025-12-17 12:06:51.224 [info] Not activating extension 'vscjava.vscode-maven': Timed out while searching for 'workspaceContains' pattern **/pom.xml
+2025-12-17 12:06:51.392 [info] ExtensionService#_doActivateExtension ethan-reesor.vscode-go-test-adapter, startup: true, activationEvent: 'workspaceContains:**/*.go,**/go.mod,**/go.sum'
+2025-12-17 12:06:51.415 [error] Activating extension ethan-reesor.vscode-go-test-adapter failed due to an error:
+2025-12-17 12:06:51.415 [error] Error: Cannot find module '/home/azehagowa/.codeoss/extensions/ethan-reesor.vscode-go-test-adapter-0.1.6-universal/out/main.js'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js
+	at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+	at t._resolveFilename (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+	at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+	at Function.<anonymous> (node:internal/modules/cjs/loader:1175:37)
+	at e._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+	at t._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+	at r._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:201:25846)
+	at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+	at Module.require (node:internal/modules/cjs/loader:1445:12)
+	at require (node:internal/modules/helpers:135:16)
+	at lJ.Cb (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-17 12:06:51.419 [info] Eager extensions activated
+2025-12-17 12:06:51.419 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-12-17 12:06:51.420 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-12-17 12:06:51.420 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-12-17 12:06:51.421 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-17 12:06:51.421 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2025-12-17 12:06:51.421 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-17 12:06:54.569 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-17 12:06:54.569 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-17 12:06:54.569 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-17 12:06:56.565 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-17 12:07:18.938 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10014
+2025-12-17 12:07:33.897 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10289
+2025-12-17 12:10:08.646 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-12-17 12:12:06.138 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10904
+2025-12-17 12:14:36.965 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10508
+2025-12-17 13:08:26.146 [error] Error: Failed to extract language server from /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/cloudcode_cli.zip
+    at d.extractLanguageServer (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/utils/zip_file_utils.ts:124:13)
+    at process.async (node:internal/process/task_queues:105:5)
+    at async Promise.all (index 0)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/utils/zip_file_utils.ts:92:87
+    at t.Lockfile.lockOperation (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/utils/lockfile.ts:58:7)
+    at d.getPlatformBinaryFromZip (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/utils/zip_file_utils.ts:95:7)
+    at t.AICompanionPlugin.checkedContext [as startClient] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/plugin.ts:382:51)
+    at t.AICompanionPlugin.async [as onLogin] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/plugin.ts:307:26)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/plugin.ts:164:58
+2025-12-17 13:12:11.039 [warning] [Decorations] CAPPING events from decorations provider vscode.git 18022
+2025-12-17 13:12:53.735 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activati

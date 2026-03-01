@@ -1,0 +1,102 @@
+2024-09-28 13:01:44.327 [info] Log level: Info
+2024-09-28 13:01:44.327 [info] Validating found git in: "git"
+2024-09-28 13:01:44.328 [info] Using git "2.34.1" from "git"
+2024-09-28 13:01:44.328 [info] > git rev-parse --show-toplevel [17ms]
+2024-09-28 13:01:44.328 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-09-28 13:01:44.329 [info] Open repository: /home/azehagowa
+2024-09-28 13:01:44.329 [info] > git config --get commit.template [51ms]
+2024-09-28 13:01:44.330 [info] No remotes found in the git config file.
+2024-09-28 13:01:44.330 [info] > git rev-parse --show-toplevel [64ms]
+2024-09-28 13:01:44.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [67ms]
+2024-09-28 13:01:44.331 [warning] No such branch: main.
+2024-09-28 13:01:44.331 [info] > git rev-parse --show-toplevel [73ms]
+2024-09-28 13:01:44.331 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-28 13:01:44.332 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-28 13:01:44.332 [info] > git status -z -uall [298ms]
+2024-09-28 13:01:44.333 [info] > git rev-parse --show-toplevel [57ms]
+2024-09-28 13:01:44.333 [info] > git config --get commit.template [45ms]
+2024-09-28 13:01:44.334 [info] > git rev-parse --show-toplevel [77ms]
+2024-09-28 13:01:44.334 [info] No remotes found in the git config file.
+2024-09-28 13:01:44.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-28 13:01:44.335 [warning] No such branch: main.
+2024-09-28 13:01:44.336 [info] > git rev-parse --show-toplevel [71ms]
+2024-09-28 13:01:44.336 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-28 13:01:44.336 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-28 13:01:44.337 [info] > git status -z -uall [155ms]
+2024-09-28 13:01:44.337 [info] > git rev-parse --show-toplevel [11ms]
+2024-09-28 13:01:44.338 [info] > git rev-parse --show-toplevel [1250ms]
+2024-09-28 13:01:44.754 [info] > git check-ignore -v -z --stdin [19ms]
+2024-09-28 13:02:00.651 [info] > git -c user.useConfigOnly=true commit --quiet [11ms]
+2024-09-28 13:02:00.652 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-09-28 13:02:00.685 [info] > git config --get-all user.name [2ms]
+2024-09-28 13:02:00.753 [info] No remotes found in the git config file.
+2024-09-28 13:02:00.755 [info] > git config --get commit.template [37ms]
+2024-09-28 13:02:00.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-28 13:02:00.756 [warning] No such branch: main.
+2024-09-28 13:02:00.875 [info] > git status -z -uall [87ms]
+2024-09-28 13:02:38.227 [info] No remotes found in the git config file.
+2024-09-28 13:02:38.229 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-28 13:02:38.229 [warning] No such branch: main.
+2024-09-28 13:02:38.230 [info] > git config --get commit.template [35ms]
+2024-09-28 13:02:38.345 [info] > git status -z -uall [84ms]
+2024-09-28 13:03:23.610 [info] > git config --get commit.template [23ms]
+2024-09-28 13:03:23.641 [info] No remotes found in the git config file.
+2024-09-28 13:03:23.643 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-28 13:03:23.643 [warning] No such branch: main.
+2024-09-28 13:03:23.752 [info] > git status -z -uall [79ms]
+2024-09-28 13:04:28.354 [info] > git show --textconv :.vscode/launch.json [490ms]
+2024-09-28 13:04:28.527 [info] > git ls-files --stage -- /home/azehagowa/.vscode/launch.json [627ms]
+2024-09-28 13:04:28.748 [info] > git check-ignore -v -z --stdin [30ms]
+2024-09-28 13:04:28.818 [info] > git cat-file -s dad00fd2233e8d299755bb8802f69321de480bf3 [201ms]
+2024-09-28 13:04:40.802 [info] No remotes found in the git config file.
+2024-09-28 13:04:40.808 [info] > git config --get commit.template [86ms]
+2024-09-28 13:04:40.833 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [31ms]
+2024-09-28 13:04:40.833 [warning] No such branch: main.
+2024-09-28 13:04:41.459 [info] > git status -z -uall [543ms]
+2024-09-28 13:04:51.112 [info] No remotes found in the git config file.
+2024-09-28 13:04:51.114 [info] > git config --get commit.template [35ms]
+2024-09-28 13:04:51.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-28 13:04:51.115 [warning] No such branch: main.
+2024-09-28 13:04:51.247 [info] > git status -z -uall [94ms]
+2024-09-28 13:04:56.407 [info] No remotes found in the git config file.
+2024-09-28 13:04:56.409 [info] > git config --get commit.template [35ms]
+2024-09-28 13:04:56.410 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-28 13:04:56.410 [warning] No such branch: main.
+2024-09-28 13:04:56.523 [info] > git status -z -uall [79ms]
+2024-09-28 13:05:02.357 [info] No remotes found in the git config file.
+2024-09-28 13:05:02.359 [info] > git config --get commit.template [36ms]
+2024-09-28 13:05:02.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-28 13:05:02.360 [warning] No such branch: main.
+2024-09-28 13:05:02.476 [info] > git status -z -uall [83ms]
+2024-09-28 13:05:08.158 [info] No remotes found in the git config file.
+2024-09-28 13:05:08.159 [info] > git config --get commit.template [39ms]
+2024-09-28 13:05:08.160 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-28 13:05:08.160 [warning] No such branch: main.
+2024-09-28 13:05:08.270 [info] > git status -z -uall [77ms]
+2024-09-28 13:05:13.405 [info] > git config --get commit.template [7ms]
+2024-09-28 13:05:13.440 [info] No remotes found in the git config file.
+2024-09-28 13:05:13.442 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-28 13:05:13.443 [warning] No such branch: main.
+2024-09-28 13:05:13.568 [info] > git status -z -uall [88ms]
+2024-09-28 13:09:55.307 [info] No remotes found in the git config file.
+2024-09-28 13:09:55.308 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-28 13:09:55.309 [warning] No such branch: main.
+2024-09-28 13:09:55.309 [info] > git config --get commit.template [35ms]
+2024-09-28 13:09:55.429 [info] > git status -z -uall [92ms]
+2024-09-28 13:10:07.203 [info] No remotes found in the git config file.
+2024-09-28 13:10:07.204 [info] > git config --get commit.template [33ms]
+2024-09-28 13:10:07.205 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-28 13:10:07.205 [warning] No such branch: main.
+2024-09-28 13:10:07.316 [info] > git status -z -uall [81ms]

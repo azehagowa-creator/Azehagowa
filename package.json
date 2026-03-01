@@ -1,0 +1,23 @@
+{
+  "name": "azehagowa",
+  "version": "1.0.0",
+  "description": "elparadisogonzalo",
+  "homepage": "https://github.com/koagonzalo11/codeoss#readme",
+  "bugs": {
+    "url": "https://github.com/koagonzalo11/codeoss/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koagonzalo11/codeoss.git"
+  },
+  "license": "Apache-2.0",
+  "author": "elparadiso",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "azehagowa": "bin/RunnerService.js"
+  },
+  "scripts": {
+    "test": "npm start"
+  }
+}

@@ -1,0 +1,2 @@
+2024-09-28 13:30:54.078 [error] Failed to execute tests: EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/azehagowa/gopath/pkg/mod/go.mod'
+2024-09-28 13:30:54.079 [error] Failed to execute tests: EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/azehagowa/gopath/pkg/mod/go.mod'

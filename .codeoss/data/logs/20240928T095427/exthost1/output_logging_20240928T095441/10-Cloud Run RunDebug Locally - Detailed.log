@@ -1,0 +1,492 @@
+Running skaffold command: /usr/bin/skaffold init --artifact {"image":"azehagowa","builder":"Buildpacks","payload":{"path":"gopath/pkg/mod/github.com/golang/vscode-go@v0.41.4/go.mod","builder":"gcr.io/buildpacks/builder:v1"}} --kubernetes-manifest /tmp/cloud-code-cloud-run-NA2NOI/pods_and_services.yaml --filename /tmp/cloud-code-cloud-run-NA2NOI/skaffold.yaml --force
+Setting build tagPolicy to SHA256.
+Setting statusCheckDeadlineSeconds to 5 minutes
+Setting build environment to 'local'
+Created the file /tmp/cloud-code-cloud-run-NA2NOI/skaffold.yaml.
+Running gcloud command: /usr/bin/gcloud alpha code export --readiness-probe --service-name azehagowa --image azehagowa --no-skaffold-file --dockerfile= --kubernetes-file /tmp/cloud-code-cloud-run-NA2NOI/pods_and_services.yaml --env-vars K_SERVICE=azehagowa,K_REVISION=local,K_CONFIGURATION=azehagowa --memory 256Mi --quiet --verbosity warning
+Created the file /tmp/cloud-code-cloud-run-NA2NOI/pods_and_services.yaml.
+Running: skaffold debug -v info --port-forward --auto-build --auto-deploy --auto-sync --rpc-http-port 33921 --filename /tmp/cloud-code-cloud-run-NA2NOI/skaffold.yaml --kube-context cloud-run-dev-internal --minikube-profile cloud-run-dev-internal --status-check\=true
+Activated kube-context \"cloud-run-dev-internal\"
+starting gRPC server on port 41399
+starting gRPC HTTP server on port 33921 (proxying to 41399)
+Skaffold &{Version:v2.13.1 ConfigVersion:skaffold/v4beta11 GitVersion: GitCommit:9bf608b553673654891eaa4d79ef84b21749ef0c BuildDate:2024-07-26T07:49:00Z GoVersion:go1.22.4 Compiler:gc Platform:linux/amd64 User:}
+Loaded Skaffold defaults from \"/home/azehagowa/.skaffold/config\"
+map entry found when executing locate for &{azehagowa gopath/pkg/mod/github.com/golang/vscode-go@v0.41.4 0xc0007861c0 {<nil> <nil> <nil> <nil> <nil> 0xc000b9c000 <nil>} [] {[] []} [] } of type *latest.Artifact and pointer: 824642980912
+Using kubectl context: cloud-run-dev-internal
+Using minikube docker daemon at tcp://192.168.49.2:2376
+no kpt renderer or deployer found, skipping hydrated-dir creation
+build concurrency first set to 1 parsed from *runner.pipelineBuilderWithHooks[0]
+final build concurrency value is 1
+Generating tags...
+ - azehagowa -> azehagowa:latest
+Checking cache...
+Tags generated in 1.635252ms
+ - azehagowa: Not found. Building
+Starting build...
+Found [cloud-run-dev-internal] context, using local docker daemon.
+Cache check completed in 28.567289ms
+Building [azehagowa]...
+Target platforms: [linux/amd64]
+v1: Pulling from buildpacks/builder
+53e5e158da5a: Pulling fs layer
+7577c9c60d3f: Pulling fs layer
+3c2cba919283: Pulling fs layer
+c247bd96820a: Pulling fs layer
+c7b6b551effe: Pulling fs layer
+79dfc00783b7: Pulling fs layer
+6f226723f073: Pulling fs layer
+51778043f723: Pulling fs layer
+357fefdf9bc9: Pulling fs layer
+8416fcb4dc1e: Pulling fs layer
+cd19bba4ec12: Pulling fs layer
+420a6b45eacc: Pulling fs layer
+1cc6c0dada97: Pulling fs layer
+8004cf604540: Pulling fs layer
+6f83e981844f: Pulling fs layer
+de1a963c61b3: Pulling fs layer
+162b84d9bbc0: Pulling fs layer
+80ecdb1efdef: Pulling fs layer
+402f204c3e51: Pulling fs layer
+3eb01629c9f9: Pulling fs layer
+f1dc18f23a66: Pulling fs layer
+266a7f48b9d4: Pulling fs layer
+20ae79811e8c: Pulling fs layer
+45ff4446e657: Pulling fs layer
+4fc61ba6bd98: Pulling fs layer
+f435bdaa579a: Pulling fs layer
+24fefbeb4d69: Pulling fs layer
+8b8582ebf150: Pulling fs layer
+f7ce3e96f618: Pulling fs layer
+09ca3cbbb067: Pulling fs layer
+751a2fc16106: Pulling fs layer
+9e91d59610f6: Pulling fs layer
+3b975ca78e21: Pulling fs layer
+7d2448f2b1aa: Pulling fs layer
+d90ffafdb3f4: Pulling fs layer
+3ec376b6ce5c: Pulling fs layer
+2c4636788ebc: Pulling fs layer
+7afb0aa8b250: Pulling fs layer
+2288a6248290: Pulling fs layer
+3a920f6a700d: Pulling fs layer
+4a2dba552676: Pulling fs layer
+74c77579fcb4: Pulling fs layer
+27b91560368d: Pulling fs layer
+89fa43d1db13: Pulling fs layer
+b2a045953fd3: Pulling fs layer
+10af5b958ddf: Pulling fs layer
+be5fdeafc9f8: Pulling fs layer
+efb78df1ebdf: Pulling fs layer
+b9e94fbe3bef: Pulling fs layer
+65e7a37c3bcd: Pulling fs layer
+9239ad738e17: Pulling fs layer
+afa9b8f88ad3: Pulling fs layer
+14d9d0fc9e0e: Pulling fs layer
+6fab164f9c78: Pulling fs layer
+611e9df4a6f2: Pulling fs layer
+4be7291d06fe: Pulling fs layer
+e6f190bd806e: Pulling fs layer
+7b155b082854: Pulling fs layer
+f0d3d12900c0: Pulling fs layer
+6230a9781e3b: Pulling fs layer
+ab333c66f378: Pulling fs layer
+53f7877c3d60: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+87a53aeb65bc: Pulling fs layer
+865a42e5e3b6: Pulling fs layer
+3b975ca78e21: Waiting
+7d2448f2b1aa: Waiting
+d90ffafdb3f4: Waiting
+3ec376b6ce5c: Waiting
+2c4636788ebc: Waiting
+7afb0aa8b250: Waiting
+2288a6248290: Waiting
+3a920f6a700d: Waiting
+4a2dba552676: Waiting
+74c77579fcb4: Waiting
+27b91560368d: Waiting
+89fa43d1db13: Waiting
+b2a045953fd3: Waiting
+10af5b958ddf: Waiting
+be5fdeafc9f8: Waiting
+efb78df1ebdf: Waiting
+b9e94fbe3bef: Waiting
+65e7a37c3bcd: Waiting
+9239ad738e17: Waiting
+afa9b8f88ad3: Waiting
+14d9d0fc9e0e: Waiting
+6fab164f9c78: Waiting
+611e9df4a6f2: Waiting
+4be7291d06fe: Waiting
+e6f190bd806e: Waiting
+7b155b082854: Waiting
+f0d3d12900c0: Waiting
+6230a9781e3b: Waiting
+ab333c66f378: Waiting
+53f7877c3d60: Waiting
+4f4fb700ef54: Waiting
+87a53aeb65bc: Waiting
+865a42e5e3b6: Waiting
+c247bd96820a: Waiting
+c7b6b551effe: Waiting
+79dfc00783b7: Waiting
+6f226723f073: Waiting
+51778043f723: Waiting
+357fefdf9bc9: Waiting
+8416fcb4dc1e: Waiting
+cd19bba4ec12: Waiting
+420a6b45eacc: Waiting
+1cc6c0dada97: Waiting
+8004cf604540: Waiting
+6f83e981844f: Waiting
+de1a963c61b3: Waiting
+162b84d9bbc0: Waiting
+80ecdb1efdef: Waiting
+402f204c3e51: Waiting
+f435bdaa579a: Waiting
+24fefbeb4d69: Waiting
+8b8582ebf150: Waiting
+3eb01629c9f9: Waiting
+f1dc18f23a66: Waiting
+f7ce3e96f618: Waiting
+266a7f48b9d4: Waiting
+09ca3cbbb067: Waiting
+20ae79811e8c: Waiting
+751a2fc16106: Waiting
+45ff4446e657: Waiting
+4fc61ba6bd98: Waiting
+9e91d59610f6: Waiting
+3c2cba919283: Verifying Checksum
+3c2cba919283: Download complete
+7577c9c60d3f: Verifying Checksum
+7577c9c60d3f: Download complete
+53e5e158da5a: Verifying Checksum
+53e5e158da5a: Download complete
+c7b6b551effe: Verifying Checksum
+c7b6b551effe: Download complete
+79dfc00783b7: Verifying Checksum
+79dfc00783b7: Download complete
+6f226723f073: Verifying Checksum
+6f226723f073: Download complete
+357fefdf9bc9: Verifying Checksum
+357fefdf9bc9: Download complete
+8416fcb4dc1e: Verifying Checksum
+8416fcb4dc1e: Download complete
+c247bd96820a: Verifying Checksum
+c247bd96820a: Download complete
+cd19bba4ec12: Verifying Checksum
+cd19bba4ec12: Download complete
+1cc6c0dada97: Verifying Checksum
+1cc6c0dada97: Download complete
+420a6b45eacc: Verifying Checksum
+420a6b45eacc: Download complete
+53e5e158da5a: Pull complete
+6f83e981844f: Verifying Checksum
+6f83e981844f: Download complete
+8004cf604540: Verifying Checksum
+8004cf604540: Download complete
+7577c9c60d3f: Pull complete
+3c2cba919283: Pull complete
+de1a963c61b3: Verifying Checksum
+de1a963c61b3: Download complete
+162b84d9bbc0: Download complete
+80ecdb1efdef: Verifying Checksum
+80ecdb1efdef: Download complete
+402f204c3e51: Verifying Checksum
+402f204c3e51: Download complete
+f1dc18f23a66: Verifying Checksum
+f1dc18f23a66: Download complete
+3eb01629c9f9: Verifying Checksum
+3eb01629c9f9: Download complete
+266a7f48b9d4: Verifying Checksum
+266a7f48b9d4: Download complete
+20ae79811e8c: Verifying Checksum
+20ae79811e8c: Download complete
+45ff4446e657: Verifying Checksum
+45ff4446e657: Download complete
+4fc61ba6bd98: Verifying Checksum
+4fc61ba6bd98: Download complete
+51778043f723: Verifying Checksum
+51778043f723: Download complete
+f435bdaa579a: Verifying Checksum
+f435bdaa579a: Download complete
+8b8582ebf150: Verifying Checksum
+8b8582ebf150: Download complete
+24fefbeb4d69: Verifying Checksum
+24fefbeb4d69: Download complete
+09ca3cbbb067: Verifying Checksum
+09ca3cbbb067: Download complete
+f7ce3e96f618: Verifying Checksum
+f7ce3e96f618: Download complete
+751a2fc16106: Verifying Checksum
+751a2fc16106: Download complete
+9e91d59610f6: Verifying Checksum
+9e91d59610f6: Download complete
+c247bd96820a: Pull complete
+3b975ca78e21: Verifying Checksum
+3b975ca78e21: Download complete
+c7b6b551effe: Pull complete
+79dfc00783b7: Pull complete
+6f226723f073: Pull complete
+7d2448f2b1aa: Verifying Checksum
+7d2448f2b1aa: Download complete
+d90ffafdb3f4: Verifying Checksum
+d90ffafdb3f4: Download complete
+3ec376b6ce5c: Verifying Checksum
+3ec376b6ce5c: Download complete
+2c4636788ebc: Verifying Checksum
+2c4636788ebc: Download complete
+7afb0aa8b250: Download complete
+2288a6248290: Verifying Checksum
+2288a6248290: Download complete
+3a920f6a700d: Verifying Checksum
+3a920f6a700d: Download complete
+4a2dba552676: Download complete
+74c77579fcb4: Verifying Checksum
+74c77579fcb4: Download complete
+89fa43d1db13: Verifying Checksum
+89fa43d1db13: Download complete
+27b91560368d: Verifying Checksum
+27b91560368d: Download complete
+b2a045953fd3: Verifying Checksum
+b2a045953fd3: Download complete
+10af5b958ddf: Verifying Checksum
+10af5b958ddf: Download complete
+be5fdeafc9f8: Verifying Checksum
+be5fdeafc9f8: Download complete
+efb78df1ebdf: Verifying Checksum
+efb78df1ebdf: Download complete
+b9e94fbe3bef: Verifying Checksum
+b9e94fbe3bef: Download complete
+65e7a37c3bcd: Verifying Checksum
+65e7a37c3bcd: Download complete
+9239ad738e17: Verifying Checksum
+9239ad738e17: Download complete
+afa9b8f88ad3: Verifying Checksum
+afa9b8f88ad3: Download complete
+14d9d0fc9e0e: Verifying Checksum
+14d9d0fc9e0e: Download complete
+6fab164f9c78: Verifying Checksum
+6fab164f9c78: Download complete
+611e9df4a6f2: Download complete
+7b155b082854: Verifying Checksum
+7b155b082854: Download complete
+4be7291d06fe: Verifying Checksum
+4be7291d06fe: Download complete
+e6f190bd806e: Verifying Checksum
+e6f190bd806e: Download complete
+6230a9781e3b: Verifying Checksum
+6230a9781e3b: Download complete
+ab333c66f378: Verifying Checksum
+ab333c66f378: Download complete
+f0d3d12900c0: Verifying Checksum
+f0d3d12900c0: Download complete
+53f7877c3d60: Verifying Checksum
+53f7877c3d60: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+87a53aeb65bc: Verifying Checksum
+87a53aeb65bc: Download complete
+865a42e5e3b6: Verifying Checksum
+865a42e5e3b6: Download complete
+51778043f723: Pull complete
+357fefdf9bc9: Pull complete
+8416fcb4dc1e: Pull complete
+cd19bba4ec12: Pull complete
+420a6b45eacc: Pull complete
+1cc6c0dada97: Pull complete
+8004cf604540: Pull complete
+6f83e981844f: Pull complete
+de1a963c61b3: Pull complete
+162b84d9bbc0: Pull complete
+80ecdb1efdef: Pull complete
+402f204c3e51: Pull complete
+3eb01629c9f9: Pull complete
+f1dc18f23a66: Pull complete
+266a7f48b9d4: Pull complete
+20ae79811e8c: Pull complete
+45ff4446e657: Pull complete
+4fc61ba6bd98: Pull complete
+f435bdaa579a: Pull complete
+24fefbeb4d69: Pull complete
+8b8582ebf150: Pull complete
+f7ce3e96f618: Pull complete
+09ca3cbbb067: Pull complete
+751a2fc16106: Pull complete
+9e91d59610f6: Pull complete
+3b975ca78e21: Pull complete
+7d2448f2b1aa: Pull complete
+d90ffafdb3f4: Pull complete
+3ec376b6ce5c: Pull complete
+2c4636788ebc: Pull complete
+7afb0aa8b250: Pull complete
+2288a6248290: Pull complete
+3a920f6a700d: Pull complete
+4a2dba552676: Pull complete
+74c77579fcb4: Pull complete
+27b91560368d: Pull complete
+89fa43d1db13: Pull complete
+b2a045953fd3: Pull complete
+10af5b958ddf: Pull complete
+be5fdeafc9f8: Pull complete
+efb78df1ebdf: Pull complete
+b9e94fbe3bef: Pull complete
+65e7a37c3bcd: Pull complete
+9239ad738e17: Pull complete
+afa9b8f88ad3: Pull complete
+14d9d0fc9e0e: Pull complete
+6fab164f9c78: Pull complete
+611e9df4a6f2: Pull complete
+4be7291d06fe: Pull complete
+e6f190bd806e: Pull complete
+7b155b082854: Pull complete
+f0d3d12900c0: Pull complete
+6230a9781e3b: Pull complete
+ab333c66f378: Pull complete
+53f7877c3d60: Pull complete
+4f4fb700ef54: Pull complete
+87a53aeb65bc: Pull complete
+865a42e5e3b6: Pull complete
+Digest: sha256:1282cbf4fe0e0ccdee797fcd083c4d4879eb574f69a40b499ccd7522d17f234d
+Status: Downloaded newer image for gcr.io/buildpacks/builder:v1
+v1: Pulling from buildpacks/gcp/run
+53e5e158da5a: Already exists
+7577c9c60d3f: Already exists
+3c2cba919283: Already exists
+c247bd96820a: Already exists
+c7b6b551effe: Already exists
+fb34a8c3d2ce: Pulling fs layer
+02459866ae94: Pulling fs layer
+b90cfa9b3354: Pulling fs layer
+7c5971c24253: Pulling fs layer
+03520b142ebe: Pulling fs layer
+18a2157f7f2d: Pulling fs layer
+39d0b646ee5b: Pulling fs layer
+7c5971c24253: Waiting
+03520b142ebe: Waiting
+18a2157f7f2d: Waiting
+39d0b646ee5b: Waiting
+02459866ae94: Verifying Checksum
+02459866ae94: Download complete
+fb34a8c3d2ce: Verifying Checksum
+fb34a8c3d2ce: Download complete
+b90cfa9b3354: Verifying Checksum
+b90cfa9b3354: Download complete
+fb34a8c3d2ce: Pull complete
+02459866ae94: Pull complete
+b90cfa9b3354: Pull complete
+7c5971c24253: Verifying Checksum
+7c5971c24253: Download complete
+18a2157f7f2d: Verifying Checksum
+18a2157f7f2d: Download complete
+7c5971c24253: Pull complete
+03520b142ebe: Pull complete
+18a2157f7f2d: Pull complete
+39d0b646ee5b: Verifying Checksum
+39d0b646ee5b: Download complete
+39d0b646ee5b: Pull complete
+Digest: sha256:98f5c02c9e92bb36c2ba04e5b300ac695e6c1e2db6cdeb18aa185a85b15ec483
+Status: Downloaded newer image for gcr.io/buildpacks/gcp/run:v1
+0.17.7: Pulling from buildpacksio/lifecycle
+f531499c6b73: Pulling fs layer
+e8d9a567199d: Pulling fs layer
+058cf3d8c2ba: Pulling fs layer
+b6824ed73363: Pulling fs layer
+7c12895b777b: Pulling fs layer
+33e068de2649: Pulling fs layer
+5664b15f108b: Pulling fs layer
+27be814a09eb: Pulling fs layer
+4aa0ea1413d3: Pulling fs layer
+da7816fa955e: Pulling fs layer
+9aee425378d2: Pulling fs layer
+183edbe018d1: Pulling fs layer
+b6824ed73363: Waiting
+7c12895b777b: Waiting
+33e068de2649: Waiting
+5664b15f108b: Waiting
+27be814a09eb: Waiting
+4aa0ea1413d3: Waiting
+da7816fa955e: Waiting
+9aee425378d2: Waiting
+183edbe018d1: Waiting
+e8d9a567199d: Verifying Checksum
+e8d9a567199d: Download complete
+f531499c6b73: Verifying Checksum
+f531499c6b73: Download complete
+058cf3d8c2ba: Verifying Checksum
+058cf3d8c2ba: Download complete
+f531499c6b73: Pull complete
+e8d9a567199d: Pull complete
+b6824ed73363: Verifying Checksum
+b6824ed73363: Download complete
+33e068de2649: Verifying Checksum
+33e068de2649: Download complete
+7c12895b777b: Verifying Checksum
+7c12895b777b: Download complete
+058cf3d8c2ba: Pull complete
+b6824ed73363: Pull complete
+5664b15f108b: Verifying Checksum
+5664b15f108b: Download complete
+27be814a09eb: Verifying Checksum
+27be814a09eb: Download complete
+4aa0ea1413d3: Verifying Checksum
+4aa0ea1413d3: Download complete
+7c12895b777b: Pull complete
+33e068de2649: Pull complete
+5664b15f108b: Pull complete
+27be814a09eb: Pull complete
+4aa0ea1413d3: Pull complete
+da7816fa955e: Verifying Checksum
+da7816fa955e: Download complete
+da7816fa955e: Pull complete
+9aee425378d2: Verifying Checksum
+9aee425378d2: Download complete
+9aee425378d2: Pull complete
+183edbe018d1: Verifying Checksum
+183edbe018d1: Download complete
+183edbe018d1: Pull complete
+Digest: sha256:42e2ea1eec79c769a4c301cbb3536890d8d3860effde4034d8c6fc57f93f9587
+Status: Downloaded newer image for buildpacksio/lifecycle:0.17.7
+===> ANALYZING
+[analyzer] Timer: Analyzer started at 2024-09-28T10:01:10Z
+[analyzer] Image with name "azehagowa:latest" not found
+[analyzer] Timer: Analyzer ran for 46.851µs and ended at 2024-09-28T10:01:10Z
+===> DETECTING
+[detector] Timer: Detector started at 2024-09-28T10:01:11Z
+[detector] 4 of 6 buildpacks participating
+[detector] google.go.runtime        0.9.1
+[detector] google.go.gomod          0.9.0
+[detector] google.go.build          0.9.0
+[detector] google.utils.label-image 0.0.2
+[detector] Timer: Detector ran for 56.857283ms and ended at 2024-09-28T10:01:11Z
+===> RESTORING
+[restorer] Timer: Restorer started at 2024-09-28T10:01:11Z
+[restorer] Timer: Restorer ran for 618.405µs and ended at 2024-09-28T10:01:11Z
+===> BUILDING
+[builder] Timer: Builder started at 2024-09-28T10:01:12Z
+[builder] === Go - Runtime (google.go.runtime@0.9.1) ===
+[builder] Using latest stable Go version
+[builder] 2024/09/28 10:01:12 [DEBUG] GET https://go.dev/dl/?mode=json
+[builder] ***** CACHE MISS: "go"
+[builder] Installing Go v1.23.1.
+[builder] 2024/09/28 10:01:12 [DEBUG] GET https://dl.google.com/go/go1.23.1.linux-amd64.tar.gz
+[builder] === Go - Gomod (google.go.gomod@0.9.0) ===
+[builder] ***** CACHE MISS: "gopath"
+[builder] --------------------------------------------------------------------------------
+[builder] failed to build: (error ID: 983715c2):
+[builder] go.mod exists but is not writable
+[builder] --------------------------------------------------------------------------------
+[builder] Sorry your project couldn't be built.
+[builder] Our documentation explains ways to configure Buildpacks to better recognise your project:
+[builder]  -> https://cloud.google.com/docs/buildpacks/overview
+[builder] If you think you've found an issue, please report it:
+[builder]  -> https://github.com/GoogleCloudPlatform/buildpacks/issues/new
+[builder] --------------------------------------------------------------------------------
+[builder] Timer: Builder ran for 4.231807109s and ended at 2024-09-28T10:01:16Z
+[builder] [31;1mERROR: [0mfailed to build: exit status 1
+Cleaning up...
+ - No resources found
+Cleanup completed in 509.484151ms
+build [azehagowa] failed: executing lifecycle: failed with status code: 51
+Skaffold exited with code 1.
+Cleaning up...
+Deleted the temporary directory /tmp/cloud-code-cloud-run-NA2NOI.
