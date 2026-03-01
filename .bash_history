@@ -565,3 +565,7 @@ git commit -m "first commit"
 git branch -M master
 git remote add origin https://github.com/azehagowa-creator/Azehagowa.git
 git push -u origin master
+git add .
+git commit
+git push
+gcloud config set project rare-outlook-445414-v4
