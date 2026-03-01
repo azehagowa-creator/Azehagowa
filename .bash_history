@@ -591,3 +591,11 @@ ls
 ls -la
 git rm -rf .gemini
 rm -rf .gemini
+git add .
+git commit
+git push
+gcloud config set project rare-outlook-445414-v4
+git pull
+git add .
+git rm --cached .gemini/extensions/vertex
+git rm -rf --cached .gemini/extensions/vertex
