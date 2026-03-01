@@ -1,22 +1,19 @@
 {
   "name": "azehagowa",
   "version": "1.0.0",
-  "description": "elparadisogonzalo",
-  "homepage": "https://github.com/koagonzalo11/codeoss#readme",
+  "description": "azehagowa packages",
+  "homepage": "https://github.com/azehagowa-creator/Azehagowa#readme",
   "bugs": {
-    "url": "https://github.com/koagonzalo11/codeoss/issues"
+    "url": "https://github.com/azehagowa-creator/Azehagowa/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koagonzalo11/codeoss.git"
+    "url": "git+https://github.com/azehagowa-creator/Azehagowa.git"
   },
   "license": "Apache-2.0",
   "author": "elparadiso",
-  "type": "commonjs",
+  "type": "express",
   "main": "index.js",
-  "bin": {
-    "azehagowa": "bin/RunnerService.js"
-  },
   "scripts": {
     "test": "npm start"
   }
