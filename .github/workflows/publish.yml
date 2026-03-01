@@ -1,4 +1,4 @@
-name: Node.js Package
+name: Azehagowa.js Package
 
 on:
   release:
@@ -13,11 +13,11 @@ jobs:
         with:
           node-version: 24
       - run: npm ci
-      - run: npm test
+      - run: npm publish
 
   publish-npm:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: andriod-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
