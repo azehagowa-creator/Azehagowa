@@ -651,3 +651,15 @@ git pull
 rm -rf package-lock.json
 git pull
 git status
+git add .
+git commit
+git pull
+ls
+git pull
+git pull
+ls
+ls -la
+cd gopath
+ls
+rm -rf gopath
+git rm -rf gopath
