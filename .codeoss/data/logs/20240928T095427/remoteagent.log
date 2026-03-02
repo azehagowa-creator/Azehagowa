@@ -1,0 +1,133 @@
+2024-09-28 09:54:27.854 [info] 
+
+
+
+
+2024-09-28 09:54:27.866 [info] Extension host agent started.
+2024-09-28 09:54:35.482 [info] [127.0.0.1][2ff5f10e][ManagementConnection] New connection established.
+2024-09-28 09:54:36.082 [info] [127.0.0.1][f6be03f5][ExtensionHostConnection] New connection established.
+2024-09-28 09:54:37.442 [info] [127.0.0.1][f6be03f5][ExtensionHostConnection] <1325> Launched Extension Host Process.
+2024-09-28 09:54:49.629 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/azehagowa/.cache/cloud-code/CLOUDCODE_UPDATE_CSV_KEY_products.csv' failed: No such file or directory (EUNKNOWN) (path: /home/azehagowa)
+2024-09-28 09:54:49.630 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/azehagowa/.cache/cloud-code/CLOUDCODE_UPDATE_CSV_KEY_products.csv' failed: No such file or directory
+2024-09-28 10:06:59.234 [info] [127.0.0.1][f6be03f5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 10:07:02.253 [info] [127.0.0.1][2ff5f10e][ManagementConnection] The client has reconnected.
+2024-09-28 10:10:41.842 [info] [127.0.0.1][f6be03f5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 10:13:53.470 [info] [127.0.0.1][2ff5f10e][ManagementConnection] The client has reconnected.
+2024-09-28 10:15:57.233 [info] [127.0.0.1][2ff5f10e][ManagementConnection] The client has reconnected.
+2024-09-28 10:16:37.981 [info] [127.0.0.1][2ff5f10e][ManagementConnection] The client has reconnected.
+2024-09-28 10:18:17.633 [info] [127.0.0.1][f6be03f5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 10:18:18.741 [info] [127.0.0.1][2ff5f10e][ManagementConnection] The client has reconnected.
+2024-09-28 10:19:03.401 [info] [127.0.0.1][2ff5f10e][ManagementConnection] The client has reconnected.
+2024-09-28 10:21:24.801 [info] [127.0.0.1][2ff5f10e][ManagementConnection] The client has reconnected.
+2024-09-28 10:28:56.006 [info] [127.0.0.1][2ff5f10e][ManagementConnection] The client has reconnected.
+2024-09-28 11:06:31.467 [info] [127.0.0.1][77232a10][ManagementConnection] New connection established.
+2024-09-28 11:06:32.147 [info] [127.0.0.1][cbe8b25c][ExtensionHostConnection] New connection established.
+2024-09-28 11:06:32.163 [info] [127.0.0.1][cbe8b25c][ExtensionHostConnection] <21988> Launched Extension Host Process.
+2024-09-28 11:11:31.928 [info] [127.0.0.1][f6be03f5][ExtensionHostConnection] <1325> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 12:03:37.166 [info] [127.0.0.1][77232a10][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-28 12:03:37.304 [info] [127.0.0.1][cbe8b25c][ExtensionHostConnection] <21988> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 12:03:58.777 [info] [127.0.0.1][0196e731][ManagementConnection] New connection established.
+2024-09-28 12:03:59.247 [info] [127.0.0.1][8fccd38e][ExtensionHostConnection] New connection established.
+2024-09-28 12:03:59.256 [info] [127.0.0.1][8fccd38e][ExtensionHostConnection] <27144> Launched Extension Host Process.
+2024-09-28 12:05:36.157 [info] Getting Manifest... ethan-reesor.vscode-go-test-adapter
+2024-09-28 12:05:37.115 [info] Installing extension: ethan-reesor.vscode-go-test-adapter
+2024-09-28 12:05:37.716 [info] Getting Manifest... hbenl.vscode-test-explorer
+2024-09-28 12:05:38.850 [info] Getting Manifest... ms-vscode.test-adapter-converter
+2024-09-28 12:05:39.633 [info] Getting Manifest... golang.go
+2024-09-28 12:05:41.159 [info] Installing extension: hbenl.vscode-test-explorer
+2024-09-28 12:05:41.161 [info] Installing extension: ms-vscode.test-adapter-converter
+2024-09-28 12:05:43.253 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-09-28 12:05:43.253 [info] Extension signature verification is not done: ms-vscode.test-adapter-converter
+2024-09-28 12:05:43.298 [info] Extracted extension to file:///home/azehagowa/.codeoss/extensions/ms-vscode.test-adapter-converter-0.1.9-universal: ms-vscode.test-adapter-converter
+2024-09-28 12:05:43.306 [info] Renamed to /home/azehagowa/.codeoss/extensions/ms-vscode.test-adapter-converter-0.1.9-universal
+2024-09-28 12:05:43.308 [info] Extracting extension completed. ms-vscode.test-adapter-converter
+2024-09-28 12:05:43.517 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-09-28 12:05:43.517 [info] Extension signature verification is not done: hbenl.vscode-test-explorer
+2024-09-28 12:05:43.655 [info] Extracted extension to file:///home/azehagowa/.codeoss/extensions/hbenl.vscode-test-explorer-2.22.1-universal: hbenl.vscode-test-explorer
+2024-09-28 12:05:43.663 [info] Renamed to /home/azehagowa/.codeoss/extensions/hbenl.vscode-test-explorer-2.22.1-universal
+2024-09-28 12:05:43.666 [info] Extracting extension completed. hbenl.vscode-test-explorer
+2024-09-28 12:05:44.683 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-09-28 12:05:44.684 [info] Extension signature verification is not done: ethan-reesor.vscode-go-test-adapter
+2024-09-28 12:05:44.847 [info] Extracted extension to file:///home/azehagowa/.codeoss/extensions/ethan-reesor.vscode-go-test-adapter-0.1.6-universal: ethan-reesor.vscode-go-test-adapter
+2024-09-28 12:05:44.856 [info] Renamed to /home/azehagowa/.codeoss/extensions/ethan-reesor.vscode-go-test-adapter-0.1.6-universal
+2024-09-28 12:05:44.859 [info] Extracting extension completed. ethan-reesor.vscode-go-test-adapter
+2024-09-28 12:05:44.867 [info] Extension installed successfully: ms-vscode.test-adapter-converter
+2024-09-28 12:05:44.868 [info] Extension installed successfully: hbenl.vscode-test-explorer
+2024-09-28 12:05:44.868 [info] Extension installed successfully: ethan-reesor.vscode-go-test-adapter
+2024-09-28 12:06:56.462 [info] Getting Manifest... osmosianorderofplainenglishprogrammers.plain-english-syntax-highlighter
+2024-09-28 12:06:57.374 [info] Installing extension: osmosianorderofplainenglishprogrammers.plain-english-syntax-highlighter
+2024-09-28 12:07:00.776 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-09-28 12:07:00.777 [info] Extension signature verification is not done: osmosianorderofplainenglishprogrammers.plain-english-syntax-highlighter
+2024-09-28 12:07:00.821 [info] Extracted extension to file:///home/azehagowa/.codeoss/extensions/osmosianorderofplainenglishprogrammers.plain-english-syntax-highlighter-0.0.2-universal: osmosianorderofplainenglishprogrammers.plain-english-syntax-highlighter
+2024-09-28 12:07:00.827 [info] Renamed to /home/azehagowa/.codeoss/extensions/osmosianorderofplainenglishprogrammers.plain-english-syntax-highlighter-0.0.2-universal
+2024-09-28 12:07:00.829 [info] Extracting extension completed. osmosianorderofplainenglishprogrammers.plain-english-syntax-highlighter
+2024-09-28 12:07:00.836 [info] Extension installed successfully: osmosianorderofplainenglishprogrammers.plain-english-syntax-highlighter
+2024-09-28 12:09:46.207 [info] [127.0.0.1][0196e731][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-28 12:09:46.461 [info] [127.0.0.1][8fccd38e][ExtensionHostConnection] <27144> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 12:10:01.602 [info] [127.0.0.1][32cce3a3][ManagementConnection] New connection established.
+2024-09-28 12:10:02.152 [info] [127.0.0.1][fb874d38][ExtensionHostConnection] New connection established.
+2024-09-28 12:10:02.162 [info] [127.0.0.1][fb874d38][ExtensionHostConnection] <28410> Launched Extension Host Process.
+2024-09-28 12:11:36.884 [info] [127.0.0.1][32cce3a3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-28 12:11:37.325 [info] [127.0.0.1][fb874d38][ExtensionHostConnection] <28410> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 12:16:59.218 [info] [127.0.0.1][f590d599][ManagementConnection] New connection established.
+2024-09-28 12:16:59.875 [info] [127.0.0.1][2f8bbc85][ExtensionHostConnection] New connection established.
+2024-09-28 12:16:59.887 [info] [127.0.0.1][2f8bbc85][ExtensionHostConnection] <29958> Launched Extension Host Process.
+2024-09-28 12:18:13.359 [info] [127.0.0.1][f590d599][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-28 12:18:13.537 [info] [127.0.0.1][2f8bbc85][ExtensionHostConnection] <29958> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 12:18:25.166 [info] [127.0.0.1][77a2f41a][ManagementConnection] New connection established.
+2024-09-28 12:18:25.981 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] New connection established.
+2024-09-28 12:18:26.009 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] <31069> Launched Extension Host Process.
+2024-09-28 12:40:43.702 [info] [127.0.0.1][77a2f41a][ManagementConnection] The client has reconnected.
+2024-09-28 12:40:47.598 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:41:52.837 [info] [127.0.0.1][77a2f41a][ManagementConnection] The client has reconnected.
+2024-09-28 12:42:07.533 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:42:38.931 [info] Getting Manifest... adelphes.android-dev-ext
+2024-09-28 12:42:39.965 [info] Installing extension: adelphes.android-dev-ext
+2024-09-28 12:42:45.049 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-09-28 12:42:45.049 [info] Extension signature verification is not done: adelphes.android-dev-ext
+2024-09-28 12:42:47.542 [info] Extracted extension to file:///home/azehagowa/.codeoss/extensions/adelphes.android-dev-ext-1.4.0-universal: adelphes.android-dev-ext
+2024-09-28 12:42:47.558 [info] Renamed to /home/azehagowa/.codeoss/extensions/adelphes.android-dev-ext-1.4.0-universal
+2024-09-28 12:42:47.561 [info] Extracting extension completed. adelphes.android-dev-ext
+2024-09-28 12:42:47.569 [info] Extension installed successfully: adelphes.android-dev-ext
+2024-09-28 12:43:02.182 [info] Getting Manifest... mpotthoff.vscode-android-webview-debug
+2024-09-28 12:43:03.041 [info] Installing extension: mpotthoff.vscode-android-webview-debug
+2024-09-28 12:43:03.438 [info] Getting Manifest... ms-vscode.js-debug
+2024-09-28 12:43:08.124 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-09-28 12:43:08.125 [info] Extension signature verification is not done: mpotthoff.vscode-android-webview-debug
+2024-09-28 12:43:08.190 [info] Extracted extension to file:///home/azehagowa/.codeoss/extensions/mpotthoff.vscode-android-webview-debug-1.2.3-universal: mpotthoff.vscode-android-webview-debug
+2024-09-28 12:43:08.198 [info] Renamed to /home/azehagowa/.codeoss/extensions/mpotthoff.vscode-android-webview-debug-1.2.3-universal
+2024-09-28 12:43:08.202 [info] Extracting extension completed. mpotthoff.vscode-android-webview-debug
+2024-09-28 12:43:08.209 [info] Extension installed successfully: mpotthoff.vscode-android-webview-debug
+2024-09-28 12:43:44.144 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:44:17.015 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:45:29.088 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:45:54.441 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:46:24.747 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:46:49.535 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:47:11.921 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:48:09.244 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:50:34.297 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:51:54.523 [info] [127.0.0.1][77a2f41a][ManagementConnection] The client has reconnected.
+2024-09-28 12:53:42.514 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:54:33.428 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:54:56.205 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:56:55.546 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] The client has reconnected.
+2024-09-28 12:58:54.696 [info] [127.0.0.1][77a2f41a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-28 12:58:54.994 [info] [127.0.0.1][e5352ce5][ExtensionHostConnection] <31069> Extension Host Process exited with code: 0, signal: null.
+2024-09-28 13:00:52.537 [info] [127.0.0.1][c50b55e4][ManagementConnection] New connection established.
+2024-09-28 13:00:53.242 [info] [127.0.0.1][465ef0d4][ExtensionHostConnection] New connection established.
+2024-09-28 13:00:53.254 [info] [127.0.0.1][465ef0d4][ExtensionHostConnection] <33388> Launched Extension Host Process.
+2024-09-28 13:04:19.257 [info] [127.0.0.1][c50b55e4][ManagementConnection] The client has reconnected.
+2024-09-28 13:04:20.137 [info] [127.0.0.1][465ef0d4][ExtensionHostConnection] The client has reconnected.

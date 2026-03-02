@@ -1,0 +1,15 @@
+2025-11-05 12:34:29.513 [info] 
+
+
+
+
+2025-11-05 12:34:29.531 [info] Extension host agent started.
+2025-11-05 12:35:40.160 [info] [127.0.0.1][0d564876][ManagementConnection] New connection established.
+2025-11-05 12:35:40.830 [info] [127.0.0.1][d4e742a6][ExtensionHostConnection] New connection established.
+2025-11-05 12:35:42.510 [info] [127.0.0.1][d4e742a6][ExtensionHostConnection] <1229> Launched Extension Host Process.
+2025-11-05 12:37:40.535 [info] Getting Manifest... ms-vscode.test-adapter-converter
+2025-11-05 12:37:41.149 [info] Installing extension: ms-vscode.test-adapter-converter {"productVersion":{"version":"1.102.3-cde","date":"2025-10-25T07:11:07.546Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/azehagowa/.codeoss/extensions/extensions.json","external":"file:///home/azehagowa/.codeoss/extensions/extensions.json","path":"/home/azehagowa/.codeoss/extensions/extensions.json","scheme":"file"}}
+2025-11-05 12:37:41.824 [info] Extracted extension to file:///home/azehagowa/.codeoss/extensions/ms-vscode.test-adapter-converter-0.2.1-universal: ms-vscode.test-adapter-converter
+2025-11-05 12:37:41.841 [info] Renamed to /home/azehagowa/.codeoss/extensions/ms-vscode.test-adapter-converter-0.2.1-universal
+2025-11-05 12:37:41.864 [info] Marked extension as removed ms-vscode.test-adapter-converter-0.1.9-universal
+2025-11-05 12:37:41.866 [info] Extension installed successfully: ms-vscode.test-adapter-converter file:///home/azehagowa/.codeoss/extensions/extensions.json

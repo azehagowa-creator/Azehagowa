@@ -1,0 +1,85 @@
+[9/28/2024, 1:34:26 PM] Cloud Code version 2.14.0
+[9/28/2024, 1:34:26 PM] Version detail: 648804799 built on 2024-07-02T19:27:48.283Z
+[9/28/2024, 1:34:26 PM] Activating plugin Api
+[9/28/2024, 1:34:26 PM] Activating plugin Secrets
+[9/28/2024, 1:34:26 PM] Activating plugin ProjectManager
+[9/28/2024, 1:34:26 PM] Activating plugin Apigee
+[9/28/2024, 1:34:26 PM] Activating plugin GCE
+[9/28/2024, 1:34:26 PM] Activating plugin GCF
+[9/28/2024, 1:34:26 PM] Activating plugin AwsLambdaImporter
+[9/28/2024, 1:34:26 PM] Activating plugin SourceProtect
+[9/28/2024, 1:34:26 PM] Activating plugin CloudStorage
+[9/28/2024, 1:34:26 PM] Activating plugin Migrate
+[9/28/2024, 1:34:26 PM] Activating plugin MainframeModernization
+[9/28/2024, 1:34:26 PM] Activating plugin minikube
+[9/28/2024, 1:34:26 PM] Activating plugin Gemini Code Assist
+[9/28/2024, 1:34:26 PM] Done activating plugin Api, took 20.188124999403954ms
+[9/28/2024, 1:34:26 PM] Done activating plugin Secrets, took 19.22342500090599ms
+[9/28/2024, 1:34:26 PM] Done activating plugin ProjectManager, took 16.82344700023532ms
+[9/28/2024, 1:34:26 PM] Done activating plugin GCE, took 13.657335996627808ms
+[9/28/2024, 1:34:26 PM] Done activating plugin AwsLambdaImporter, took 8.695947002619505ms
+[9/28/2024, 1:34:26 PM] Done activating plugin SourceProtect, took 8.088155001401901ms
+[9/28/2024, 1:34:26 PM] Done activating plugin CloudStorage, took 7.86481000110507ms
+[9/28/2024, 1:34:26 PM] Done activating plugin MainframeModernization, took 6.645857997238636ms
+[9/28/2024, 1:34:26 PM] Done activating plugin minikube, took 6.302531998604536ms
+[9/28/2024, 1:34:27 PM] Done activating plugin Migrate, took 516.5397810004652ms
+[9/28/2024, 1:34:27 PM] Done activating plugin GCF, took 661.1585670001805ms
+[9/28/2024, 1:34:27 PM] [error]Error activating plugin Gemini Code Assist: 'Error: command 'cloudshell.isAuthorized' not found', took 1202.7307429984212ms
+[9/28/2024, 1:34:27 PM] [error]Error activating plugin Apigee: 'Error: command 'cloudshell.isAuthorized' not found', took 1215.0311350002885ms
+[9/28/2024, 1:34:27 PM] Starting YAML Language Client
+[9/28/2024, 1:34:32 PM] Could not start experimentation service.
+[9/28/2024, 1:34:33 PM] Server: {
+  "Commands": [
+    "gopls.add_dependency",
+    "gopls.add_import",
+    "gopls.add_telemetry_counters",
+    "gopls.apply_fix",
+    "gopls.assembly",
+    "gopls.change_signature",
+    "gopls.check_upgrades",
+    "gopls.diagnose_files",
+    "gopls.doc",
+    "gopls.edit_go_directive",
+    "gopls.fetch_vulncheck_result",
+    "gopls.free_symbols",
+    "gopls.gc_details",
+    "gopls.generate",
+    "gopls.go_get_package",
+    "gopls.list_imports",
+    "gopls.list_known_packages",
+    "gopls.maybe_prompt_for_telemetry",
+    "gopls.mem_stats",
+    "gopls.regenerate_cgo",
+    "gopls.remove_dependency",
+    "gopls.reset_go_mod_diagnostics",
+    "gopls.run_go_work_command",
+    "gopls.run_govulncheck",
+    "gopls.run_tests",
+    "gopls.scan_imports",
+    "gopls.start_debugging",
+    "gopls.start_profile",
+    "gopls.stop_profile",
+    "gopls.test",
+    "gopls.tidy",
+    "gopls.toggle_gc_details",
+    "gopls.update_go_sum",
+    "gopls.upgrade_dependency",
+    "gopls.vendor",
+    "gopls.views",
+    "gopls.workspace_stats"
+  ],
+  "Name": "gopls",
+  "Version": "v0.16.1",
+  "GoVersion": "go1.23.0"
+}
+[9/28/2024, 1:34:39 PM] YAML Language Client Started
+[9/28/2024, 1:34:39 PM] [error]Error getting name from user profile for chatError: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+[9/28/2024, 1:39:54 PM] Found server at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/bin/terraform-ls
+[9/28/2024, 1:40:35 PM] [error]Error getting name from user profile for chatError: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+[9/28/2024, 1:42:14 PM] Logging enabled

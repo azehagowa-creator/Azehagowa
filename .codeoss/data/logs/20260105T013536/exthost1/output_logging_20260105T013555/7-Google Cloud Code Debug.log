@@ -1,0 +1,76 @@
+[1/5/2026, 1:36:11 AM] [INFO]: Verbose logging enabled
+[1/5/2026, 1:36:11 AM] [INFO]: Cloud Code version 2.36.0
+[1/5/2026, 1:36:11 AM] [INFO]: Version detail: 791433267 built on 2025-08-07T20:22:17.822Z
+[1/5/2026, 1:36:11 AM] [INFO]: Client experimentation flags: {
+  enableQuickpickChat: true,
+  enableCodeTransformM2Features: true,
+  enableAzureModelConnection: false,
+  enableFeedbackBlock: false,
+  enableCloudCodeTelemetry: true,
+  enableApigeeGeminiChatTool: true,
+  enableMcpServer: false,
+  enableCallToAction: false,
+  enableAnthropicModelConnection: false,
+  enableAICharsPercentage: true,
+  enableChatAgenticMcpChat: false,
+  enableChatFolderContextSelection: true,
+  enableLocalAgent: false,
+  enableFullCodebaseAwarenessChat: true,
+  enableFlashCompletionsClientPostprocessing: false,
+  enableAdminTelemetryBlock: false,
+  enableGeminiModelConnection: false,
+  enableRestModelConnection: false,
+  enableIntentAwareM1: false,
+  enableAdminCitationBlock: false,
+  enableGenerationPaneView: false,
+  generationPaneViewDefaultConfig: false,
+  enableAgentBoard: false,
+  enableFirebaseDataConnectChatTool: false,
+  enableStandardTierEasyOnboarding: true,
+  enableUpgradeFromFreeTier: false,
+  completionReplacesCursorLine: false,
+  enableFreeTier: true,
+  enableMockServer: true,
+  enableFlashCompletions: false,
+  enableStructuredCodeEdits: true,
+  enableCustomSlashCommands: true,
+  enableInlineDiff: true,
+  enableAICharactersTelemetryCCPA: true,
+  showApplyAllChangesButton: true,
+  enableFreeTierIneligbilityReason: true,
+  codeCompletionsDebounceMs: '550',
+  currentTierPollingIntervalMs: '43200000',
+  licenseMessageFrequencyDays: '60'
+}
+[1/5/2026, 1:36:44 AM] [INFO]: Cloud Shell is authorized: true
+[1/5/2026, 1:36:44 AM] [INFO]: Activating plugin Api
+[1/5/2026, 1:36:44 AM] [INFO]: Activating plugin Secrets
+[1/5/2026, 1:36:44 AM] [INFO]: Activating plugin ProjectManager
+[1/5/2026, 1:36:44 AM] [INFO]: Activating plugin Apigee
+[1/5/2026, 1:36:44 AM] [INFO]: Activating plugin GCE
+[1/5/2026, 1:36:44 AM] [INFO]: Activating plugin GCF
+[1/5/2026, 1:36:44 AM] [INFO]: Activating plugin CloudStorage
+[1/5/2026, 1:36:44 AM] [INFO]: Activating plugin Migrate
+[1/5/2026, 1:36:44 AM] [INFO]: Activating plugin MainframeModernization
+[1/5/2026, 1:36:44 AM] [INFO]: Activating plugin minikube
+[1/5/2026, 1:36:44 AM] [INFO]: Activating plugin BigQuery
+[1/5/2026, 1:36:44 AM] [INFO]: Done activating plugin Api, took 16.08342399999674ms
+[1/5/2026, 1:36:44 AM] [INFO]: Done activating plugin Secrets, took 14.115540999999212ms
+[1/5/2026, 1:36:44 AM] [INFO]: Done activating plugin ProjectManager, took 12.534622999999556ms
+[1/5/2026, 1:36:44 AM] [INFO]: Done activating plugin GCE, took 10.234738999999536ms
+[1/5/2026, 1:36:44 AM] [INFO]: Done activating plugin CloudStorage, took 8.70186200000171ms
+[1/5/2026, 1:36:44 AM] [INFO]: Done activating plugin MainframeModernization, took 8.2959170000031ms
+[1/5/2026, 1:36:44 AM] [INFO]: Done activating plugin minikube, took 8.111831000001985ms
+[1/5/2026, 1:36:44 AM] [INFO]: Done activating plugin BigQuery, took 14.77451899999869ms
+[1/5/2026, 1:36:44 AM] [ERROR]: Error: Failed to update API Explorer CSV file libraries.csv: Error: ENOSPC: no space left on device, mkdir '/home/azehagowa/.cache/cloud-code/CLOUDCODE_UPDATE_CSV_KEY_libraries.csv'
+    at P.updateFile (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:9979626)
+    at async Promise.all (index 1)
+    at P.updateFiles (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:9979228)
+    at P.loadData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:9977162)
+[1/5/2026, 1:36:44 AM] [INFO]: Downloading API Metadata file https://storage.googleapis.com/cloudcode_api_browser_metadata/products.csv to /tmp/cloudcode-temprgdxuu/products.csv
+[1/5/2026, 1:36:44 AM] [INFO]: Done activating plugin GCF, took 233.65434699999605ms
+[1/5/2026, 1:36:44 AM] [INFO]: Cloud Shell is authorized: true
+[1/5/2026, 1:36:44 AM] [INFO]: Cloud Shell is authorized: true
+[1/5/2026, 1[1/5/2026, 1:36:45 AM] [INFO]: Done activating plugin Apigee, took 1143.6697389999972ms
+[1/5/2026, 1:36:45 AM] [INFO]: Starting YAML Language Client
+[1/5/2026, 1:36:55 AM] [INFO]: YAML Language Client Started

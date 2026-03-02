@@ -1,0 +1,106 @@
+2025-12-17 14:07:06.214 [info] [main] Log level: Info
+2025-12-17 14:07:06.214 [info] [main] Validating found git in: "git"
+2025-12-17 14:07:06.214 [info] [main] Using git "2.43.0" from "git"
+2025-12-17 14:07:06.214 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-17 14:07:06.214 [info] > git rev-parse --show-toplevel [35ms]
+2025-12-17 14:07:06.214 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [61ms]
+2025-12-17 14:07:06.214 [info] [Model][openRepository] Opened repository (path): /home/azehagowa
+2025-12-17 14:07:06.214 [info] [Model][openRepository] Opened repository (real path): /home/azehagowa
+2025-12-17 14:07:06.214 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-17 14:07:06.214 [info] > git config --get commit.template [10ms]
+2025-12-17 14:07:06.214 [info] > git rev-parse --show-toplevel [42ms]
+2025-12-17 14:07:06.214 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [72ms]
+2025-12-17 14:07:06.591 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [448ms]
+2025-12-17 14:07:06.608 [info] [Model][openRepository] Opened repository (path): /home/azehagowa/for
+2025-12-17 14:07:06.608 [info] [Model][openRepository] Opened repository (real path): /home/azehagowa/for
+2025-12-17 14:07:06.608 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-17 14:07:06.853 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [662ms]
+2025-12-17 14:07:06.880 [info] > git rev-parse --show-toplevel [236ms]
+2025-12-17 14:07:06.881 [info] > git config --get commit.template [248ms]
+2025-12-17 14:07:06.901 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-17 14:07:06.904 [info] > git rev-parse --show-toplevel [13ms]
+2025-12-17 14:07:06.919 [info] > git rev-parse --show-toplevel [8ms]
+2025-12-17 14:07:06.950 [info] > git rev-parse --show-toplevel [13ms]
+2025-12-17 14:07:06.968 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-17 14:07:06.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [82ms]
+2025-12-17 14:07:07.010 [info] > git rev-parse --show-toplevel [30ms]
+2025-12-17 14:07:07.135 [info] > git rev-parse --show-toplevel [107ms]
+2025-12-17 14:07:07.154 [info] > git rev-parse --show-toplevel [7ms]
+2025-12-17 14:07:07.170 [info] > git rev-parse --show-toplevel [6ms]
+2025-12-17 14:07:07.202 [info] > git check-ignore -v -z --stdin [4ms]
+2025-12-17 14:07:07.204 [info] > git check-ignore -v -z --stdin [13ms]
+2025-12-17 14:07:07.204 [info] > git rev-parse --show-toplevel [26ms]
+2025-12-17 14:07:07.252 [info] > git rev-parse --show-toplevel [38ms]
+2025-12-17 14:07:07.278 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [269ms]
+2025-12-17 14:07:07.285 [info] > git rev-parse --show-toplevel [25ms]
+2025-12-17 14:07:07.313 [info] > git rev-parse --show-toplevel [11ms]
+2025-12-17 14:07:07.609 [info] > git status -z -uall [621ms]
+2025-12-17 14:07:07.610 [info] > git rev-parse --show-toplevel [45ms]
+2025-12-17 14:07:07.804 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [115ms]
+2025-12-17 14:07:07.848 [info] > git config --get commit.template [46ms]
+2025-12-17 14:07:07.854 [info] > git config --get --local branch.master.vscode-merge-base [17ms]
+2025-12-17 14:07:07.855 [warning] [Git][config] git config failed: Failed to execute git
+2025-12-17 14:07:07.907 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-17 14:07:07.943 [info] > git rev-parse --show-toplevel [168ms]
+2025-12-17 14:07:08.019 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [88ms]
+2025-12-17 14:07:08.141 [info] > git status -z -uall [87ms]
+2025-12-17 14:07:08.142 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [41ms]
+2025-12-17 14:07:08.160 [info] > git reflog master --grep-reflog=branch: Created from *. [254ms]
+2025-12-17 14:07:08.203 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [230ms]
+2025-12-17 14:07:08.229 [info] [Model][openRepository] Opened repository (path): /home/azehagowa/deploystack-nosql-client-server
+2025-12-17 14:07:08.229 [info] [Model][openRepository] Opened repository (real path): /home/azehagowa/deploystack-nosql-client-server
+2025-12-17 14:07:08.229 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-17 14:07:08.282 [info] > git config --get commit.template [35ms]
+2025-12-17 14:07:08.326 [info] > git rev-parse --show-toplevel [58ms]
+2025-12-17 14:07:08.384 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [47ms]
+2025-12-17 14:07:08.412 [info] [Model][openRepository] Opened repository (path): /home/azehagowa/domain-profiles
+2025-12-17 14:07:08.412 [info] [Model][openRepository] Opened repository (real path): /home/azehagowa/domain-profiles
+2025-12-17 14:07:08.412 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-17 14:07:08.463 [info] > git config --get commit.template [22ms]
+2025-12-17 14:07:08.470 [info] > git rev-parse --show-toplevel [11ms]
+2025-12-17 14:07:08.506 [info] > git rev-parse --show-toplevel [6ms]
+2025-12-17 14:07:08.528 [info] > git rev-parse --show-toplevel [6ms]
+2025-12-17 14:07:08.529 [info] [Model][doInitialScan] Initial repository scan completed - repositories (4), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-17 14:07:08.559 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [73ms]
+2025-12-17 14:07:08.559 [warning] [Git][getBranch] No such branch: master
+2025-12-17 14:07:08.604 [info] > git status -z -uall [27ms]
+2025-12-17 14:07:08.610 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-17 14:07:08.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [25ms]
+2025-12-17 14:07:08.667 [warning] [Git][getBranch] No such branch: master
+2025-12-17 14:07:08.670 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-12-17 14:07:08.676 [info] > git config --get commit.template [14ms]
+2025-12-17 14:07:08.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-12-17 14:07:08.701 [warning] [Git][getBranch] No such branch: master
+2025-12-17 14:07:08.745 [info] > git status -z -uall [25ms]
+2025-12-17 14:07:08.834 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [543ms]
+2025-12-17 14:07:08.835 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [103ms]
+2025-12-17 14:07:08.851 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/azehagowa/deploystack-nosql-client-server/.git/refs/remotes/origin/main'
+2025-12-17 14:07:08.859 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2025-12-17 14:07:08.933 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [45ms]
+2025-12-17 14:07:09.860 [info] > git status -z -uall [992ms]
+2025-12-17 14:07:09.883 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-12-17 14:07:09.893 [info] > git config --get commit.template [11ms]
+2025-12-17 14:07:09.915 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-12-17 14:07:09.915 [info] > git config --get --local branch.main.vscode-merge-base [25ms]
+2025-12-17 14:07:09.930 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/azehagowa/deploystack-nosql-client-server/.git/refs/remotes/origin/main'
+2025-12-17 14:07:09.933 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [12ms]
+2025-12-17 14:07:09.944 [info] > git rev-parse refs/remotes/origin/main [14ms]
+2025-12-17 14:07:09.964 [info] > git status -z -uall [14ms]
+2025-12-17 14:07:09.964 [info] > git merge-base refs/heads/main refs/remotes/origin/main [22ms]
+2025-12-17 14:07:09.973 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2025-12-17 14:07:09.991 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-12-17 14:07:09.999 [info] > git diff --name-status -z --diff-filter=ADMR 59cf2afd7be9a5fc6b45bf9e49065916de767b41...refs/remotes/origin/main [28ms]
+2025-12-17 14:07:10.003 [info] > git diff --name-status -z --diff-filter=ADMR 59cf2afd7be9a5fc6b45bf9e49065916de767b41...refs/remotes/origin/main [4ms]
+2025-12-17 14:07:10.045 [info] > git check-ignore -v -z --stdin [9ms]
+2025-12-17 14:07:47.487 [info] > git status -z -uall [41306ms] (cancelled)
+2025-12-17 14:07:47.489 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7383ms]
+2025-12-17 14:07:47.631 [info] > git config --get --local branch.main.vscode-merge-base [105ms]
+2025-12-17 14:07:47.631 [warning] [Git][config] git config failed: Failed to execute git
+2025-12-17 14:07:47.663 [info] > git config --get commit.template [192ms]
+2025-12-17 14:07:47.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [39ms]
+2025-12-17 14:07:48.035 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [73ms]
+2025-12-17 14:07:48.067 [info] > git reflog main --grep-reflog=branch: Created from *. [415ms]
+2025-12-17 14:07:48.145 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [16ms]
+2025-12-17 14:07:48.145 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-12-17 14:07:48.145 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-12-17 14:07:50.938 [info] > git status -z -uall [3090ms] (cancelled)

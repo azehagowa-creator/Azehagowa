@@ -1,0 +1,99 @@
+[9/28/2024, 3:40:33 PM] Logging enabled
+[9/28/2024, 3:40:33 PM] Cloud Code version 2.14.0
+[9/28/2024, 3:40:33 PM] Version detail: 648804799 built on 2024-07-02T19:27:48.283Z
+[9/28/2024, 3:40:33 PM] Activating plugin Api
+[9/28/2024, 3:40:33 PM] Activating plugin Secrets
+[9/28/2024, 3:40:33 PM] Activating plugin ProjectManager
+[9/28/2024, 3:40:33 PM] Activating plugin Apigee
+[9/28/2024, 3:40:33 PM] Activating plugin GCE
+[9/28/2024, 3:40:33 PM] Activating plugin GCF
+[9/28/2024, 3:40:33 PM] Activating plugin AwsLambdaImporter
+[9/28/2024, 3:40:33 PM] Activating plugin SourceProtect
+[9/28/2024, 3:40:33 PM] Activating plugin CloudStorage
+[9/28/2024, 3:40:33 PM] Activating plugin Migrate
+[9/28/2024, 3:40:33 PM] Activating plugin MainframeModernization
+[9/28/2024, 3:40:33 PM] Activating plugin minikube
+[9/28/2024, 3:40:33 PM] Activating plugin Gemini Code Assist
+[9/28/2024, 3:40:33 PM] Done activating plugin Api, took 19.287332002073526ms
+[9/28/2024, 3:40:33 PM] Done activating plugin Secrets, took 17.589358001947403ms
+[9/28/2024, 3:40:33 PM] Done activating plugin ProjectManager, took 16.060226000845432ms
+[9/28/2024, 3:40:33 PM] Done activating plugin GCE, took 13.182054001837969ms
+[9/28/2024, 3:40:33 PM] Done activating plugin AwsLambdaImporter, took 14.238007999956608ms
+[9/28/2024, 3:40:33 PM] Done activating plugin SourceProtect, took 13.997264999896288ms
+[9/28/2024, 3:40:33 PM] Done activating plugin CloudStorage, took 11.666262999176979ms
+[9/28/2024, 3:40:33 PM] Done activating plugin MainframeModernization, took 10.383298996835947ms
+[9/28/2024, 3:40:33 PM] Done activating plugin minikube, took 9.986012998968363ms
+[9/28/2024, 3:40:33 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:40:34 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:40:34 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:40:34 PM] Done activating plugin Migrate, took 297.900541998446ms
+[9/28/2024, 3:43:19 PM] Done activating plugin GCF, took 165177.13057300076ms
+[9/28/2024, 3:43:25 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:43:25 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:43:25 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:43:25 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:43:28 PM] [error]Error getting name from user profile for chatError: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+[9/28/2024, 3:43:28 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:43:28 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:43:28 PM] Done activating plugin Apigee, took 174701.89098699763ms
+[9/28/2024, 3:43:31 PM] /home/azehagowa/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli does not need update
+[9/28/2024, 3:43:31 PM] Starting AIPP Language Client
+[9/28/2024, 3:43:32 PM] AIPP Language Client Started
+[9/28/2024, 3:43:32 PM] Created the Gemini Code Assist completion provider
+[9/28/2024, 3:43:32 PM] Language client state is Running
+[9/28/2024, 3:43:32 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:43:32 PM] [error]Error getting name from user profile for chatError: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+[9/28/2024, 3:43:34 PM] /home/azehagowa/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli does not need update
+[9/28/2024, 3:43:34 PM] Removed the Gemini Code Assist completion provider
+[9/28/2024, 3:43:34 PM] Language client state is Stopped
+[9/28/2024, 3:43:34 PM] Starting AIPP Language Client
+[9/28/2024, 3:43:35 PM] AIPP Language Client Started
+[9/28/2024, 3:43:35 PM] Created the Gemini Code Assist completion provider
+[9/28/2024, 3:43:35 PM] Language client state is Running
+[9/28/2024, 3:43:35 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:43:35 PM] [error]Error getting name from user profile for chatError: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+[9/28/2024, 3:43:38 PM] /home/azehagowa/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli does not need update
+[9/28/2024, 3:43:38 PM] Removed the Gemini Code Assist completion provider
+[9/28/2024, 3:43:38 PM] Language client state is Stopped
+[9/28/2024, 3:43:38 PM] Starting AIPP Language Client
+[9/28/2024, 3:43:38 PM] AIPP Language Client Started
+[9/28/2024, 3:43:38 PM] Created the Gemini Code Assist completion provider
+[9/28/2024, 3:43:38 PM] Language client state is Running
+[9/28/2024, 3:43:38 PM] Done activating plugin Gemini Code Assist, took 184872.47118500248ms
+[9/28/2024, 3:43:38 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:43:38 PM] Starting YAML Language Client
+[9/28/2024, 3:43:38 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:43:38 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:43:38 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:43:39 PM] [error]Error getting name from user profile for chatError: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+[9/28/2024, 3:43:39 PM] Could not start experimentation service.
+[9/28/2024, 3:43:43 PM] /home/azehagowa/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli does not need update
+[9/28/2024, 3:43:43 PM] Removed the Gemini Code Assist completion provider
+[9/28/2024, 3:43:43 PM] Language client state is Stopped
+[9/28/2024, 3:43:43 PM] Starting AIPP Language Client
+[9/28/2024, 3:43:44 PM] AIPP Language Client Started
+[9/28/2024, 3:43:44 PM] Created the Gemini Code Assist completion provider
+[9/28/2024, 3:43:44 PM] Language client state is Running
+[9/28/2024, 3:43:44 PM] Cloud Shell is authorized: true
+[9/28/2024, 3:43:44 PM] [error]Error getting name from user profile for chatError: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+[9/28/2024, 3:43:45 PM] [warn]rejected promise not handled within 1 second: Error: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+[9/28/2024, 3:43:45 PM] [warn]stack trace: Error: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+[9/28/2024, 3:43:46 PM] YAML Language Client Started

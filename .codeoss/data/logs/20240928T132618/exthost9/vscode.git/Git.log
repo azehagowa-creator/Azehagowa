@@ -1,0 +1,48 @@
+2024-09-28 15:38:45.844 [info] Log level: Info
+2024-09-28 15:38:45.844 [info] Validating found git in: "git"
+2024-09-28 15:38:45.845 [info] Using git "2.34.1" from "git"
+2024-09-28 15:38:45.845 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-28 15:38:45.845 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-09-28 15:38:45.845 [info] Open repository: /home/azehagowa
+2024-09-28 15:38:45.845 [info] > git config --get commit.template [20ms]
+2024-09-28 15:38:45.846 [info] > git rev-parse --show-toplevel [8ms]
+2024-09-28 15:38:45.846 [info] No remotes found in the git config file.
+2024-09-28 15:38:45.846 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-09-28 15:38:45.846 [warning] No such branch: main.
+2024-09-28 15:38:45.846 [info] > git rev-parse --show-toplevel [22ms]
+2024-09-28 15:38:45.847 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-28 15:38:45.847 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-28 15:38:45.847 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-28 15:38:45.847 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-28 15:38:45.847 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-28 15:38:45.848 [info] > git rev-parse --show-toplevel [13ms]
+2024-09-28 15:38:45.848 [info] > git status -z -uall [187ms]
+2024-09-28 15:38:45.848 [info] > git rev-parse --show-toplevel [1872ms]
+2024-09-28 15:38:45.848 [info] > git config --get commit.template [137ms]
+2024-09-28 15:38:45.877 [info] No remotes found in the git config file.
+2024-09-28 15:38:45.880 [info] > git rev-parse --show-toplevel [47ms]
+2024-09-28 15:38:45.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2024-09-28 15:38:45.906 [warning] No such branch: main.
+2024-09-28 15:38:45.934 [info] > git rev-parse --show-toplevel [33ms]
+2024-09-28 15:38:46.032 [info] > git status -z -uall [100ms]
+2024-09-28 15:43:25.588 [info] > git config --get commit.template [22ms]
+2024-09-28 15:43:25.621 [info] No remotes found in the git config file.
+2024-09-28 15:43:25.732 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [112ms]
+2024-09-28 15:43:25.733 [warning] No such branch: main.
+2024-09-28 15:43:26.387 [info] > git status -z -uall [536ms]
+2024-09-28 15:46:33.063 [info] > git config --get commit.template [5ms]
+2024-09-28 15:46:33.088 [info] No remotes found in the git config file.
+2024-09-28 15:46:33.090 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-28 15:46:33.091 [warning] No such branch: main.
+2024-09-28 15:46:33.201 [info] > git status -z -uall [88ms]
+2024-09-28 15:46:38.365 [info] No remotes found in the git config file.
+2024-09-28 15:46:38.393 [info] > git config --get commit.template [29ms]
+2024-09-28 15:46:38.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-28 15:46:38.394 [warning] No such branch: main.
+2024-09-28 15:46:38.511 [info] > git status -z -uall [88ms]
+2024-09-28 15:46:48.876 [info] > git config --get commit.template [12ms]
+2024-09-28 15:46:48.904 [info] No remotes found in the git config file.
+2024-09-28 15:46:48.907 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-28 15:46:48.907 [warning] No such branch: main.
+2024-09-28 15:46:49.026 [info] > git status -z -uall [91ms]
+2024-09-28 15:46:50.331 [info] > git check-ignore -v -z --stdin [6ms]

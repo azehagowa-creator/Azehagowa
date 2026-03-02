@@ -1,0 +1,5 @@
+2024-09-28 14:30:32.327 [info] Extension host with pid 5298 started
+2024-09-28 14:30:32.363 [info] Lock '/home/azehagowa/.codeoss/data/User/workspaceStorage/4a2b428b/vscode.lock': Lock acquired.
+2024-09-28 15:06:28.071 [info] Extension host terminating: received terminate message from renderer
+2024-09-28 15:06:28.080 [info] Lock '/home/azehagowa/.codeoss/data/User/workspaceStorage/4a2b428b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-28 15:06:28.088 [info] Extension host with pid 5298 exiting with code 0

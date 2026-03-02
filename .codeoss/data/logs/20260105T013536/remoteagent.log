@@ -1,0 +1,52 @@
+2026-01-05 01:35:37.084 [info] 
+
+
+
+
+2026-01-05 01:35:37.123 [info] Extension host agent started.
+2026-01-05 01:35:41.589 [info] [127.0.0.1][a97ba147][ManagementConnection] New connection established.
+2026-01-05 01:35:41.913 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] New connection established.
+2026-01-05 01:35:43.752 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] <2243> Launched Extension Host Process.
+2026-01-05 01:36:44.635 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] <2243><stderr> [*** LOG ERROR #0001 ***] [2026-01-05 01:36:44] [d2af8a83-576d-47af-8203-b58b2e9e57e2] Failed flush to file /home/azehagowa/.codeoss/data/logs/20260105T013536/exthost1/output_logging_20260105T013555/7-Google Cloud Code Debug.log: No space left on device
+
+2026-01-05 01:36:45.679 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] <2243><stderr> [*** LOG ERROR #0009 ***] [2026-01-05 01:36:45] [5ee6fb2a-0de1-4d58-a452-383ef69cea96] Failed flush to file /home/azehagowa/.codeoss/data/logs/20260105T013536/exthost1/output_logging_20260105T013555/10-Cloud Code Yaml Support.log: No space left on device
+
+2026-01-05 01:36:47.556 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] <2243><stderr> [*** LOG ERROR #0013 ***] [2026-01-05 01:36:47] [ec85965c-6454-45fd-8714-ea7dc737f6a2] Failed flush to file /home/azehagowa/.codeoss/data/logs/20260105T013536/exthost1/output_logging_20260105T013555/11-Gemini Code Assist Agent.log: No space left on device
+
+2026-01-05 01:36:50.368 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] <2243><stderr> [*** LOG ERROR #0016 ***] [2026-01-05 01:36:50] [5ee6fb2a-0de1-4d58-a452-383ef69cea96] Failed flush to file /home/azehagowa/.codeoss/data/logs/20260105T013536/exthost1/output_logging_20260105T013555/10-Cloud Code Yaml Support.log: No space left on device
+
+2026-01-05 01:36:55.085 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] <2243><stderr> [*** LOG ERROR #0019 ***] [2026-01-05 01:36:55] [ec85965c-6454-45fd-8714-ea7dc737f6a2] Failed flush to file /home/azehagowa/.cod
+2026-01-05 01:36:55.087 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] <2243><stderr> eoss/data/logs/20260105T013536/exthost1/output_logging_20260105T013555/11-Gemini Code Assist Agent.log: No space left on device
+
+2026-01-05 01:36:56.258 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] <2243><stderr> [*** LOG ERROR #0036 ***] [2026-01-05 01:36:56] [5ee6fb2a-0de1-4d58-a452-383ef69cea96] Failed flush to file /home/azehagowa/.codeoss/data/logs/20260105T013536/exthost1/output_logging_20260105T013555/10-Cloud Code Yaml Support.log: No space left on device
+
+2026-01-05 01:36:57.342 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] <2243><stderr> [*** LOG ERROR #0040 ***] [2026-01-05 01:36:57] [ec85965c-6454-45fd-8714-ea7dc737f6a2] Failed flush to file /home/azehagowa/.codeoss/data/logs/20260105T013536/exthost1/output_logging_20260105T013555/11-Gemini Code Assist Agent.log: No space left on device
+
+2026-01-05 01:37:01.781 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] <2243><stderr> [*** LOG ERROR #0043 ***] [2026-01-05 01:37:01] [ec85965c-6454-45fd-8714-ea7dc737f6a2] Failed flush to file /home/azehagowa/.codeoss/data/logs/20260105T013536/exthost1/output_logging_20260105T013555/11-Gemini Code Assist Agent.log: No space left on device
+
+2026-01-05 01:37:03.060 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] <2243><stderr> [*** LOG ERROR #0053 ***] [2026-01-05 01:37:03] [ec85965c-6454-45fd-8714-ea7dc737f6a2] Failed flush to file /home/azehagowa/.codeoss/data/logs/20260105T013536/exthost1/output_logging_20260105T013555/11-Gemini Code Assist Agent.log: No space left on device
+
+2026-01-05 01:37:10.400 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] <2243><stderr> [*** LOG ERROR #0056 ***] [2026-01-05 01:37:10] [ec85965c-6454-45fd-8714-ea7dc737f6a2] Failed flush to file /home/azehagowa/.codeoss/data/logs/20260105T013536/exthost1/output_logging_20260105T013555/11-Gemini Code Assist Agent.log: No space left on device
+
+2026-01-05 01:37:11.445 [info] Uninstalling extension from the profile: ethan-reeso2026-01-05 01:37:18.675 [info] Uninstalling extension from the profile: osmosianorderofplainenglishprogrammers.plain-english-syntax-highlighter@0.0.2 file:///home/azehagowa/.codeoss/extensions/extensions.json
+2026-01-05 01:37:18.698 [info] Marked extension as removed osmosianorderofplainenglishprogrammers.plain-english-syntax-highlighter-0.0.2-universal
+2026-01-05 01:37:18.990 [error] #7: https://open-vsx.org/vscode/gallery/publishers/OsmosianOrderofPlainEnglishProgrammers/extensions/plain-english-syntax-highlighter/0.0.2/stats?statType=uninstall - error POST connect ECONNREFUSED 127.0.0.1:80
+2026-01-05 01:37:18.990 [info] Successfully uninstalled extension from the profile osmosianorderofplainenglishprogrammers.plain-english-syntax-highlighter@0.0.2 file:///home/azehagowa/.codeoss/extensions/extensions.json
+2026-01-05 01:37:24.884 [info] Uninstalling extension from the profile: hbenl.vscode-test-explorer@2.22.1 file:///home/azehagowa/.codeoss/extensions/extensions.json
+2026-01-05 01:37:24.916 [info] Marked extension as removed hbenl.vscode-test-explorer-2.22.1-universal
+2026-01-05 01:37:25.244 [error] #8: https://open-vsx.org/vscode/gallery/publishers/hbenl/extensions/vscode-test-explorer/2.22.1/stats?statType=uninstall - error POST connect ECONNREFUSED 127.0.0.1:80
+2026-01-05 01:37:25.245 [info] Successfully uninstalled extension from the profile hbenl.vscode-test-explorer@2.22.1 file:///home/azehagowa/.codeoss/extensions/extensions.json
+2026-01-05 01:37:30.464 [info] Uninstalling extension from the profile: mpotthoff.vscode-android-webview-debug@1.2.3 file:///home/azehagowa/.codeoss/extensions/extensions.json
+2026-01-05 01:37:30.483 [info] Marked extension as removed mpotthoff.vscode-android-webview-debug-1.2.3-universal
+2026-01-05 01:37:30.775 [error] #9: https://open-vsx.org/vscode/gallery/publishers/mpotthoff/extensions/vscode-android-webview-debug/1.2.3/stats?statType=uninstall - error POST connect ECONNREFUSED 127.0.0.1:80
+2026-01-05 01:37:30.775 [info] Successfully uninstalled extension from the profile mpotthoff.vscode-android-webview-debug@1.2.3 file:///home/azehagowa/.codeoss/extensions/extensions.json
+2026-01-05 01:37:33.851 [info] Uninstalling extension from the profile: adelphes.android-dev-ext@1.4.0 file:///home/azehagowa/.codeoss/extensions/extensions.json
+2026-01-05 01:37:33.872 [info] Marked extension as removed adelphes.android-dev-ext-1.4.0-universal
+2026-01-05 01:37:34.244 [error] #10: https://open-vsx.org/vscode/gallery/publishers/adelphes/extensions/android-dev-ext/1.4.0/stats?statType=uninstall - error POST connect ECONNREFUSED 127.0.0.1:80
+2026-01-05 01:37:34.245 [info] Successfully uninstalled extension from the profile adelphes.android-dev-ext@1.4.0 file:///home/azehagowa/.codeoss/extensions/extensions.json
+2026-01-05 01:37:41.603 [info] Uninstalling extension from the profile: ms-vscode.test-adapter-converter@0.2.1 file:///home/azehagowa/.codeoss/extensions/extensions.json
+2026-01-05 01:37:41.628 [info] Marked extension as removed ms-vscode.test-adapter-converter-0.2.1-universal
+2026-01-05 01:37:42.043 [error] #11: https://open-vsx.org/vscode/gallery/publishers/ms-vscode/extensions/test-adapter-converter/0.2.1/stats?statType=uninstall - error POST connect ECONNREFUSED 127.0.0.1:80
+2026-01-05 01:37:42.043 [info] Successfully uninstalled extension from the profile ms-vscode.test-adapter-converter@0.2.1 file:///home/azehagowa/.codeoss/extensions/extensions.json
+2026-01-05 01:37:49.801 [info] [127.0.0.1][a97ba147][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-01-05 01:37:50.149 [info] [127.0.0.1][edd5af8a][ExtensionHostConnection] <2243> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,11 @@
+{
+    "cloudcode.yaml.format.enable": true,
+    "cloudcode.updateChannel": "Default",
+    "cloudcode.verboseLogging": true,
+    "cloudcode.enableMultiSkaffoldConfigsKey": true,
+    "cloudcode.compute.sshInternalIp": true,
+    "cloudcode.yaml.trace.server": "verbose",
+    "editor.defaultFormatter": "adelphes.android-dev-ext",
+    "cloudcode.yaml.format.singleQuote": true,
+    "cloudcode.yaml.format.proseWrap": "never"
+}

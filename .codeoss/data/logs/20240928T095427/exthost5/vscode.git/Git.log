@@ -1,0 +1,59 @@
+2024-09-28 12:17:07.128 [info] Log level: Info
+2024-09-28 12:17:07.128 [info] Validating found git in: "git"
+2024-09-28 12:17:07.128 [info] Using git "2.34.1" from "git"
+2024-09-28 12:17:07.128 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-28 12:17:07.128 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-09-28 12:17:07.128 [info] Open repository: /home/azehagowa
+2024-09-28 12:17:07.128 [info] > git config --get commit.template [9ms]
+2024-09-28 12:17:07.128 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-28 12:17:07.128 [info] No remotes found in the git config file.
+2024-09-28 12:17:07.128 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-09-28 12:17:07.128 [warning] No such branch: main.
+2024-09-28 12:17:07.128 [info] > git rev-parse --show-toplevel [11ms]
+2024-09-28 12:17:07.128 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-28 12:17:07.128 [info] > git status -z -uall [27ms]
+2024-09-28 12:17:07.128 [info] > git rev-parse --show-toplevel [388ms]
+2024-09-28 12:17:07.128 [info] > git rev-parse --show-toplevel [8ms]
+2024-09-28 12:17:07.151 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-28 12:17:07.161 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-28 12:17:07.172 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-28 12:17:07.182 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-28 12:17:07.192 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-28 12:17:07.202 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-28 12:17:07.315 [info] > git show --textconv HEAD:gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240116212745-88e2d1c7f9a2/internal/unionfs/unionfs.go [77ms]
+2024-09-28 12:17:07.315 [info] > git show --textconv :gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240116212745-88e2d1c7f9a2/internal/unionfs/unionfs.go [68ms]
+2024-09-28 12:17:07.316 [info] > git ls-files --stage -- /home/azehagowa/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240116212745-88e2d1c7f9a2/internal/unionfs/unionfs.go [48ms]
+2024-09-28 12:17:07.327 [info] > git ls-tree -l HEAD -- /home/azehagowa/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240116212745-88e2d1c7f9a2/internal/unionfs/unionfs.go [69ms]
+2024-09-28 12:17:07.327 [info] fatal: Not a valid object name HEAD
+2024-09-28 12:17:07.338 [info] > git cat-file -s 139a6faf4a9b6b7f96ec4a9099881a63e6f78973 [13ms]
+2024-09-28 12:17:07.339 [info] > git config --get commit.template [25ms]
+2024-09-28 12:17:07.354 [info] No remotes found in the git config file.
+2024-09-28 12:17:07.359 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-28 12:17:07.360 [warning] No such branch: main.
+2024-09-28 12:17:07.405 [info] > git status -z -uall [31ms]
+2024-09-28 12:17:08.377 [info] > git check-ignore -v -z --stdin [12ms]
+2024-09-28 12:17:10.047 [info] > git ls-tree -l HEAD -- /home/azehagowa/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240116212745-88e2d1c7f9a2/internal/unionfs/unionfs.go [175ms]
+2024-09-28 12:17:10.047 [info] fatal: Not a valid object name HEAD
+2024-09-28 12:17:10.049 [info] > git ls-files --stage -- /home/azehagowa/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240116212745-88e2d1c7f9a2/internal/unionfs/unionfs.go [4ms]
+2024-09-28 12:17:10.060 [info] > git cat-file -s 139a6faf4a9b6b7f96ec4a9099881a63e6f78973 [2ms]
+2024-09-28 12:17:11.473 [info] > git check-ignore -v -z --stdin [9ms]
+2024-09-28 12:17:57.170 [info] > git config --get commit.template [29ms]
+2024-09-28 12:17:57.171 [info] No remotes found in the git config file.
+2024-09-28 12:17:57.172 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-28 12:17:57.172 [warning] No such branch: main.
+2024-09-28 12:17:57.220 [info] > git status -z -uall [19ms]
+2024-09-28 12:18:02.326 [info] No remotes found in the git config file.
+2024-09-28 12:18:02.328 [info] > git config --get commit.template [30ms]
+2024-09-28 12:18:02.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-28 12:18:02.330 [warning] No such branch: main.
+2024-09-28 12:18:02.374 [info] > git status -z -uall [20ms]
+2024-09-28 12:18:08.123 [info] > git config --get commit.template [3ms]
+2024-09-28 12:18:08.149 [info] No remotes found in the git config file.
+2024-09-28 12:18:08.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-28 12:18:08.151 [warning] No such branch: main.
+2024-09-28 12:18:08.196 [info] > git status -z -uall [18ms]
+2024-09-28 12:18:13.255 [info] No remotes found in the git config file.
+2024-09-28 12:18:13.282 [info] > git config --get commit.template [27ms]
+2024-09-28 12:18:13.283 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-28 12:18:13.283 [warning] No such branch: main.
+2024-09-28 12:18:13.329 [info] > git status -z -uall [19ms]

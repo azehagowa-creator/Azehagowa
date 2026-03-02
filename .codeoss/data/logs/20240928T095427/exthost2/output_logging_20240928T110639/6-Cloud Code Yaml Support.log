@@ -1,0 +1,468 @@
+[Trace - 11:12:32 AM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 11:12:32 AM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "cloudcode": {
+            "yaml": {
+                "trace": {
+                    "server": "verbose"
+                },
+                "schemas": {},
+                "format": {
+                    "enable": false,
+                    "singleQuote": false,
+                    "bracketSpacing": true,
+                    "proseWrap": "preserve"
+                },
+                "validate": true,
+                "hover": true,
+                "completion": true,
+                "customTags": [],
+                "clusterResourceCompletion": true,
+                "yamlFileMatcher": "**/*.yaml",
+                "enableKubernetesSupport": true,
+                "kubernetesVersion": "v1.30.0",
+                "crdSchemaLocations": []
+            }
+        },
+        "http": {
+            "proxyStrictSSL": true
+        }
+    }
+}
+
+
+[Trace - 11:12:32 AM] Received notification 'telemetry/event'.
+Params: {
+    "duration_ms": "9.675180999562144",
+    "event_name": "cloudcode.lsp.schema.partner.loaded"
+}
+
+
+[Trace - 11:12:33 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/HkNr.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:12:33 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/HkNr.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:12:34 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/entries.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:12:41 AM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 11:12:41 AM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "cloudcode": {
+            "yaml": {
+                "trace": {
+                    "server": "verbose"
+                },
+                "schemas": {},
+                "format": {
+                    "enable": true,
+                    "singleQuote": false,
+                    "bracketSpacing": true,
+                    "proseWrap": "preserve"
+                },
+                "validate": true,
+                "hover": true,
+                "completion": true,
+                "customTags": [],
+                "clusterResourceCompletion": true,
+                "yamlFileMatcher": "**/*.yaml",
+                "enableKubernetesSupport": true,
+                "kubernetesVersion": "v1.30.0",
+                "crdSchemaLocations": []
+            }
+        },
+        "http": {
+            "proxyStrictSSL": true
+        }
+    }
+}
+
+
+[Trace - 11:12:41 AM] Received notification 'telemetry/event'.
+Params: {
+    "duration_ms": "15.071910000406206",
+    "event_name": "cloudcode.lsp.schema.partner.loaded"
+}
+
+
+[Trace - 11:12:42 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/HkNr.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:12:42 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/HkNr.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:12:43 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/entries.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:12:50 AM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 11:12:50 AM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "cloudcode": {
+            "yaml": {
+                "trace": {
+                    "server": "verbose"
+                },
+                "schemas": {},
+                "format": {
+                    "enable": true,
+                    "singleQuote": false,
+                    "bracketSpacing": true,
+                    "proseWrap": "never"
+                },
+                "validate": true,
+                "hover": true,
+                "completion": true,
+                "customTags": [],
+                "clusterResourceCompletion": true,
+                "yamlFileMatcher": "**/*.yaml",
+                "enableKubernetesSupport": true,
+                "kubernetesVersion": "v1.30.0",
+                "crdSchemaLocations": []
+            }
+        },
+        "http": {
+            "proxyStrictSSL": true
+        }
+    }
+}
+
+
+[Trace - 11:12:50 AM] Received notification 'telemetry/event'.
+Params: {
+    "duration_ms": "5.549394000321627",
+    "event_name": "cloudcode.lsp.schema.partner.loaded"
+}
+
+
+[Trace - 11:12:50 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/HkNr.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:12:51 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/HkNr.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:12:51 AM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 11:12:51 AM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "cloudcode": {
+            "yaml": {
+                "trace": {
+                    "server": "verbose"
+                },
+                "schemas": {},
+                "format": {
+                    "enable": true,
+                    "singleQuote": true,
+                    "bracketSpacing": true,
+                    "proseWrap": "never"
+                },
+                "validate": true,
+                "hover": true,
+                "completion": true,
+                "customTags": [],
+                "clusterResourceCompletion": true,
+                "yamlFileMatcher": "**/*.yaml",
+                "enableKubernetesSupport": true,
+                "kubernetesVersion": "v1.30.0",
+                "crdSchemaLocations": []
+            }
+        },
+        "http": {
+            "proxyStrictSSL": true
+        }
+    }
+}
+
+
+[Trace - 11:12:51 AM] Received notification 'telemetry/event'.
+Params: {
+    "duration_ms": "2.4739450002089143",
+    "event_name": "cloudcode.lsp.schema.partner.loaded"
+}
+
+
+[Trace - 11:12:52 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/entries.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:12:52 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/HkNr.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:12:53 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/HkNr.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:12:54 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/entries.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:13:15 AM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 11:13:15 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/ezWv.json",
+            "type": 1
+        },
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/ezWv.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:13:16 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/entries.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:13:44 AM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 11:13:45 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/HhVp.json",
+            "type": 1
+        }
+    ]
+}
+
+
+[Trace - 11:13:45 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/HhVp.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:13:46 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/entries.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:14:00 AM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 11:14:01 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/lJSv.json",
+            "type": 1
+        },
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/lJSv.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:14:02 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/entries.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:14:45 AM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 11:14:45 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/QrSb.json",
+            "type": 1
+        },
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/QrSb.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:14:46 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/data/User/History/-422a496d/entries.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 11:15:08 AM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 11:16:28 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/extensions/extensions.json",
+            "type": 2
+        }
+    ]
+}
+
+

@@ -1,0 +1,6 @@
+2024-09-28 12:17:29.394 [info] Default formatter is set to google.cloud-shell for workspace /home/azehagowa
+2024-09-28 12:17:29.419 [info] Test server listening.
+2024-09-28 12:17:29.421 [info] Python interpreter path: /bin/python
+2024-09-28 12:17:29.940 [info] > pyenv which python
+2024-09-28 12:17:29.940 [info] cwd: .
+2024-09-28 12:17:33.291 [info] Starting Jedi language server for azehagowa.

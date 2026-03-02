@@ -1,0 +1,11 @@
+2024-08-23 02:43:32.089 [info] 
+
+
+
+
+2024-08-23 02:43:32.089 [info] Extension host agent started.
+2024-08-23 02:43:32.091 [info] Started initializing default profile extensions in extensions installation folder. file:///home/azehagowa/.codeoss/extensions
+2024-08-23 02:43:32.113 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/azehagowa/.codeoss/extensions
+2024-08-23 02:44:02.577 [info] [127.0.0.1][54c61823][ManagementConnection] New connection established.
+2024-08-23 02:44:02.587 [info] [127.0.0.1][4f120953][ExtensionHostConnection] New connection established.
+2024-08-23 02:44:04.231 [info] [127.0.0.1][4f120953][ExtensionHostConnection] <1180> Launched Extension Host Process.
