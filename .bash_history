@@ -639,3 +639,15 @@ cd mod
 ls
 git pull
 git commit
+git add .
+git pull
+git commit
+ls
+cd go path
+git pjll
+git pull
+git config pull.rebase false
+git pull
+rm -rf package-lock.json
+git pull
+git status

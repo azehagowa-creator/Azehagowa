@@ -6,8 +6,8 @@
 5 silly config load:file:/usr/local/nvm/versions/node/v24.13.1/etc/npmrc
 6 verbose title npm config get prefix
 7 verbose argv "config" "--loglevel" "warn" "get" "prefix"
-8 verbose logfile logs-max:10 dir:/home/azehagowa/.npm/_logs/2026-03-02T12_51_43_083Z-
-9 verbose logfile /home/azehagowa/.npm/_logs/2026-03-02T12_51_43_083Z-debug-0.log
+8 verbose logfile logs-max:10 dir:/home/azehagowa/.npm/_logs/2026-03-02T14_17_33_970Z-
+9 verbose logfile /home/azehagowa/.npm/_logs/2026-03-02T14_17_33_970Z-debug-0.log
 10 silly logfile start cleaning logs, removing 1 files
 11 silly logfile done cleaning log files
 12 verbose cwd /home/azehagowa
