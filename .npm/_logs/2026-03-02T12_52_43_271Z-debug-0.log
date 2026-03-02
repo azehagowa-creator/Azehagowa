@@ -1,0 +1,19 @@
+0 verbose cli /usr/local/nvm/versions/node/v24.13.1/bin/node /usr/local/nvm/versions/node/v24.13.1/bin/npm
+1 info using npm@11.10.1
+2 info using node@v24.13.1
+3 silly config load:file:/usr/local/nvm/versions/node/v24.13.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/azehagowa/.npmrc
+5 silly config load:file:/usr/local/nvm/versions/node/v24.13.1/etc/npmrc
+6 verbose title npm fund
+7 verbose argv "fund"
+8 verbose logfile logs-max:10 dir:/home/azehagowa/.npm/_logs/2026-03-02T12_52_43_271Z-
+9 verbose logfile /home/azehagowa/.npm/_logs/2026-03-02T12_52_43_271Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 verbose cwd /home/azehagowa
+14 verbose os Linux 6.6.123+
+15 verbose node v24.13.1
+16 verbose npm  v11.10.1
+17 verbose exit 0
+18 info ok

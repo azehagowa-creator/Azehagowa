@@ -16,5 +16,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm start"
+  },
+  "dependencies": {
+    "elparadisogonzalo": "^1.0.0"
   }
 }

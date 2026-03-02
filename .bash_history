@@ -599,3 +599,43 @@ git pull
 git add .
 git rm --cached .gemini/extensions/vertex
 git rm -rf --cached .gemini/extensions/vertex
+git add .
+cd .gemini
+ls
+cd extensions
+ls
+rm -rf vertex
+git add .
+git commit
+git push
+gcloud config set project rare-outlook-445414-v4
+git pull
+gcloud config set project rare-outlook-445414-v4
+git pull
+gcloud config set project rare-outlook-445414-v4
+git pull
+ls
+cd 
+gcloud config set project rare-outlook-445414-v4
+ls
+git pull
+gcloud config set project rare-outlook-445414-v4
+git pull
+gcloud config set project rare-outlook-445414-v4
+npm i elparadisogonzalo
+npm fund
+gcloud config set project rare-outlook-445414-v4
+git pull
+gcloud config set project rare-outlook-445414-v4
+git pull
+ls
+cd gopath
+ls
+cd pkg
+ls
+cd .od
+cd .od
+cd mod
+ls
+git pull
+git commit

@@ -1,0 +1,28 @@
+{
+  "name": "elparadisogonzalo",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "elparadisogonzalo"
+  ],
+  "homepage": "https://github.com/Elparadisogonzalo.git#readme",
+  "bugs": {
+    "url": "https://github.com/Elparadisogonzalo.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elparadisogonzalo.git"
+  },
+  "license": "Apache-2.0",
+  "author": "elparadiso",
+  "type": "express",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {}
+}
