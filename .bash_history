@@ -663,3 +663,6 @@ cd gopath
 ls
 rm -rf gopath
 git rm -rf gopath
+git pull
+git add .
+git submodule add git@github.com:azehagowa-creator/Cache.git .cache
