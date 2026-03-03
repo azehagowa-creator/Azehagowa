@@ -672,3 +672,10 @@ ls
 git push
 git pull
 git status
+git add .bash_history
+git commit
+ls
+ls -la
+git push
+git pull
+git commit
