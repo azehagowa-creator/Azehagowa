@@ -679,3 +679,8 @@ ls -la
 git push
 git pull
 git commit
+git add .
+git commit
+ls
+ls -la
+git pull
