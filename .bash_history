@@ -666,3 +666,9 @@ git rm -rf gopath
 git pull
 git add .
 git submodule add git@github.com:azehagowa-creator/Cache.git .cache
+git add .
+git commit
+ls
+git push
+git pull
+git status
