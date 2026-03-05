@@ -725,3 +725,8 @@ cmake --build .
 sudo cmake --install .
 git pull
 git commit
+git add .
+git commit
+git pull
+git commit
+gjt adf .
