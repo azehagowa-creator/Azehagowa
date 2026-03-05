@@ -730,3 +730,7 @@ git commit
 git pull
 git commit
 gjt adf .
+git add .
+git commit
+git pull
+gjt add .
