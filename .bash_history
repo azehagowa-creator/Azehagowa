@@ -684,3 +684,44 @@ git commit
 ls
 ls -la
 git pull
+git add .bash_history
+git commit
+ls
+ls -la
+cd .local
+ls
+cd share
+ls
+cd nano
+ls
+ls
+ls -la
+git pull
+sudo apt update
+apt lisg --upgradable
+apt list --upgradable
+apt upgrade -y
+ls
+ls -la
+sudo apt update
+# Check Nginx
+sudo nginx -t
+sudo systemctl status nginx
+sudo certbot --nginx -d elparadisogonzalo.com -d www.elparadisogonzalo.com
+sudo certbot --nginx -d elparadisogonzalo.com -d www.elparadisogonzalo.com
+sudo apt update
+sudo apt-add-repository ppa:fish-shell/release-4
+mkdir build; cd build
+cmake ..
+cmake --build .
+sudo cmake --install .
+ls
+ls
+cd build
+ls
+mkdir build; cd build
+cmake ..
+cmake --build .
+sudo cmake --install .
+git pull
+git commit
