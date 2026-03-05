@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 rm -rf ~/.ssh/*
 gcloud config set project moonlit-triumph-443806-b7
 name: Node.js CI
@@ -663,3 +664,6 @@ cd gopath
 ls
 rm -rf gopath
 git rm -rf gopath
+=======
+git@github.com:azehagowa-creator/Cache.git
+>>>>>>> origin/master
