@@ -1,0 +1,26 @@
+Starting background process...
+Background process started with PID 11699
+[INFO] 2026-03-06 22:49:55.167 PM -- [CoderAgentExecutor] Overriding workspace path to: /home/azehagowa
+[INFO] 2026-03-06 22:49:55.192 PM -- Loading extension: vertex (version: 0.2.0)
+(node:11699) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Ignore file not found: /home/azehagowa/.geminiignore, continue without it.
+Ignore file not found: /home/azehagowa/.aiexclude, continue without it.
+Ignore file not found: /home/azehagowa/.geminiignore, continue without it.
+Ignore file not found: /home/azehagowa/.aiexclude, continue without it.
+Ignore file not found: /home/azehagowa/.geminiignore, continue without it.
+Ignore file not found: /home/azehagowa/.aiexclude, continue without it.
+Ignore file not found: /home/azehagowa/.geminiignore, continue without it.
+Ignore file not found: /home/azehagowa/.aiexclude, continue without it.
+Loading extension: vertex
+Hook registry initialized with 0 hook entries
+Hook system initialized successfully
+[STARTUP] StartupProfiler.flush() called with 1 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 12394.794214999998
+[INFO] 2026-03-06 22:50:08.725 PM -- [Config] Using CCPA Auth:
+Failed to load credentials from /home/azehagowa/.gemini/oauth_creds.json: ENOENT: no such file or directory, open '/home/azehagowa/.gemini/oauth_creds.json'
+[?1049h[2J[H[?1006l[?1002l[<u[?7hPlease visit the following URL to authorize the application:
+
+https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=https%3A%2F%2Fcodeassist.google.com%2Fauthcode&access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&code_challenge_method=S256&code_challenge=jeIKndAmLnvXCqmXF_in3uZu3af4_opW9HpxjHFpY5k&state=d09dce0c400496529fd9d9716e4f8596e18f4ff6881a0f4d3a4fee10ce34ad1a&response_type=code&client_id=681255809395-oo8ft2oprdrnp9e3aqf6av3hmdib135j.apps.googleusercontent.com
+
+[1G[0JEnter the authorization code: [31G

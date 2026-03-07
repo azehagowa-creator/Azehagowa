@@ -1,50 +1,43 @@
-{
-  "name": "azehagowa",
-  "version": "1.6.0",
-  "description": "Production-ready Azehagowa packages",
-  "homepage": "https://github.com/azehagowa-creator/Azehagowa#readme",
+ame": "azehagowa", "version": 
+  "1.7.0", "description": 
+  "Production-ready Azehagowa 
+  packages", "homepage": 
+  "https://github.com/azehagowa-creator/Azehagowa#readme", 
   "bugs": {
-    "url": "https://github.com/azehagowa-creator/Azehagowa/issues"
+    "url": 
+    "https://github.com/azehagowa-creator/Azehagowa/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/azehagowa-creator/Azehagowa.git"
+  "repository": { "type": "git", 
+    "url": 
+    "https://github.com/azehagowa-creator/Azehagowa.git"
   },
-  "license": "Apache-2.0",
-  "author": "elparadiso",
+  "license": "Apache-2.0", 
+  "author": "elparadiso", 
   "keywords": [
-    "azehagowa",
-    "frontend",
-    "blockchain",
-    "nodejs",
-    "production",
-    "backend",
+    "azehagowa", "frontend", 
+    "blockchain", "nodejs", 
+    "production", "backend", 
     "express"
-  ],
-  "type": "module",
-  "main": "./index.js",
-  "exports": {
+  ], "type": "module", "main": 
+  "./index.js", "exports": {
     ".": "./index.js"
   },
-  "files": [
-    "index.js",
-    "README.md",
-    "LICENSE"
-  ],
-  "engines": {
-    "node": ">=20.0.0"
+  "files": [ "index.js", 
+    "README.md", "LICENSE"
+  ], "engines": { "node": 
+    ">=20.0.0"
   },
-  "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js",
-    "build": "echo \"No build step required\"",
-    "test": "echo \"No tests specified\" && exit 0"
+  "scripts": { "start": "node 
+    index.js", "dev": "node --watch 
+    index.js", "build": "echo \"No 
+    build step required\"", "test": 
+    "echo \"No tests specified\" && 
+    exit 0"
   },
-  "publishConfig": {
-    "access": "public"
+  "publishConfig": { "access": 
+    "public"
   },
-  "dependencies": {
+  "dependencies": { 
     "elparadisogonzalo": "^1.3.0"
   }
 }
-

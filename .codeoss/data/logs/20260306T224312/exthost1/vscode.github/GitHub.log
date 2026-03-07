@@ -1,0 +1,6 @@
+2026-03-06 22:43:40.825 [info] Log level: Info
+2026-03-06 22:44:12.502 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-03-06 22:44:14.045 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-03-06 22:44:17.252 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-03-06 22:44:21.105 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-03-06 22:46:07.158 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for azehagowa-creator/Azehagowa: Error: No GitHub authentication session available.

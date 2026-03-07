@@ -734,3 +734,113 @@ git add .
 git commit
 git pull
 gjt add .
+git add .
+git commit
+gcloud config set project rare-outlook-445414-v4
+git pull
+git add .
+git pull
+git add .
+git pull
+git branch -M main
+git branch -r
+git pull
+git add .
+git pull
+git add .
+git pull
+git add .
+git remote -v
+ls
+ls -la
+cd .ssh
+ls
+cd known_hosts
+cat known_hosts
+nano known_hosts
+cat known_hosts
+ssh -T git@github.com
+git remote delete origin
+git remote delete origin
+git remote remove origin
+git remote add origin git@github.com:azehagowa-creator/Azehagowa.git
+git add .
+cd .git
+ls
+git rm -rf index.lock
+cat config
+nano config
+cat description
+nano descriptiom
+nano description
+ls
+cd ..
+git rm -rf .git/index.lock
+git add .
+git commit -f
+git pull
+git push
+git push --set-upstream origin main
+rm -rf .ssh
+git add .
+ssh-keygen -t ed25519 -C "azehagowa@com"
+cd .ssh
+ls
+cd
+cd .ssh
+ls
+cat id_ed25519.pub
+gcloud config set project rare-outlook-445414-v4
+cd .ssh
+ls
+nano id_ed25519.pub
+cd ..
+cd .git
+ls
+nano config
+eval "$(ssh-agent -s)"
+ls
+cd ..
+ls
+nano package.json
+gcloud config set project rare-outlook-445414-v4
+nano package.json
+git add .
+cd .git
+ls
+nano config
+git add .
+cd
+git add .
+cd .git
+nano config
+git add .
+cd
+git add .
+cd .git
+ls
+rm -rf index.lock
+cd ..
+git add .
+ssh-add ~/.ssh/id_ed25519
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cd .ssh
+ls
+cd ..
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh -T git@github.com
+git pull
+git add .
+git push
+git push --set-upstream origin main
+git pull
+git push -f
+git push --set-upstream origin main -f
+ls
+git pull
+git add .
+gcloud config set project rare-outlook-445414-v4
+git pull origin master
+git pull

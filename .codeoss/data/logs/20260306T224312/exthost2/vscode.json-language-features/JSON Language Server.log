@@ -1,0 +1,28 @@
+2026-03-06 22:48:52.650 [info] read schema from vscode: vscode://schemas/vscode-extensions
+2026-03-06 22:48:52.677 [info] cancelled
+2026-03-06 22:48:56.329 [info] read schema from vscode: vscode://schemas/toolsParameters
+2026-03-06 22:48:56.340 [info] read schema from vscode: vscode://schemas/settings/configurationDefaults
+2026-03-06 22:49:06.859 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2026-03-06 22:49:07.023 [info] read schema from vscode: vscode://schemas/token-styling
+2026-03-06 22:49:07.080 [info] read schema from vscode: vscode://schemas/textmate-colors
+2026-03-06 22:49:07.117 [info] read schema from vscode: vscode://schemas/workbench-colors
+2026-03-06 22:49:12.208 [info] cancelled
+2026-03-06 22:49:37.754 [info] schema change detected vscode://schemas/settings/configurationDefaults
+2026-03-06 22:49:38.009 [info] read schema from vscode: vscode://schemas/vscode-extensions
+2026-03-06 22:49:38.037 [info] cancelled
+2026-03-06 22:49:39.324 [info] read schema from vscode: vscode://schemas/settings/configurationDefaults
+2026-03-06 22:49:43.527 [info] cancelled
+2026-03-06 22:51:22.108 [info] read schema from vscode: vscode://schemas/vscode-extensions
+2026-03-06 22:51:34.382 [info] read schema from vscode: vscode://schemas/toolsParameters
+2026-03-06 22:51:34.395 [info] read schema from vscode: vscode://schemas/settings/configurationDefaults
+2026-03-06 22:54:27.367 [info] schema change detected vscode://schemas/settings/configurationDefaults
+2026-03-06 22:54:29.740 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2026-03-06 22:54:30.080 [info] read schema from vscode: vscode://schemas/token-styling
+2026-03-06 22:54:30.159 [info] read schema from vscode: vscode://schemas/textmate-colors
+2026-03-06 22:54:30.356 [info] read schema from vscode: vscode://schemas/workbench-colors
+2026-03-06 22:54:31.871 [info] cancelled
+2026-03-06 22:54:31.992 [info] read schema from vscode: vscode://schemas/vscode-extensions
+2026-03-06 22:54:32.592 [info] read schema from vscode: vscode://schemas/settings/configurationDefaults
+2026-03-06 23:05:25.903 [info] cancelled
+2026-03-06 23:05:25.982 [info] cancelled
+2026-03-06 23:05:25.983 [info] cancelled

@@ -1,0 +1,56 @@
+Starting background process...
+Background process started with PID 14721
+[INFO] 2026-03-06 22:54:50.123 PM -- [CoderAgentExecutor] Overriding workspace path to: /home/azehagowa
+[INFO] 2026-03-06 22:54:50.157 PM -- Loading extension: vertex (version: 0.2.0)
+(node:14721) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Ignore file not found: /home/azehagowa/.geminiignore, continue without it.
+Ignore file not found: /home/azehagowa/.aiexclude, continue without it.
+Ignore file not found: /home/azehagowa/.geminiignore, continue without it.
+Ignore file not found: /home/azehagowa/.aiexclude, continue without it.
+Ignore file not found: /home/azehagowa/.geminiignore, continue without it.
+Ignore file not found: /home/azehagowa/.aiexclude, continue without it.
+Ignore file not found: /home/azehagowa/.geminiignore, continue without it.
+Ignore file not found: /home/azehagowa/.aiexclude, continue without it.
+Loading extension: vertex
+Hook registry initialized with 0 hook entries
+Hook system initialized successfully
+[STARTUP] StartupProfiler.flush() called with 1 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 12293.903116999998
+[INFO] 2026-03-06 22:55:03.090 PM -- [Config] Using CCPA Auth:
+Failed to load credentials from /home/azehagowa/.gemini/oauth_creds.json: ENOENT: no such file or directory, open '/home/azehagowa/.gemini/oauth_creds.json'
+[?1049h[2J[H[?1006l[?1002l[<u[?7hPlease visit the following URL to authorize the application:
+
+https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=https%3A%2F%2Fcodeassist.google.com%2Fauthcode&access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&code_challenge_method=S256&code_challenge=NmzGVSOtdq26alMhgdDdJU4Cigv9cV5nkoaCbf4bEGQ&state=9dfd0fd9b17206dc4c8c70547268b2f50f19b3e90611b6ea7fe0df2fb4a95b4a&response_type=code&client_id=681255809395-oo8ft2oprdrnp9e3aqf6av3hmdib135j.apps.googleusercontent.com
+[1G[0JEnter the authorization code: [31GBackground process is already running.
+Background process is already running.
+Stopping process (e.g., for restart)...
+Stopping process (e.g., for restart)...
+
+Process exited with code null and signal SIGTERM
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 16126
+[INFO] 2026-03-06 22:58:32.052 PM -- [CoderAgentExecutor] Overriding workspace path to: /home/azehagowa
+[INFO] 2026-03-06 22:58:32.076 PM -- Loading extension: vertex (version: 0.2.0)
+Ignore file not found: /home/azehagowa/.geminiignore, continue without it.
+Ignore file not found: /home/azehagowa/.aiexclude, continue without it.
+(node:16126) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Ignore file not found: /home/azehagowa/.geminiignore, continue without it.
+Ignore file not found: /home/azehagowa/.aiexclude, continue without it.
+Ignore file not found: /home/azehagowa/.geminiignore, continue without it.
+Ignore file not found: /home/azehagowa/.aiexclude, continue without it.
+Ignore file not found: /home/azehagowa/.geminiignore, continue without it.
+Ignore file not found: /home/azehagowa/.aiexclude, continue without it.
+Loading extension: vertex
+Hook registry initialized with 0 hook entries
+Hook system initialized successfully
+[STARTUP] StartupProfiler.flush() called with 1 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 7212.171699999999
+[INFO] 2026-03-06 22:58:39.677 PM -- [Config] Using CCPA Auth:
+Failed to load credentials from /home/azehagowa/.gemini/oauth_creds.json: ENOENT: no such file or directory, open '/home/azehagowa/.gemini/oauth_creds.json'
+[?1049h[2J[H[?1006l[?1002l[<u[?7hPlease visit the following URL to authorize the application:
+
+https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=https%3A%2F%2Fcodeassist.google.com%2Fauthcode&access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&code_challenge_method=S256&code_challenge=Z368jhZiJEfv2I9fICCTPC7jo8O7xa1krhG4uy-txcE&state=11d8200d928d5f8d4fd77eca4389dde430f5ce557066706244245201e8f10329&response_type=code&client_id=681255809395-oo8ft2oprdrnp9e3aqf6av3hmdib135j.apps.googleusercontent.com
+[1G[0JEnter the authorization code: [31G

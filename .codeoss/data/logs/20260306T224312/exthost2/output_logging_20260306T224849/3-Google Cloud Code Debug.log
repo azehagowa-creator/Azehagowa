@@ -1,0 +1,200 @@
+[3/6/2026, 10:49:06 PM] [INFO]: Verbose logging enabled
+[3/6/2026, 10:49:06 PM] [INFO]: Cloud Code version 2.36.0
+[3/6/2026, 10:49:06 PM] [INFO]: Version detail: 791433267 built on 2025-08-07T20:22:17.822Z
+[3/6/2026, 10:49:08 PM] [INFO]: Client experimentation flags: {
+  enableQuickpickChat: true,
+  enableRestModelConnection: false,
+  enableMcpServer: false,
+  enableAICharsPercentage: true,
+  enableStandardTierEasyOnboarding: true,
+  enableAnthropicModelConnection: false,
+  enableCloudCodeTelemetry: true,
+  enableChatAgenticMcpChat: false,
+  enableFeedbackBlock: false,
+  enableAdminTelemetryBlock: false,
+  enableGeminiModelConnection: false,
+  enableMockServer: true,
+  enableChatFolderContextSelection: true,
+  enableCodeTransformM2Features: true,
+  enableFullCodebaseAwarenessChat: true,
+  generationPaneViewDefaultConfig: false,
+  enableCallToAction: false,
+  enableLocalAgent: false,
+  enableGenerationPaneView: false,
+  enableUpgradeFromFreeTier: false,
+  enableFlashCompletionsClientPostprocessing: false,
+  enableAzureModelConnection: false,
+  enableFreeTier: true,
+  enableFlashCompletions: false,
+  enableApigeeGeminiChatTool: true,
+  enableFirebaseDataConnectChatTool: false,
+  completionReplacesCursorLine: false,
+  enableAdminCitationBlock: false,
+  enableAgentBoard: false,
+  enableIntentAwareM1: false,
+  enableCustomSlashCommands: true,
+  enableStructuredCodeEdits: true,
+  enableAICharactersTelemetryCCPA: true,
+  enableFreeTierIneligbilityReason: true,
+  showApplyAllChangesButton: true,
+  enableInlineDiff: true,
+  currentTierPollingIntervalMs: '43200000',
+  licenseMessageFrequencyDays: '60',
+  codeCompletionsDebounceMs: '550'
+}
+[3/6/2026, 10:49:47 PM] [INFO]: Cloud Shell is authorized: true
+[3/6/2026, 10:49:47 PM] [INFO]: Activating plugin Api
+[3/6/2026, 10:49:47 PM] [INFO]: Activating plugin Secrets
+[3/6/2026, 10:49:47 PM] [INFO]: Activating plugin ProjectManager
+[3/6/2026, 10:49:47 PM] [INFO]: Activating plugin Apigee
+[3/6/2026, 10:49:47 PM] [INFO]: Activating plugin GCE
+[3/6/2026, 10:49:47 PM] [INFO]: Activating plugin GCF
+[3/6/2026, 10:49:47 PM] [INFO]: Activating plugin CloudStorage
+[3/6/2026, 10:49:47 PM] [INFO]: Activating plugin Migrate
+[3/6/2026, 10:49:47 PM] [INFO]: Activating plugin MainframeModernization
+[3/6/2026, 10:49:47 PM] [INFO]: Activating plugin minikube
+[3/6/2026, 10:49:47 PM] [INFO]: Activating plugin BigQuery
+[3/6/2026, 10:49:47 PM] [INFO]: Done activating plugin Api, took 16.00389300000097ms
+[3/6/2026, 10:49:47 PM] [INFO]: Done activating plugin Secrets, took 14.049941000004765ms
+[3/6/2026, 10:49:47 PM] [INFO]: Done activating plugin ProjectManager, took 11.805694000002404ms
+[3/6/2026, 10:49:47 PM] [INFO]: Done activating plugin GCE, took 8.241942000000563ms
+[3/6/2026, 10:49:47 PM] [INFO]: Done activating plugin CloudStorage, took 6.302316000001156ms
+[3/6/2026, 10:49:47 PM] [INFO]: Done activating plugin MainframeModernization, took 5.381814000000304ms
+[3/6/2026, 10:49:47 PM] [INFO]: Done activating plugin minikube, took 4.896842999994988ms
+[3/6/2026, 10:49:47 PM] [INFO]: Done activating plugin BigQuery, took 10.988020999997389ms
+[3/6/2026, 10:49:47 PM] [INFO]: Cloud Shell is authorized: true
+[3/6/2026, 10:49:47 PM] [INFO]: Cloud Shell is authorized: true
+[3/6/2026, 10:49:47 PM] [INFO]: Done activating plugin GCF, took 314.027734999996ms
+[3/6/2026, 10:49:47 PM] [INFO]: Done activating plugin Migrate, took 327.696176999998ms
+[3/6/2026, 10:49:48 PM] [INFO]: Done activating plugin Apigee, took 982.3968609999938ms
+[3/6/2026, 10:49:48 PM] [INFO]: Starting YAML Language Client
+[3/6/2026, 10:50:01 PM] [INFO]: YAML Language Client Started
+[3/6/2026, 10:50:11 PM] [INFO]: Asserting for Docker installation
+[3/6/2026, 10:50:25 PM] [INFO]: Asserting for Docker installation
+[3/6/2026, 10:50:34 PM] [INFO]: Client: Docker Engine - Community
+ Version:    29.2.1
+ Context:    default
+
+[3/6/2026, 10:50:35 PM] [INFO]:  Debug Mode: false
+ Plugins:
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.31.1
+    Path:     /usr/libexec/docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v5.0.2
+    Path:     /usr/libexec/docker/cli-plugins/docker-compose
+
+Server:
+ Containers: 0
+  Running: 0
+  Paused: 0
+  Stopped: 0
+ Images: 0
+ Server Version: 29.2.1
+ Storage Driver: overlayfs
+  driver-type: io.containerd.snapshotter.v1
+ Logging Driver: json-file
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 2
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+ CDI spec directories:
+  /etc/cdi
+  /var/run/cdi
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: dea7da592f5d1d2b7755e3a161be07f43fad8f75
+ runc version: v1.3.4-0-gd6d73eb8
+ init version: de40ad0
+ Security Options:
+  apparmor
+  seccomp
+   Profile: builtin
+  cgroupns
+ Kernel Version: 6.6.123+
+ Operating System: Ubuntu 24.04.4 LTS (containerized)
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 2
+ Total Memory: 7.761GiB
+ Name: cs-570900896959-default
+ ID: 855d7306-03c6-4a14-a184-719c369aea7e
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+  ::1/128
+ Registry Mirrors:
+  https://eu-mirror.gcr.io/
+ Live Restore Enabled: false
+ Firewall Backend: iptables
+
+
+[3/6/2026, 10:50:44 PM] [INFO]: Client: Docker Engine - Community
+ Version:    29.2.1
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.31.1
+    Path:     /usr/libexec/docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v5.0.2
+    Path:     /usr/libexec/docker/cli-plugins/docker-compose
+
+Server:
+ Containers: 0
+  Running: 0
+  Paused: 0
+  Stopped: 0
+ Images: 0
+ Server Version: 29.2.1
+ Storage Driver: overlayfs
+  driver-type: io.containerd.snapshotter.v1
+ Logging Driver: json-file
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 2
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+ CDI spec directories:
+  /etc/cdi
+  /var/run/cdi
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: dea7da592f5d1d2b7755e3a161be07f43fad8f75
+ runc version: v1.3.4-0-gd6d73eb8
+ init version: de40ad0
+ Security Options:
+  apparmor
+  seccomp
+   Profile: builtin
+  cgroupns
+ Kernel Version: 6.6.123+
+ Operating System: Ubuntu 24.04.4 LTS (containerized)
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 2
+ Total Memory: 7.761GiB
+ Name: cs-570900896959-default
+ ID: 855d7306-03c6-4a14-a184-719c369aea7e
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+  ::1/128
+ Registry Mirrors:
+  https://eu-mirror.gcr.io/
+ Live Restore Enabled: false
+ Firewall Backend: iptables
+
+

@@ -1,0 +1,71 @@
+2026-03-06 22:43:35.139 [info] Extension host with pid 9038 started
+2026-03-06 22:43:35.139 [error] Error: EEXIST: file already exists, open '/home/azehagowa/.codeoss/data/User/workspaceStorage/2ca9f710/vscode.lock'
+2026-03-06 22:43:35.195 [info] Lock '/home/azehagowa/.codeoss/data/User/workspaceStorage/2ca9f710/vscode.lock': Could not acquire lock, checking if the file is stale.
+2026-03-06 22:43:35.197 [info] Lock '/home/azehagowa/.codeoss/data/User/workspaceStorage/2ca9f710/vscode.lock': The pid 1199 appears to be gone.
+2026-03-06 22:43:35.197 [info] Lock '/home/azehagowa/.codeoss/data/User/workspaceStorage/2ca9f710/vscode.lock': Deleting a stale lock.
+2026-03-06 22:43:35.203 [info] Lock '/home/azehagowa/.codeoss/data/User/workspaceStorage/2ca9f710/vscode.lock': Lock acquired.
+2026-03-06 22:43:35.753 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-06 22:43:35.755 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-06 22:43:35.756 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-06 22:43:35.757 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-06 22:43:36.758 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-06 22:43:36.769 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2026-03-06 22:43:37.181 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-06 22:43:37.182 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-06 22:43:37.896 [info] Eager extensions activated
+2026-03-06 22:43:37.897 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2026-03-06 22:43:37.898 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2026-03-06 22:43:37.898 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2026-03-06 22:43:37.899 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-06 22:43:37.899 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2026-03-06 22:43:37.899 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-06 22:43:39.748 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3486
+2026-03-06 22:43:40.210 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-06 22:43:41.577 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3490
+2026-03-06 22:43:42.038 [error] Error: Git error
+	at ChildProcess.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:593740)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-06 22:43:42.546 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5514
+2026-03-06 22:43:42.710 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5514
+2026-03-06 22:43:43.043 [error] Error: Git error
+	at ChildProcess.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:593740)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-06 22:43:45.461 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3490
+2026-03-06 22:43:52.335 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3490
+2026-03-06 22:43:57.710 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3490
+2026-03-06 22:44:03.012 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3494
+2026-03-06 22:44:08.305 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3494
+2026-03-06 22:44:09.870 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2026-03-06 22:44:12.764 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-03-06 22:44:13.616 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3497
+2026-03-06 22:44:18.939 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3497
+2026-03-06 22:44:24.252 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3497
+2026-03-06 22:44:30.870 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3498
+2026-03-06 22:44:49.939 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3508
+2026-03-06 22:45:00.625 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3509
+2026-03-06 22:45:09.578 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:45:14.957 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:45:20.316 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:45:25.658 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:45:31.102 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:45:36.527 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:45:41.983 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:45:47.449 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:45:52.973 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:45:58.495 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:46:23.899 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:46:24.696 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:46:30.112 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:46:35.569 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:46:40.962 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:46:46.370 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:46:51.850 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:46:57.276 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:47:02.630 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:47:08.032 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:47:13.482 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3537
+2026-03-06 22:53:54.305 [info] Extension host terminating: renderer disconnected for too long (2)
+2026-03-06 22:53:54.344 [info] Lock '/home/azehagowa/.codeoss/data/User/workspaceStorage/2ca9f710/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-03-06 22:53:54.517 [info] Extension host with pid 9038 exiting with code 0

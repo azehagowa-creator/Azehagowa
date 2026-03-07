@@ -1,0 +1,83 @@
+[3/6/2026, 10:44:12 PM] [INFO]: Verbose logging enabled
+[3/6/2026, 10:44:12 PM] [INFO]: Cloud Code version 2.36.0
+[3/6/2026, 10:44:12 PM] [INFO]: Version detail: 791433267 built on 2025-08-07T20:22:17.822Z
+[3/6/2026, 10:44:12 PM] [INFO]: Client experimentation flags: {
+  enableQuickpickChat: true,
+  enableRestModelConnection: false,
+  enableLocalAgent: false,
+  enableAgentBoard: false,
+  enableCallToAction: false,
+  enableAICharsPercentage: true,
+  enableIntentAwareM1: false,
+  enableUpgradeFromFreeTier: false,
+  enableFlashCompletionsClientPostprocessing: false,
+  enableStandardTierEasyOnboarding: true,
+  enableAzureModelConnection: false,
+  enableGeminiModelConnection: false,
+  enableCloudCodeTelemetry: true,
+  enableAdminCitationBlock: false,
+  enableFirebaseDataConnectChatTool: false,
+  enableFeedbackBlock: false,
+  enableFlashCompletions: false,
+  enableApigeeGeminiChatTool: true,
+  enableChatAgenticMcpChat: false,
+  enableAnthropicModelConnection: false,
+  enableFullCodebaseAwarenessChat: true,
+  generationPaneViewDefaultConfig: false,
+  enableChatFolderContextSelection: true,
+  enableCodeTransformM2Features: true,
+  enableMockServer: true,
+  enableGenerationPaneView: false,
+  enableFreeTier: true,
+  completionReplacesCursorLine: false,
+  enableAdminTelemetryBlock: false,
+  enableMcpServer: false,
+  enableStructuredCodeEdits: true,
+  enableCustomSlashCommands: true,
+  showApplyAllChangesButton: true,
+  enableFreeTierIneligbilityReason: true,
+  enableInlineDiff: true,
+  enableAICharactersTelemetryCCPA: true,
+  currentTierPollingIntervalMs: '43200000',
+  licenseMessageFrequencyDays: '60',
+  codeCompletionsDebounceMs: '550'
+}
+[3/6/2026, 10:44:40 PM] [INFO]: Cloud Shell is authorized: true
+[3/6/2026, 10:44:40 PM] [INFO]: Activating plugin Api
+[3/6/2026, 10:44:40 PM] [INFO]: Activating plugin Secrets
+[3/6/2026, 10:44:40 PM] [INFO]: Activating plugin ProjectManager
+[3/6/2026, 10:44:40 PM] [INFO]: Activating plugin Apigee
+[3/6/2026, 10:44:40 PM] [INFO]: Activating plugin GCE
+[3/6/2026, 10:44:40 PM] [INFO]: Activating plugin GCF
+[3/6/2026, 10:44:40 PM] [INFO]: Activating plugin CloudStorage
+[3/6/2026, 10:44:40 PM] [INFO]: Activating plugin Migrate
+[3/6/2026, 10:44:40 PM] [INFO]: Activating plugin MainframeModernization
+[3/6/2026, 10:44:40 PM] [INFO]: Activating plugin minikube
+[3/6/2026, 10:44:40 PM] [INFO]: Activating plugin BigQuery
+[3/6/2026, 10:44:40 PM] [INFO]: Done activating plugin Api, took 14.252318999991985ms
+[3/6/2026, 10:44:40 PM] [INFO]: Done activating plugin Secrets, took 12.027876000007382ms
+[3/6/2026, 10:44:40 PM] [INFO]: Done activating plugin ProjectManager, took 10.030854000011459ms
+[3/6/2026, 10:44:40 PM] [INFO]: Done activating plugin GCE, took 7.601860000009765ms
+[3/6/2026, 10:44:40 PM] [INFO]: Done activating plugin CloudStorage, took 6.318383000005269ms
+[3/6/2026, 10:44:40 PM] [INFO]: Done activating plugin MainframeModernization, took 5.8042980000027455ms
+[3/6/2026, 10:44:40 PM] [INFO]: Done activating plugin minikube, took 5.602886000007857ms
+[3/6/2026, 10:44:40 PM] [INFO]: Done activating plugin BigQuery, took 11.527349999989383ms
+[3/6/2026, 10:44:45 PM] [INFO]: Done activating plugin GCF, took 4805.599113000004ms
+[3/6/2026, 10:44:45 PM] [INFO]: Downloading API Metadata file https://storage.googleapis.com/cloudcode_api_browser_metadata/products.csv to /tmp/cloudcode-tempoSpvPY/products.csv
+[3/6/2026, 10:44:45 PM] [INFO]: Downloading API Metadata file https://storage.googleapis.com/cloudcode_api_browser_metadata/libraries.csv to /tmp/cloudcode-temp6vGhbJ/libraries.csv
+[3/6/2026, 10:44:45 PM] [INFO]: Downloading API Metadata file https://storage.googleapis.com/cloudcode_api_browser_metadata/code_snippets.csv to /tmp/cloudcode-tempIYU81f/code_snippets.csv
+[3/6/2026, 10:44:45 PM] [INFO]: Downloading API Metadata file https://storage.googleapis.com/cloudcode_api_browser_metadata/libraries-bom_versions.xml to /tmp/cloudcode-tempLz2Vny/libraries-bom_versions.xml
+[3/6/2026, 10:44:45 PM] [INFO]: Cloud Shell is authorized: true
+[3/6/2026, 10:44:45 PM] [INFO]: Cloud Shell is authorized: true
+[3/6/2026, 10:44:45 PM] [INFO]: Done activating plugin Migrate, took 5077.562730999998ms
+[3/6/2026, 10:44:45 PM] [INFO]: Parsing API Metadata file /tmp/cloudcode-tempoSpvPY/products.csv to ensure download was successful.
+[3/6/2026, 10:44:45 PM] [INFO]: Copying file /tmp/cloudcode-tempoSpvPY/products.csv to existing /home/azehagowa/.cache/cloud-code/api-metadata/products.csv
+[3/6/2026, 10:44:45 PM] [INFO]: Parsing API Metadata file /tmp/cloudcode-tempLz2Vny/libraries-bom_versions.xml to ensure download was successful.
+[3/6/2026, 10:44:45 PM] [INFO]: Copying file /tmp/cloudcode-tempLz2Vny/libraries-bom_versions.xml to existing /home/azehagowa/.cache/cloud-code/api-metadata/libraries-bom_versions.xml
+[3/6/2026, 10:44:45 PM] [INFO]: Parsing API Metadata file /tmp/cloudcode-temp6vGhbJ/libraries.csv to ensure download was successful.
+[3/6/2026, 10:44:45 PM] [INFO]: Copying file /tmp/cloudcode-temp6vGhbJ/libraries.csv to existing /home/azehagowa/.cache/cloud-code/api-metadata/libraries.csv
+[3/6/2026, 10:44:46 PM] [INFO]: Done activating plugin Apigee, took 5736.428197999994ms
+[3/6/2026, 10:44:46 PM] [INFO]: Starting YAML Language Client
+[3/6/2026, 10:44:46 PM] [INFO]: Parsing API Metadata file /tmp/cloudcode-tempIYU81f/code_snippets.csv to ensure download was successful.
+[3/6/2026, 10:44:49 PM] [INFO]: Copying file /tmp/cloudcode-tempIYU81f/code_snippets.csv to existing /home/azehagowa/.cache/cloud-code/api-metadata/code_snippets.csv
+[3/6/2026, 10:44:52 PM] [INFO]: YAML Language Client Started
