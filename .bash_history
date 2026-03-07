@@ -844,3 +844,69 @@ git add .
 gcloud config set project rare-outlook-445414-v4
 git pull origin master
 git pull
+git add .
+git commit -m "production commit"
+git pull origin master
+git push
+gcloud config set project rare-outlook-445414-v4
+git push
+cd ..
+gcloud projects describe 956366430268
+gcloud config set project rare-outlook-445414-v4
+git pull origin master
+git pull
+git commit -u "production commit"
+git commit -m "production commit"
+git add .
+git commit -a "production commit"
+cd
+cd /home
+ls
+cd /runner
+cd runner
+ls -la
+cd /runner
+cd ..
+cd /home/runner/work/Azehagowa/Azehagowa/
+ls
+ls -la
+cd home
+ls
+cd lost+found
+cd lost+found
+cd azehagowa
+cd /azehagowa
+cd ..
+cd /home/azehagowa
+ls
+cd /home/runner
+cd home/lost+found
+cd home
+ls
+cd /home
+ls
+ls -la
+git add .
+git init
+cd
+ls
+gir add .
+git add .
+git push -u origin main
+git push -u origin main
+git pull origin master
+git merge master
+bit branch -r
+git branch -r
+git push -u origin main
+git pull
+git add .
+cd .git
+ls
+cd branches
+ls
+ls-la
+ls -la
+cd ..
+rm -rf index.lock
+cd ..
