@@ -915,3 +915,20 @@ git commit
 git push -u origin main
 git pull
 git commit
+git add .
+git commit
+git pull
+cat package.json
+ls
+cd .git
+ls
+cd
+gcloud projects list
+gcloud config set account ACCOUNT
+LS
+ls
+lcd .git
+cd .git
+ls
+gcloud config set project elparadisogonzalo
+git pull
