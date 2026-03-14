@@ -943,3 +943,11 @@ git pull
 git commit -a
 git pull
 git rm -rf .npm
+git add .
+git commit
+git push
+git checkout ghost
+git branch -r
+git checkout -b ghost origin/ghost
+git fetch origin
+git checkout -b ghost origin/ghost
