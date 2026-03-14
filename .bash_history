@@ -967,3 +967,9 @@ git commit
 git add for
 git commit -m "for"
 git add .
+git commit -a
+git push
+git checkout -b ghost origin/ghost
+git rm -rf for
+ls -la
+rm -rf for
