@@ -956,3 +956,5 @@ git commit
 git add .cache
 git commit
 git add .
+git commit -a
+git checkout -b ghost origin/ghost
