@@ -958,3 +958,6 @@ git commit
 git add .
 git commit -a
 git checkout -b ghost origin/ghost
+git add .bash_history
+git commit
+git checkout -b ghost origin/ghost
