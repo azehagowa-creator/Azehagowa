@@ -973,3 +973,12 @@ git checkout -b ghost origin/ghost
 git rm -rf for
 ls -la
 rm -rf for
+git add .
+git commit
+git push
+git checkout -b ghost origin/ghost
+ls
+ls -la
+ls
+rm -rf package-lock.json
+git add .
