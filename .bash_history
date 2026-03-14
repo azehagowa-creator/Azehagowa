@@ -940,3 +940,6 @@ git pull
 git add .
 git commit
 git pull
+git commit -a
+git pull
+git rm -rf .npm
