@@ -951,3 +951,8 @@ git branch -r
 git checkout -b ghost origin/ghost
 git fetch origin
 git checkout -b ghost origin/ghost
+git add .
+git commit
+git add .cache
+git commit
+git add .
