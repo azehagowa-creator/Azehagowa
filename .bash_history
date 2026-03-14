@@ -937,3 +937,6 @@ git commit
 git pull
 git push
 git pull
+git add .
+git commit
+git pull
