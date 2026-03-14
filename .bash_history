@@ -932,3 +932,8 @@ cd .git
 ls
 gcloud config set project elparadisogonzalo
 git pull
+git add .
+git commit
+git pull
+git push
+git pull
