@@ -692,3 +692,6 @@ git add
 rm -rf README-C
 RM
 git rm -rf README-cloudshell.txt
+git add .
+git commit
+git push
