@@ -1,6 +1,6 @@
 {
   "name": "azehagowa",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Production-ready Azehagowa packages",
   "homepage": "https://github.com/azehagowa-creator/Azehagowa#readme",
   "bugs": {
@@ -42,8 +42,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "elparadisogonzalo": "^1.3.0"
   }
 }
