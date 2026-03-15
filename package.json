@@ -1,6 +1,6 @@
 {
   "name": "azehagowa",
-  "version": "1.7.0",
+  "version": "2.1.0",
   "description": "Production-ready Azehagowa packages",
   "homepage": "https://github.com/azehagowa-creator/Azehagowa#readme",
   "bugs": {
@@ -32,7 +32,7 @@
     "LICENSE"
   ],
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=25.3.0"
   },
   "scripts": {
     "start": "node index.js",
