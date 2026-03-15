@@ -1,0 +1,57 @@
+0 verbose cli /usr/local/nvm/versions/node/v24.14.0/bin/node /usr/local/nvm/versions/node/v24.14.0/bin/npm
+1 info using npm@11.11.0
+2 info using node@v24.14.0
+3 silly config load:file:/usr/local/nvm/versions/node/v24.14.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/azehagowa/.npmrc
+5 silly config load:file:/usr/local/nvm/versions/node/v24.14.0/etc/npmrc
+6 verbose title npm install npm@11.11.1
+7 verbose argv "install" "--global" "npm@11.11.1"
+8 verbose logfile logs-max:10 dir:/home/azehagowa/.npm/_logs/2026-03-15T03_16_33_671Z-
+9 verbose logfile /home/azehagowa/.npm/_logs/2026-03-15T03_16_33_671Z-debug-0.log
+10 silly logfile done cleaning log files
+11 http fetch GET 200 https://registry.npmjs.org/npm 186ms (cache miss)
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest npm@11.11.1
+15 silly packumentCache full:https://registry.npmjs.org/npm cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 856ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/npm set size:undefined disposed:false
+18 silly placeDep ROOT npm@11.11.1 OK for:  want: 11.11.1
+19 silly reify mark retired [
+19 silly reify   '/usr/local/nvm/versions/node/v24.14.0/lib/node_modules/npm',
+19 silly reify   '/usr/local/nvm/versions/node/v24.14.0/bin/npm',
+19 silly reify   '/usr/local/nvm/versions/node/v24.14.0/bin/npx'
+19 silly reify ]
+20 silly reify moves {
+20 silly reify   '/usr/local/nvm/versions/node/v24.14.0/lib/node_modules/npm': '/usr/local/nvm/versions/node/v24.14.0/lib/node_modules/.npm-mHsRcNjx',
+20 silly reify   '/usr/local/nvm/versions/node/v24.14.0/bin/npm': '/usr/local/nvm/versions/node/v24.14.0/bin/.npm-rU36wY2g',
+20 silly reify   '/usr/local/nvm/versions/node/v24.14.0/bin/npx': '/usr/local/nvm/versions/node/v24.14.0/bin/.npx-kiCHdcB4'
+20 silly reify }
+21 http cache npm@https://registry.npmjs.org/npm/-/npm-11.11.1.tgz 1ms (cache hit)
+22 silly tarball no local data for npm@https://registry.npmjs.org/npm/-/npm-11.11.1.tgz. Extracting by manifest.
+23 http fetch GET 200 https://registry.npmjs.org/npm/-/npm-11.11.1.tgz 1768ms (cache miss)
+24 silly CHANGE node_modules/npm
+25 silly CHANGE node_modules/npm/node_modules/qrcode-terminal
+26 silly CHANGE node_modules/npm/node_modules/@npmcli/run-script
+27 silly CHANGE node_modules/npm/node_modules/@npmcli/installed-package-contents
+28 silly CHANGE node_modules/npm/node_modules/@npmcli/arborist
+29 silly CHANGE node_modules/npm/node_modules/write-file-atomic
+30 silly CHANGE node_modules/npm/node_modules/which
+31 silly CHANGE node_modules/npm/node_modules/tar
+32 silly CHANGE node_modules/npm/node_modules/semver
+33 silly CHANGE node_modules/npm/node_modules/libnpmdiff
+34 silly CHANGE node_modules/npm/node_modules/pacote
+35 silly CHANGE node_modules/npm/node_modules/libnpmpack
+36 silly CHANGE node_modules/npm/node_modules/nopt
+37 silly CHANGE node_modules/npm/node_modules/node-gyp
+38 silly CHANGE node_modules/npm/node_modules/minimatch
+39 silly CHANGE node_modules/npm/node_modules/libnpmexec
+40 silly CHANGE node_modules/npm/node_modules/libnpmfund
+41 silly CHANGE node_modules/npm/node_modules/cssesc
+42 silly CHANGE node_modules/npm/node_modules/brace-expansion
+43 verbose cwd /home/azehagowa
+44 verbose os Linux 6.6.123+
+45 verbose node v24.14.0
+46 verbose npm  v11.11.0
+47 verbose exit 0
+48 info ok

@@ -1,0 +1,29 @@
+0 verbose cli /usr/local/nvm/versions/node/v24.14.0/bin/node /usr/local/nvm/versions/node/v24.14.0/bin/npm
+1 info using npm@11.11.0
+2 info using node@v24.14.0
+3 silly config load:file:/usr/local/nvm/versions/node/v24.14.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/azehagowa/.npmrc
+5 silly config load:file:/usr/local/nvm/versions/node/v24.14.0/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/home/azehagowa/.npm/_logs/2026-03-15T03_15_47_404Z-
+9 verbose logfile /home/azehagowa/.npm/_logs/2026-03-15T03_15_47_404Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+12 silly idealTree buildDeps
+13 silly reify moves {}
+14 silly audit bulk request { azehagowa: [ '1.5.0' ] }
+15 http fetch GET 200 https://registry.npmjs.org/npm 159ms
+16 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 269ms
+17 silly audit report {}
+18 verbose cwd /home/azehagowa
+19 verbose os Linux 6.6.123+
+20 verbose node v24.14.0
+21 verbose npm  v11.11.0
+22 notice
+22 notice New [36mpatch[39m version of npm available! [36m11.11.0[39m -> [34m11.11.1[39m
+22 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.11.1[39m
+22 notice To update run: [4mnpm install -g npm@11.11.1[24m
+22 notice  { force: true, Symbol(proc-log.meta): true }
+23 verbose exit 0
+24 info ok

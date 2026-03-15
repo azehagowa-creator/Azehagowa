@@ -667,3 +667,10 @@ git rm -rf gopath
 =======
 git@github.com:azehagowa-creator/Cache.git
 >>>>>>> origin/master
+git reset --hard origin/ghost
+git push
+git push
+git  add .
+ls
+giy pu
+git pull
