@@ -1,46 +1,27 @@
 {
   "name": "azehagowa",
-  "version": "2.2.0",
-  "description": "Production-ready Azehagowa packages",
+  "version": "2.5.5",
+  "description": "full stack repository dir",
+  "keywords": [
+    "elparadisogonzalo"
+  ],
   "homepage": "https://github.com/azehagowa-creator/Azehagowa#readme",
   "bugs": {
     "url": "https://github.com/azehagowa-creator/Azehagowa/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azehagowa-creator/Azehagowa.git"
+    "url": "git+https://github.com/azehagowa-creator/Azehagowa.git"
   },
   "license": "Apache-2.0",
   "author": "elparadiso",
-  "keywords": [
-    "azehagowa",
-    "frontend",
-    "blockchain",
-    "nodejs",
-    "production",
-    "backend",
-    "express"
-  ],
-  "type": "module",
-  "main": "./index.js",
-  "exports": {
-    ".": "./index.js"
-  },
-  "files": [
-    "index.js",
-    "README.md",
-    "LICENSE"
-  ],
-  "engines": {
-    "node": ">=25.3.0"
-  },
+  "type": "express",
+  "main": "sync_wallet.sh",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js",
-    "build": "echo \"No build step required\"",
-    "test": "echo \"No tests specified\" && exit 0"
+    "test": "npm start"
   },
-  "publishConfig": {
-    "access": "public"
-  }
+  "dependencies": {
+    "s": "^1.0.0"
+  },
+  "devDependencies": {}
 }
