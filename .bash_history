@@ -685,3 +685,10 @@ gcloud config set project rare-outlook-445414-v4
 git pull
 git add .
 go
+git commit -a
+ls
+rm -rf appli
+git add 
+rm -rf README-C
+RM
+git rm -rf README-cloudshell.txt
