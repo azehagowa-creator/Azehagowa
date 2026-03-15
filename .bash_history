@@ -674,3 +674,7 @@ git  add .
 ls
 giy pu
 git pull
+git add .
+git commit
+git push
+git pull
