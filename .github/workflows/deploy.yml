@@ -3,7 +3,7 @@ name: 🚀 Deploy to IPFS & Update UD Domain
 on:
   push:
     branches:
-      - main  # or set to your deployment branch
+      - ghost  # or set to your deployment branch
 
 jobs:
   deploy:
@@ -17,7 +17,7 @@ jobs:
     - name: 🧰 Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '25.3.0'
 
     - name: 📦 Install dependencies
       run: npm ci
