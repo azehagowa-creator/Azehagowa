@@ -678,3 +678,10 @@ git add .
 git commit
 git push
 git pull
+git add .
+git commit
+git push
+gcloud config set project rare-outlook-445414-v4
+git pull
+git add .
+go
