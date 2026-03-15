@@ -1,0 +1,98 @@
+{
+    "configurations"
+    
+        {
+            "name": "Cloud Run: Run/Debug Locally",
+            "type": "cloudcode.cloudrun",
+            "request": "launch",
+            "build": {
+                "buildpacks": {
+                    "path": "gopath/pkg/mod/github.com/golang/vscode-go@v0.41.4/go.mod",
+                    "builder": "gcr.io/buildpacks/builder:v3"
+                }
+            },
+            "image": "azehagowa",
+            "service": {
+                "name": "azehagowa",
+                "containerPort": 8080,
+                "resources": {
+                    "limits": {
+                        "memory": "256Mi"
+                    }
+                }
+            },
+            "target": {
+                "minikube": {}
+            },
+            "watch": true,
+            "configurations": [
+
+                {
+                    "name": "Launch Chrome",
+                    "request": "launch",
+                    "type": "chrome",
+                    "url": "http://localhost:8080",
+                    "webRoot": "${workspaceFolder}"
+                },
+
+
+
+
+                {
+                    "name": "Launch Edge",
+                    "request": "launch",
+                    "type": "msedge",
+                    "url": "http://localhost:8080",
+                    "webRoot": "${workspaceFolder}"
+                },
+
+
+                {
+                    "name": "Attach to Kubernetes Pod (Python)",
+                    "type": "cloudcode.kubernetes",
+                    "request": "attach",
+                    "language": "Python",NJ
+                    "debugPort": 3000,
+                    "podSelector": {
+                        "app": "deployment-name"
+                    },
+                    "localRoot": "${workspaceFolder}",
+                    "remoteRoot": "Path to the Remote Directory Containing the Program"
+                },
+
+
+                {
+                    "name": "Cloud Run: Run/Debug Locally",
+                    "type": "cloudcode.cloudrun",
+                    "request": "launch",
+                    "build": {
+                        "docker": {
+                            "path": "Dockerfile"
+                        }
+                    },
+                    "image": "${workspaceFolderBasename}",
+                    "service": {
+                        "name": "${workspaceFolderBasename}",
+                        "containerPort": 8080,
+                        "resources": {
+                            "limits": {
+                                "memory": "256Mi"
+                            }
+                        }
+                    },
+                    "target": {
+                        "minikube": {}
+                    },
+                    "watch": true
+                },
+
+            {
+                "name": "Attach to Process",
+                "type": "go",
+                "request": "attach",
+                "mode": "local",
+                "processId": 0
+            }
+            ]
+        }
+    

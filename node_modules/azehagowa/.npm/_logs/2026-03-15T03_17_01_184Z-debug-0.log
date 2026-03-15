@@ -1,0 +1,23 @@
+0 verbose cli /usr/local/nvm/versions/node/v24.14.0/bin/node /usr/local/nvm/versions/node/v24.14.0/bin/npm
+1 info using npm@11.11.1
+2 info using node@v24.14.0
+3 silly config load:file:/usr/local/nvm/versions/node/v24.14.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/azehagowa/.npmrc
+5 silly config load:file:/usr/local/nvm/versions/node/v24.14.0/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/home/azehagowa/.npm/_logs/2026-03-15T03_17_01_184Z-
+9 verbose logfile /home/azehagowa/.npm/_logs/2026-03-15T03_17_01_184Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+12 silly idealTree buildDeps
+13 silly reify moves {}
+14 silly audit bulk request { azehagowa: [ '1.5.0' ] }
+15 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 243ms
+16 silly audit report {}
+17 verbose cwd /home/azehagowa
+18 verbose os Linux 6.6.123+
+19 verbose node v24.14.0
+20 verbose npm  v11.11.1
+21 verbose exit 0
+22 info ok

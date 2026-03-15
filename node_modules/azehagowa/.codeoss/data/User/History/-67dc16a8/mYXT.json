@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "**/.*": false
+    },
+    "cloudcode.compute.sshInternalIp": true
+}

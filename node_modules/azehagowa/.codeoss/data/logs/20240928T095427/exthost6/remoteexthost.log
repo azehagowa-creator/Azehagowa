@@ -1,0 +1,536 @@
+2024-09-28 12:18:30.645 [info] Extension host with pid 31069 started
+2024-09-28 12:18:30.656 [info] Lock '/home/azehagowa/.codeoss/data/User/workspaceStorage/4a2b428b/vscode.lock': Lock acquired.
+2024-09-28 12:18:31.126 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
+2024-09-28 12:18:31.127 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onLanguage:Log'
+2024-09-28 12:18:31.128 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-28 12:18:33.391 [info] ExtensionService#_doActivateExtension ms-vscode.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2024-09-28 12:18:33.866 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
+2024-09-28 12:18:33.866 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-28 12:18:33.984 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2024-09-28 12:18:34.672 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt'
+2024-09-28 12:18:34.672 [info] ExtensionService#_doActivateExtension golang.go, startup: true, activationEvent: 'workspaceContains:**/*.go,**/go.mod,**/go.sum', root cause: ethan-reesor.vscode-go-test-adapter
+2024-09-28 12:18:35.187 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1212
+2024-09-28 12:18:37.249 [info] ExtensionService#_doActivateExtension ethan-reesor.vscode-go-test-adapter, startup: true, activationEvent: 'workspaceContains:**/*.go,**/go.mod,**/go.sum'
+2024-09-28 12:18:37.254 [error] Activating extension ethan-reesor.vscode-go-test-adapter failed due to an error:
+2024-09-28 12:18:37.256 [error] Error: Cannot find module '/home/azehagowa/.codeoss/extensions/ethan-reesor.vscode-go-test-adapter-0.1.6-universal/out/main.js'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/vs/loader.js
+- /google/devshell/editor/code-oss-for-cloud-shell/out/bootstrap-amd.js
+- /google/devshell/editor/code-oss-for-cloud-shell/out/bootstrap-fork.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:27)
+    at Function.v._load (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:5607)
+    at Function.i._load (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:29719)
+    at Function.t._load (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:138:35317)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Function.i [as __$__nodeRequire] (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/loader.js:5:98)
+    at f.xb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:30898)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 0)
+2024-09-28 12:18:37.258 [info] Eager extensions activated
+2024-09-28 12:18:37.258 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-09-28 12:18:37.259 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-09-28 12:18:37.260 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-28 12:18:37.262 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-28 12:18:37.462 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1219
+2024-09-28 12:18:40.464 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-28 12:18:40.469 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-28 12:18:44.427 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1223
+2024-09-28 12:18:49.569 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1225
+2024-09-28 12:18:54.689 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1225
+2024-09-28 12:18:59.809 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1225
+2024-09-28 12:19:04.935 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1225
+2024-09-28 12:19:10.049 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1226
+2024-09-28 12:19:15.183 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1226
+2024-09-28 12:19:20.305 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1226
+2024-09-28 12:19:25.429 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1226
+2024-09-28 12:19:30.555 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1227
+2024-09-28 12:19:35.673 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1227
+2024-09-28 12:19:45.454 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1227
+2024-09-28 12:19:50.571 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1227
+2024-09-28 12:19:55.693 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1228
+2024-09-28 12:20:05.903 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1228
+2024-09-28 12:20:18.697 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1228
+2024-09-28 12:20:23.817 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1228
+2024-09-28 12:20:28.937 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1229
+2024-09-28 12:20:46.987 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1229
+2024-09-28 12:20:52.111 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1229
+2024-09-28 12:20:57.232 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1229
+2024-09-28 12:20:58.739 [error] Error: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+2024-09-28 12:21:01.982 [error] Error: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+2024-09-28 12:21:02.384 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1230
+2024-09-28 12:21:07.535 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1230
+2024-09-28 12:21:12.676 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1230
+2024-09-28 12:21:16.461 [error] Error: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+2024-09-28 12:21:17.801 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1230
+2024-09-28 12:21:22.934 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1230
+2024-09-28 12:21:28.066 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1230
+2024-09-28 12:21:30.811 [error] Error: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+2024-09-28 12:21:33.189 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1230
+2024-09-28 12:21:38.314 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1230
+2024-09-28 12:21:38.609 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: false, activationEvent: 'onView:terraform.providers'
+2024-09-28 12:21:43.439 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:21:51.259 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:21:56.394 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:22:01.525 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:22:06.654 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:22:11.785 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:22:16.917 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:22:22.047 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:22:27.178 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:22:32.307 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:22:37.446 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:22:42.585 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:23:34.652 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:24:08.184 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:24:13.316 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1233
+2024-09-28 12:24:15.923 [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onTaskType:grunt'
+2024-09-28 12:24:15.923 [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onTaskType:gulp'
+2024-09-28 12:24:15.923 [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onTaskType:jake'
+2024-09-28 12:24:15.924 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTaskType:npm'
+2024-09-28 12:24:15.924 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onTaskType:java (buildArtifact)'
+2024-09-28 12:24:16.506 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'api', root cause: vscjava.vscode-java-dependency
+2024-09-28 12:24:18.449 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1235
+2024-09-28 12:24:21.322 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-09-28 12:24:21.655 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-28 12:24:22.517 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-09-28 12:24:44.451 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1599
+2024-09-28 12:24:59.886 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2056
+2024-09-28 12:25:09.170 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2056
+2024-09-28 12:25:44.134 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2056
+2024-09-28 12:25:49.496 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2057
+2024-09-28 12:25:54.678 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2057
+2024-09-28 12:25:59.875 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2057
+2024-09-28 12:26:05.065 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2057
+2024-09-28 12:26:08.572 [error] Error: TFC instance is required
+    at e.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:1048202)
+    at Generator.next (<anonymous>)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:1045364)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) terraform.cloud.login {"value":"hashicorp.terraform","_lower":"hashicorp.terraform"}
+2024-09-28 12:26:08.573 [error] Error: TFC instance is required
+    at e.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:1048202)
+    at Generator.next (<anonymous>)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:1045364)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) terraform.cloud.login {"value":"hashicorp.terraform","_lower":"hashicorp.terraform"}
+2024-09-28 12:26:10.242 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2057
+2024-09-28 12:26:15.417 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2057
+2024-09-28 12:26:20.594 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2057
+2024-09-28 12:26:25.779 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2057
+2024-09-28 12:26:30.957 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:26:36.137 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:26:41.315 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:26:49.975 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:26:55.170 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:27:00.358 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:27:05.532 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:27:10.708 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:27:15.881 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:27:21.054 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:27:26.248 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:27:31.424 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:28:19.055 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:28:24.293 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:28:55.905 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:29:01.080 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:29:06.320 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:29:11.486 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:29:16.654 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:29:37.413 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:29:57.474 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2058
+2024-09-28 12:30:12.614 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2059
+2024-09-28 12:30:17.849 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2172
+2024-09-28 12:30:27.033 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4213
+2024-09-28 12:30:32.266 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4213
+2024-09-28 12:30:37.491 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4213
+2024-09-28 12:30:42.712 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4213
+2024-09-28 12:30:47.930 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4213
+2024-09-28 12:30:53.154 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4213
+2024-09-28 12:30:58.393 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4213
+2024-09-28 12:31:03.864 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:31:09.112 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:31:14.328 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:31:43.806 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:31:49.046 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:32:20.848 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:32:26.072 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:32:31.297 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:32:36.507 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:32:41.723 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:32:46.933 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:32:52.158 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:32:54.411 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:32:56.174 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:32:57.239 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:32:57.381 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:33:08.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:33:13.622 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:33:19.996 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:33:25.225 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:33:30.447 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:33:35.692 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:33:40.923 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:33:46.160 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:33:52.583 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:33:57.889 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4216
+2024-09-28 12:33:59.336 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:34:03.168 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4217
+2024-09-28 12:34:08.554 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4217
+2024-09-28 12:34:13.786 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:34:19.023 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:34:24.250 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:34:29.467 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:34:36.848 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:34:42.062 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:34:47.282 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:34:52.508 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:34:57.732 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:35:02.950 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:35:08.170 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:35:13.393 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:35:15.762 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugDynamicConfigurations'
+2024-09-28 12:35:18.643 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:35:23.867 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:35:29.095 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:35:34.326 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:35:39.553 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:35:44.785 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:35:50.015 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:35:55.257 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:36:00.484 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:36:05.718 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:36:10.962 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:36:16.212 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:36:21.468 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:36:54.033 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:36:59.261 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:37:04.485 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:37:09.700 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:37:14.916 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:37:25.902 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:37:31.120 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:37:36.380 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:37:41.601 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:37:46.950 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:37:52.175 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:37:57.402 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:38:02.636 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:38:07.951 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:38:13.182 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:38:18.425 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:38:23.672 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:38:28.910 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:38:34.160 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:38:39.408 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:38:44.650 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:38:49.895 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:38:55.110 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:39:00.329 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:39:05.555 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:39:10.767 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:39:15.980 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:39:21.204 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:39:33.485 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:39:38.710 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:39:41.698 [error] Error: Could not find the version of Google Cloud CLI at the path set in the `cloudcode.dependencyPaths` setting. Please ensure this path is a valid `gcloud` binary.
+    at t.GcloudClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10867148)
+    at Generator.next (<anonymous>)
+    at i (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10864371)
+2024-09-28 12:39:43.936 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:39:49.509 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:39:54.748 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:39:59.972 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:40:05.200 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:40:10.419 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:40:15.639 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:40:20.862 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:40:27.266 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:40:58.638 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:40:59.705 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:41:01.000 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:41:06.263 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:41:11.492 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:41:16.704 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:41:21.924 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:41:27.142 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:41:56.080 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:42:01.308 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:42:06.529 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:42:40.424 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4218
+2024-09-28 12:42:45.850 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4625
+2024-09-28 12:42:51.284 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6211
+2024-09-28 12:42:56.566 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5805
+2024-09-28 12:43:01.824 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5805
+2024-09-28 12:43:07.095 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5806
+2024-09-28 12:43:12.503 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5821
+2024-09-28 12:43:17.954 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:43:23.235 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:43:28.504 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:43:33.756 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:49:01.547 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:49:03.393 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:49:08.249 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:49:13.530 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:49:18.790 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:49:24.052 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:49:29.327 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:49:34.605 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:49:50.466 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:49:55.739 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:50:34.946 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:50:40.223 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:50:45.501 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:51:07.416 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:51:12.685 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:51:24.703 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:51:53.107 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:51:58.371 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:52:03.653 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:52:08.926 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:52:14.193 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:52:19.464 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:52:24.794 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:52:38.117 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:52:43.385 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:52:48.658 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:52:53.935 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:52:59.214 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:53:04.479 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:53:10.509 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:53:15.781 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:53:21.047 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:53:26.358 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:53:31.614 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:53:36.887 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:53:42.157 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:53:47.440 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:55:23.074 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:55:33.227 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:55:38.500 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:55:43.761 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5820
+2024-09-28 12:55:48.275 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:55:53.312 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:55:54.517 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5821
+2024-09-28 12:55:57.171 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:55:59.395 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:55:59.796 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5821
+2024-09-28 12:56:03.911 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:04.784 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:04.966 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:05.133 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:05.425 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:05.589 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:05.991 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:06.085 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:06.374 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:06.626 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:06.892 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:07.141 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:07.308 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:07.477 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:07.785 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:08.330 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:08.880 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:09.795 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:11.944 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:12.935 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:56:17.813 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:56:23.098 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:56:28.377 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:56:36.153 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:56:41.440 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:56:46.723 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:56:53.769 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:56:59.057 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:57:04.339 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:57:10.078 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:57:15.350 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:57:20.637 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:57:25.918 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:57:32.701 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:57:37.976 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5822
+2024-09-28 12:57:52.012 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5823
+2024-09-28 12:57:53.710 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:57:54.337 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:57:57.290 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5823
+2024-09-28 12:57:59.847 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:58:02.569 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5824
+2024-09-28 12:58:08.379 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5824
+2024-09-28 12:58:25.738 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5824
+2024-09-28 12:58:31.013 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5824
+2024-09-28 12:58:36.338 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5824
+2024-09-28 12:58:39.043 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:58:41.004 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:58:41.335 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:58:41.979 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:58:42.860 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:58:43.581 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:58:44.952 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:58:45.548 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:58:46.212 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:58:46.938 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-28 12:58:54.686 [info] Extension host terminating: received terminate message from renderer
+2024-09-28 12:58:54.688 [info] Lock '/home/azehagowa/.codeoss/data/User/workspaceStorage/4a2b428b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-28 12:58:54.779 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at a.O [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:167800)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at Object.p [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:186884)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192922
+    at Array.forEach (<anonymous>)
+    at f.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192908)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:3955)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:170057)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:16645)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-09-28 12:58:54.784 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at a.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:25681)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:26640
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:273373)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at Object.p [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:186884)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192922
+    at Array.forEach (<anonymous>)
+    at f.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192908)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:3955)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:170057)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:16645)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-09-28 12:58:54.786 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at w.dispose (/home/azehagowa/.codeoss/extensions/ms-vscode.test-adapter-converter-0.1.9-universal/out/extension.js:5:494)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:16645)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-09-28 12:58:54.849 [info] Extension host with pid 31069 exiting with code 0

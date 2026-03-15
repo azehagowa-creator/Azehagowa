@@ -21,7 +21,7 @@
     "test": "npm start"
   },
   "dependencies": {
+    "azehagowa": "^2.5.5",
     "s": "^1.0.0"
-  },
-  "devDependencies": {}
+  }
 }

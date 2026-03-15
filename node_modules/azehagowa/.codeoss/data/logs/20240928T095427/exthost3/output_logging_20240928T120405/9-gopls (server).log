@@ -1,0 +1,25 @@
+[Info  - 12:05:50 PM] 2024/09/28 12:05:50 Created View (#1)
+	directory=/home/azehagowa
+	view_type="AdHoc"
+	root_dir="file:///home/azehagowa"
+	go_version="go version go1.23.0 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/azehagowa/.cache/go-build GOMODCACHE:/home/azehagowa/gopath/pkg/mod GOPATH:/home/azehagowa/gopath:/google/gopath GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GoVersion:23 GoVersionOutput:go version go1.23.0 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 12:05:50 PM] 2024/09/28 12:05:50 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/azehagowa
+	query=[./ builtin]
+	packages=2
+	duration=129.973017ms
+
+[Info  - 12:06:20 PM] 2024/09/28 12:06:20 background imports cache refresh starting
+
+[Info  - 12:06:20 PM] 2024/09/28 12:06:20 background refresh finished after 6.671969ms
+
+[Info  - 12:09:46 PM] 2024/09/28 12:09:46 Shutdown session
+	shutdown_session=1
+

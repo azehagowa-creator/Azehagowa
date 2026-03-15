@@ -1,0 +1,3 @@
+2024-09-28 13:26:33.500 [info] Extension host with pid 1151 started
+2024-09-28 13:31:34.909 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-09-28 13:31:34.911 [info] Extension host with pid 1151 exiting with code 0

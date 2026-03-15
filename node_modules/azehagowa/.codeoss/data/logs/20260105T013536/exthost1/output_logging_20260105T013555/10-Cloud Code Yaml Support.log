@@ -1,0 +1,67 @@
+[Trace - 1:37:19 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/extensions/extensions.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 1:37:25 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/extensions/extensions.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 1:37:31 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/extensions/extensions.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 1:37:31 AM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 1:37:34 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/extensions/extensions.json",
+            "type": 2
+        }
+    ]
+}
+
+
+[Trace - 1:37:34 AM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 1:37:42 AM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {
+    "changes": [
+        {
+            "uri": "file:///home/azehagowa/.codeoss/extensions/extensions.json",
+            "type": 2
+        }
+    ]
+}
+
+

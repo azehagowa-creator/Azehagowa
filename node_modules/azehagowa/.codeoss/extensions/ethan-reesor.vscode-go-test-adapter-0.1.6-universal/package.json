@@ -1,0 +1,121 @@
+{
+	"name": "vscode-go-test-adapter",
+	"displayName": "Go Test Explorer",
+	"description": "Go test adapter for VSCode Test Explorer",
+	"author": "Ethan Reesor <ethan.reesor@gmail.com>",
+	"publisher": "ethan-reesor",
+	"icon": "img/icon.png",
+	"version": "0.1.6",
+	"license": "MIT",
+	"homepage": "https://gitlab.com/firelizzard/vscode-go-test-adapter",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/firelizzard/vscode-go-test-adapter.git"
+	},
+	"bugs": {
+		"url": "https://gitlab.com/firelizzard/vscode-go-test-adapter/issues"
+	},
+	"categories": [
+		"Debuggers",
+		"Programming Languages",
+		"Other"
+	],
+	"keywords": [
+		"test",
+		"testing",
+		"go",
+		"golang",
+		"vscode",
+		"test explorer",
+		"test adapter"
+	],
+	"main": "out/main.js",
+	"scripts": {
+		"clean": "rimraf out *.vsix",
+		"build": "tsc",
+		"watch": "tsc -w",
+		"rebuild": "npm run clean && npm run build",
+		"package": "vsce package",
+		"publish": "vsce publish"
+	},
+	"dependencies": {
+		"tslib": "^1.9.3",
+		"vscode-test-adapter-api": "^1.7.0",
+		"vscode-test-adapter-util": "^0.7.0"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.43.0",
+		"typescript": "^3.9.7",
+		"vsce": "^1.65.0"
+	},
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"extensionDependencies": [
+		"hbenl.vscode-test-explorer",
+		"golang.go"
+	],
+	"activationEvents": [
+		"onLanguage:go",
+		"onLanguage:go.mod",
+		"onLanguage:go.sum",
+		"workspaceContains:**/*.go",
+		"workspaceContains:**/go.mod",
+		"workspaceContains:**/go.sum"
+	],
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Go Test Explorer configuration",
+			"properties": {
+				"goTestExplorer.executeParallel": {
+					"description": "run go tests in parallel",
+					"type": "boolean",
+					"scope": "resource",
+					"default": true
+				},
+				"goTestExplorer.logpanel": {
+					"description": "write diagnostic logs to an output panel",
+					"type": "boolean",
+					"scope": "resource"
+				},
+				"goTestExplorer.logfile": {
+					"description": "write diagnostic logs to the given file",
+					"type": "string",
+					"scope": "resource"
+				},
+				"goTestExplorer.showFiles": {
+					"description": "when to show files in the test hierarchy",
+					"type": "string",
+					"scope": "resource",
+					"default": "always"
+				},
+				"goTestExplorer.profiler.showCodeLens": {
+					"description": "whether to show cpu and memory profile code lenses",
+					"type": "boolean",
+					"scope": "resource",
+					"default": true
+				},
+				"goTestExplorer.runPackage.excludeBenchmarks": {
+					"description": "exclude benchmarks when running all tests in a package",
+					"type": "boolean",
+					"scope": "resource",
+					"default": true
+				}
+			}
+		}
+	},
+	"__metadata": {
+		"id": "663a84a9-aa38-478d-af9e-aabb6e36b560",
+		"publisherId": "b4dcf2e9-afd0-4a65-9212-6743d82a793d",
+		"publisherDisplayName": "ethan-reesor",
+		"targetPlatform": "universal",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1727525141596,
+		"pinned": false,
+		"source": "gallery",
+		"size": 815642
+	}
+}
