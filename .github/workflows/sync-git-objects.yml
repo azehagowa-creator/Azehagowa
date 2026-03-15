@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to your Git repo
-REPO_DIR="$sdcard/Elparadisogonzalo"
+REPO_DIR="$home/gdrive"
 
 # Path to your Git objects files
 GIT_PACK_DIR="$REPO_DIR/.git/objects"
@@ -12,10 +12,10 @@ GIT_SYNC_DIR="$REPO_DIR/.git"
 
 
 # Path to your public bucket folder
-PUBLIC_BUCKET="/DOMAIN_URL/www/html/git-objects"
+PUBLIC_BUCKET="/DOMAIN_URL/www/html/git/objects"
 
 # Your domain URL pointing to the public folder
-DOMAIN_URL="https://www.elparadisogonzalo.com/git-objects"
+DOMAIN_URL="https://www.elparadisogonzalo.com/git/objects"
 
 echo "Starting Git objects sync..."
 
@@ -32,7 +32,7 @@ for f in "$GIT_PACK_DIR"/*pack "$GIT_PACK_DIR"/*tmp "$GIT_PACK_DIR"/*idx; do
 done
 
 # Generate/Update URL list
-URL_LIST="$PUBLIC_BUCKET/git_objects_urls.txt"
+URL_LIST="$PUBLIC_BUCKET/git_objects_urls"
 > "$URL_LIST"
 for f in "$PUBLIC_BUCKET"/*{pack,idx,tmp}; do
     # include all files
