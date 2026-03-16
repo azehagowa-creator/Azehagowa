@@ -707,3 +707,11 @@ git pull
 git pull
 cat pavka
 cat package.json
+git add .
+git commit
+gcloud config set project rare-outlook-445414-v4
+gcloud config set project rare-outlook-445414-v4
+cd .git
+ls
+rm -rf index
+cd
