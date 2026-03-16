@@ -692,3 +692,26 @@ git add
 rm -rf README-C
 RM
 git rm -rf README-cloudshell.txt
+git add .
+git commit
+git push
+git add .
+git pull
+git commit
+gcloud config set project rare-outlook-445414-v4
+git pull
+git pull
+git pull
+ls
+git pull
+git pull
+cat pavka
+cat package.json
+git add .
+git commit
+gcloud config set project rare-outlook-445414-v4
+gcloud config set project rare-outlook-445414-v4
+cd .git
+ls
+rm -rf index
+cd
