@@ -2,7 +2,7 @@
 
 /*
  * Azehagowa
- * Node.js entry point
+ * index.js entry point
  * Author: elparadiso
  */
 
